@@ -1,0 +1,72 @@
+/* Rentrée CMZ globals */
+
+:root {
+    --color-yellow-light: #FDD52D;
+    --color-yellow-middle: #FAB900;
+    --color-yellow-dark: #F7A516;
+    --color-blue-light: #273180;
+    --color-blue-middle: #202060;
+    --color-blue-dark: #130846;
+    --color-azur-light: #2591AA;
+    --color-azur-middle: #308AA8;
+    --color-azur-dark: #257D9C;
+}
+
+/* Rentrée CMZ color classes */
+
+.bg-yellow-light {
+    background-color: var(--color-yellow-light);
+}
+.bg-yellow-middle {
+    background-color: var(--color-yellow-middle);
+}
+.bg-yellow-dark {
+    background-color: var(--color-yellow-dark);
+}
+.bg-blue-light {
+    background-color: var(--color-blue-light);
+}
+.bg-blue-middle {
+    background-color: var(--color-blue-middle);
+}
+.bg-blue-dark {
+    background-color: var(--color-blue-dark);
+}
+.bg-azur-light {
+    background-color: var(--color-azur-light);
+}
+.bg-azur-middle {
+    background-color: var(--color-azur-middle);
+}
+.bg-azur-dark {
+    background-color: var(--color-azur-dark);
+}
+
+.color-yellow-light {
+    color: var(--color-yellow-light);
+}
+.color-yellow-middle {
+    color: var(--color-yellow-middle);
+}
+.color-yellow-dark {
+    color: var(--color-yellow-dark);
+}
+.color-blue-light {
+    color: var(--color-blue-light);
+}
+.color-blue-middle {
+    color: var(--color-blue-middle);
+}
+.color-blue-dark {
+    color: var(--color-blue-dark);
+}
+.color-azur-light {
+    color: var(--color-azur-light);
+}
+.color-azur-middle {
+    color: var(--color-azur-middle);
+}
+.color-azur-dark {
+    color: var(--color-azur-dark);
+}
+
