@@ -69,4 +69,12 @@
 .color-azur-dark {
     color: var(--color-azur-dark);
 }
-
+.height-small {
+    height: 150px;
+}
+.height-mid {
+    height: 300px;
+}
+.height-big {
+    height: 550px;
+}

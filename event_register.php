@@ -14,14 +14,18 @@
   <body>
 
     <?php include('include/nav.php')?>
+    <!-- Evenement register content -->
 
-    <!-- Page d'acceuil content -->
+    <!-- Image header -->
+    <div>
+
+    </div>
+
+    <?php include('include/parrallax.php')?>
 
 
-
-
-    <!-- Page d'acceuil content end -->
-
+    
+    <!-- Event register content end -->
     <?php include('include/footer.php')?>
 
     <!-- Optional JavaScript -->
