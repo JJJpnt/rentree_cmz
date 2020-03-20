@@ -13,20 +13,63 @@
   </head>
   <body>
 
+    
     <?php include('include/nav.php')?>
     <!-- Evenement register content -->
+    
+    <div class="container-fluid">
 
     <!-- Image header -->
-    <div>
-
+    <div class="row bg-blue-light height-big my-auto text-white text-center">
+      Image Header
     </div>
 
+    <!-- Second Row -->
+    <div class="row height-mid">
+      <div class="col-6 bg-yellow-light">
+        Info
+      </div>
+      <div class="col-6 bg-azur-light">
+        Image
+      </div>
+    </div>
+
+    <!-- Formumaire -->
+    <div class="row height-big">
+      Formulaire
+    </div>
+
+    <!-- Parrallaxe -->
     <?php include('include/parrallax.php')?>
 
+    <!-- Event Cards -->
+    <div class="row my-4 mx-auto">
+      <?php
+      
+      $items_nb = 32;
 
+      for($i=0;$i<$items_nb;$i++) {
+        echo'
+        <div class="col-6 col-md-4 col-lg-3 mb-2">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        ';
+      }
+
+      ?>
+    </div>
     
     <!-- Event register content end -->
     <?php include('include/footer.php')?>
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
