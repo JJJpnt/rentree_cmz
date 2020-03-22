@@ -21,11 +21,39 @@
 
   <!--carte-->
 
-  <div class="row height-big bg-azur-light text-center">
-      <div class="col-2 height-mid bg-yellow-dark mx-auto my-auto">card</div>
-      <div class="col-2 height-mid bg-yellow-dark mx-auto my-auto">card</div>
-      <div class="col-2 height-mid bg-yellow-dark mx-auto my-auto">card</div>
-      <div class="col-2 height-mid bg-yellow-dark mx-auto my-auto">card</div>
+  <div class="row height-big text-center">
+      <div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
     </div>
 
     <!-- parallax -->
@@ -36,34 +64,34 @@
 
     <!--gallery photo-->
 
-    <div class="row height-mid bg-azur-light text-center">
+    <div class="row height-mid text-center">
         <div class="col-1 height-small mx-auto my-auto"></div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">evenelent 1</div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">evenelent 2</div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">evenelent 3</div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">evenelent 4</div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
         <div class="col-1 height-small mx-auto my-auto"></div>
     </div>
 
-    <div class="row height-mid bg-azur-light text-center">
+    <div class="row height-mid text-center">
         <div class="col-1 height-small mx-auto my-auto"></div>
         <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">2019</div>
         <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">2019</div>
         <div class="col-1 height-small mx-auto my-auto"></div>
     </div>
-    <div class="row height-mid bg-azur-light text-center">
+    <div class="row height-mid text-center">
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
     </div>
-    <div class="row height-mid bg-azur-light text-center">
+    <div class="row height-mid text-center">
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
     </div>
-    <div class="row height-mid bg-azur-light text-center">
+    <div class="row height-mid text-center">
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
