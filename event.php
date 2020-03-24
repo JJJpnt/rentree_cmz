@@ -13,6 +13,10 @@
   </head>
   <body>
 
+  <!-- navbar -->
+
+  <?php include("include/nav.php"); ?>
+
       <!-- img event -->
 
   <div class="img-fluid height-big bg-yellow-dark text-white">
@@ -97,6 +101,10 @@
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
       <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
     </div>
+<!-- footer -->
+
+<?php include("include/footer.php"); ?>
+
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
