@@ -17,6 +17,50 @@
 
     <!-- Page d'acceuil content -->
 
+    <!-- Slider anim -->
+
+    <div class="animindex bg-azur-light height-big text-center">Animation Slider</div>
+
+    <!-- Texte RDE / Evenements -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 bg-yellow-dark height-mid">RDE
+        </div>
+        <div class="col-6 bg-blue-middle color-yellow-light height-mid">Img
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 bg-blue-middle color-yellow-light height-mid">Img
+        </div>
+        <div class="col-6 bg-yellow-dark height-mid">Les evenements
+        </div>
+      </div>
+    </div>
+
+    <div class="row height-big bg-azur-dark text-center">Img
+      <div class="height-mid bg-yellow-light col-8 mx-auto my-auto">
+        <div class="row">Motif
+          <div class="height-small bg-blue-light col-4 mx-auto hjk">Edition 2020</div>
+          <div class="height-small bg-blue-light col-4 mx-auto hjk">Edition 2019</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="height-mid bg-yellow-dark text-center">Testimonials
+    </div>
+
+    <div class="height-mid bg-blue-dark color-yellow-light text-center">Img Parralax
+    </div>
+
+    <div class="row height-mid bg-azur-dark text-center">Partenaires
+      <div class="height-small bg-yellow-light col-9 mx-auto my-auto">
+      </div>
+    </div>
+
 
 
 
