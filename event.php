@@ -19,68 +19,64 @@
 
       <!-- img event -->
 
-  <div class="img-fluid height-big bg-yellow-dark text-white">
-      <div class="col-1 mx-auto">img</div>
-  </div>
+  <div><img class="event_img" src="img/evenement.jpeg"></div>
 
   <!--carte-->
 
   <div class="row height-big text-center">
-      <div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+      <div class="col-md-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">en savoir plus</a>
+    <h5 class="card-title">Carolo Express</h5>
+    <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
+    <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
   </div>
 </div></div>
-<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+<div class="col-md-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/carolo_warrior" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">en savoir plus</a>
+    <h5 class="card-title">Carolo Warrior</h5>
+    <p class="card-text">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou ludiques.</p>
+    <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
   </div>
 </div></div>
-<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+<div class="col-md-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/concours_cuisine.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">en savoir plus</a>
+    <h5 class="card-title">Concours De Cuisine</h5>
+    <p class="card-text">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.</p>
+    <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
   </div>
 </div></div>
-<div class="col-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/evenement.png" alt="Card image cap">
+<div class="col-md-2 mx-auto my-auto"><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">en savoir plus</a>
+    <h5 class="card-title">Pique-Nique</h5>
+    <p class="card-text">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition.</p>
+    <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
   </div>
 </div></div>
     </div>
 
     <!-- parallax -->
 
-    <div class="row bg-yellow-dark height-mid text-white">
-        <div class="col-1 mx-auto">parallax</div>
-    </div>
+    <?php include("include/parrallax.php"); ?>
 
     <!--gallery photo-->
 
     <div class="row height-mid text-center">
         <div class="col-1 height-small mx-auto my-auto"></div>
-        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
-        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
-        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
-        <div class="col-2 height-small mx-auto my-auto"><img src="img/evenement.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/carolo_express.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/carolo_warrior.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/concours_cuisine.png"></div>
+        <div class="col-2 height-small mx-auto my-auto"><img src="img/pique_nique.png"></div>
         <div class="col-1 height-small mx-auto my-auto"></div>
     </div>
 
     <div class="row height-mid text-center">
         <div class="col-1 height-small mx-auto my-auto"></div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">2019</div>
-        <div class="col-1 height-small bg-yellow-dark mx-auto my-auto">2019</div>
+        <div class="col-1 height-small mx-auto my-auto"><img src="img/2019.png"></div>
+        <div class="col-1 height-small mx-auto my-auto"><img src="img/2020.png"></div>
         <div class="col-1 height-small mx-auto my-auto"></div>
     </div>
     <div class="row height-mid text-center">
