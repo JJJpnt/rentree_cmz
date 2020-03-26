@@ -17,27 +17,35 @@
 .bg-yellow-light {
     background-color: var(--color-yellow-light);
 }
+
 .bg-yellow-middle {
     background-color: var(--color-yellow-middle);
 }
+
 .bg-yellow-dark {
     background-color: var(--color-yellow-dark);
 }
+
 .bg-blue-light {
     background-color: var(--color-blue-light);
 }
+
 .bg-blue-middle {
     background-color: var(--color-blue-middle);
 }
+
 .bg-blue-dark {
     background-color: var(--color-blue-dark);
 }
+
 .bg-azur-light {
     background-color: var(--color-azur-light);
 }
+
 .bg-azur-middle {
     background-color: var(--color-azur-middle);
 }
+
 .bg-azur-dark {
     background-color: var(--color-azur-dark);
 }
@@ -45,36 +53,47 @@
 .color-yellow-light {
     color: var(--color-yellow-light);
 }
+
 .color-yellow-middle {
     color: var(--color-yellow-middle);
 }
+
 .color-yellow-dark {
     color: var(--color-yellow-dark);
 }
+
 .color-blue-light {
     color: var(--color-blue-light);
 }
+
 .color-blue-middle {
     color: var(--color-blue-middle);
 }
+
 .color-blue-dark {
     color: var(--color-blue-dark);
 }
+
 .color-azur-light {
     color: var(--color-azur-light);
 }
+
 .color-azur-middle {
     color: var(--color-azur-middle);
 }
+
 .color-azur-dark {
     color: var(--color-azur-dark);
 }
+
 .height-small {
     height: 150px;
 }
+
 .height-mid {
     height: 300px;
 }
+
 .height-big {
     height: 550px;
 }
@@ -82,6 +101,23 @@
 .hjk {
     margin-top: 75px;
 }
+
+/* anthony */
+
 .event_img {
     max-width: 100%;
+}
+
+.img_faq {
+    background-attachment: fixed;
+    height: 708px;
+}
+
+.txt_faq {
+    height: 708px;
+}
+
+.btn-warning {
+    width: 10%;
+    margin-bottom: 1em;
 }
