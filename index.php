@@ -26,11 +26,11 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 bg-yellow-dark height-mid">
-          <h2 class="text-center policetitres">RDE</h2>
+        <div class="col-6 my-auto">
+          <h2 class="text-center policetitres">Rentrée des étudiants</h2>
           <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus! Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas, illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
         </div>
-        <div class="col-6 bg-blue-middle color-yellow-light height-mid">
+        <div class="col-6">
           <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
         </div>
       </div>
@@ -38,28 +38,42 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 bg-blue-middle color-yellow-light height-mid">
+        <div class="col-6">
           <img class="evenementimg" src="img/imgetudiantspiscine.jpg">
         </div>
-        <div class="col-6 bg-yellow-dark height-mid">Les evenements
+        <div class="col-6 my-auto">
+        <h2 class="text-center policetitres">Les évènements</h2>
+          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus! Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas, illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
         </div>
       </div>
     </div>
 
-    <div class="row height-big bg-azur-dark text-center">Img
-      <div class="height-mid bg-yellow-light col-8 mx-auto my-auto">
-        <div class="row">Motif
-          <div class="height-small bg-blue-light col-4 mx-auto hjk">Edition 2020</div>
-          <div class="height-small bg-blue-light col-4 mx-auto hjk">Edition 2019</div>
+    <!-- Image / Motif / Editions -->
+    <div class="row motifimg">
+      <img src="img/imgmotifetudiants.jpg" style="width: 100%;">
+      <div class="col-8 motiftest">
+        <div class="row">
+          <div class="bg-yellow-light col-4 mx-auto">
+            <h2 class="policetitres text-center">Edition 2020</h2>
+          </div>
+          <div class="bg-yellow-light col-4 mx-auto">
+            <h2 class="policetitres text-center">Edition 2019</h2>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Testimonials -->
 
     <div class="height-mid bg-yellow-dark text-center">Testimonials
     </div>
 
+    <!-- Parallax -->
+
     <div class="height-mid bg-blue-dark color-yellow-light text-center">Img Parralax
     </div>
+
+    <!-- Partenaires -->
 
     <div class="row height-mid bg-azur-dark text-center">Partenaires
       <div class="height-small bg-yellow-light col-9 mx-auto my-auto">
