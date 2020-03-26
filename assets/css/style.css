@@ -1,4 +1,5 @@
 /* Rentrée CMZ globals */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap');
 
 :root {
     --color-yellow-light: #FDD52D;
@@ -13,6 +14,15 @@
 }
 
 /* Rentrée CMZ color classes */
+
+.policetitres {
+    font-family: 'Bangers', cursive;
+    color: white;
+}
+
+.policep {
+    font-family: 'Days One', sans-serif;
+}
 
 .bg-yellow-light {
     background-color: var(--color-yellow-light);
