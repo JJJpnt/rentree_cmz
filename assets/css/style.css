@@ -82,3 +82,20 @@
 .hjk {
     margin-top: 75px;
 }
+
+.policetitres {
+    font-family: 'Bangers', cursive;
+    color: white;
+}
+
+.policep {
+    font-family: 'Days One', sans-serif;
+}
+
+.rdeimg {
+    max-width: 100%;
+}
+
+.evenementimg {
+    max-width: 100%;
+}

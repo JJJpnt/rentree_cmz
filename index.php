@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">    
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rentrée des étudiants - CMZ</title>
   </head>
@@ -25,16 +26,20 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 bg-yellow-dark height-mid">RDE
+        <div class="col-6 bg-yellow-dark height-mid">
+          <h2 class="text-center policetitres">RDE</h2>
+          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus! Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas, illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
         </div>
-        <div class="col-6 bg-blue-middle color-yellow-light height-mid">Img
+        <div class="col-6 bg-blue-middle color-yellow-light height-mid">
+          <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
         </div>
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 bg-blue-middle color-yellow-light height-mid">Img
+        <div class="col-6 bg-blue-middle color-yellow-light height-mid">
+          <img class="evenementimg" src="img/imgetudiantspiscine.jpg">
         </div>
         <div class="col-6 bg-yellow-dark height-mid">Les evenements
         </div>
