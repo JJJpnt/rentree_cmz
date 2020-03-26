@@ -6,7 +6,7 @@
     --color-yellow-dark: #F7A516;
     --color-blue-light: #273180;
     --color-blue-middle: #202060;
-    --color-blue-dark: #130846;
+    --color-blue-dark: #130846; /* hsl(251, 88%, 27%) */
     --color-azur-light: #2591AA;
     --color-azur-middle: #308AA8;
     --color-azur-dark: #257D9C;
@@ -81,4 +81,36 @@
 
 .hjk {
     margin-top: 75px;
+}
+
+.navbar {
+    max-height: 50px;
+    background-color: hsl(251, 88%, 27%,0.5);
+    backdrop-filter: blur(8px);
+}
+
+.logocmz-nav {
+    position: relative;
+    top: 30px;
+    min-width:  100px;
+    min-height: 100px;
+}
+
+.dropdown-menu {
+    background-color: hsl(251, 88%, 27%,0.5);
+    backdrop-filter: blur(8px);
+    left: -6rem;
+    text-align: center;
+}
+
+.dropdown-item {
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    /* backdrop-filter: blur(8px); */
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: hsl(251, 88%, 60%,0.5);
+    backdrop-filter: blur(8px);
+    color: var(--color-yellow-light);
 }

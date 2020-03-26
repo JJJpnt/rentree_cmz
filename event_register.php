@@ -50,7 +50,7 @@
 
       for($i=0;$i<$items_nb;$i++) {
         echo'
-        <div class="col-6 col-md-4 col-lg-3 mb-2">
+        <div class="col-6 col-md-3 mb-2">
         <div class="card mx-auto" style="width: 18rem;">
           <img class="card-img-top" src=".../100px180/" alt="Card image cap">
           <div class="card-body">
