@@ -1,4 +1,5 @@
 /* Rentrée CMZ globals */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap');
 
 :root {
     --color-yellow-light: #FDD52D;
@@ -6,13 +7,22 @@
     --color-yellow-dark: #F7A516;
     --color-blue-light: #273180;
     --color-blue-middle: #202060;
-    --color-blue-dark: #130846; /* hsl(251, 88%, 27%) */
+    --color-blue-dark: #130846;
     --color-azur-light: #2591AA;
     --color-azur-middle: #308AA8;
     --color-azur-dark: #257D9C;
 }
 
 /* Rentrée CMZ color classes */
+
+.policetitres {
+    font-family: 'Bangers', cursive;
+    color: white;
+}
+
+.policep {
+    font-family: 'Days One', sans-serif;
+}
 
 .bg-yellow-light {
     background-color: var(--color-yellow-light);
@@ -83,10 +93,24 @@
     margin-top: 75px;
 }
 
+.navbar-container {
+    /* overflow: visible; */
+    /* background-repeat: no-repeat; */
+    background: url("../img/navback.svg");
+    background-position-y: top;
+    background-position-x: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 5000px 80px;
+    backdrop-filter: blur(8px);
+    height: 80px;
+}
+
 .navbar {
     max-height: 50px;
-    background-color: hsl(251, 88%, 27%,0.5);
-    backdrop-filter: blur(8px);
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
 }
 
 .logocmz-nav {
@@ -99,8 +123,9 @@
 .dropdown-menu {
     background-color: hsl(251, 88%, 27%,0.5);
     backdrop-filter: blur(8px);
-    left: -6rem;
+    /* left: -24px; */
     text-align: center;
+    min-width: 1rem;
 }
 
 .dropdown-item {
