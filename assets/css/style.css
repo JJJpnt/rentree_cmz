@@ -135,7 +135,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: hsl(251, 88%, 60%,0.5);
+    background-color: hsl(251, 88%, 60%,0.75);
     backdrop-filter: blur(8px);
     color: var(--color-yellow-light);
 }
