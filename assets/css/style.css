@@ -115,3 +115,7 @@
     background-size: cover;
     background-position-y: center;
 }
+
+.carousel-control-prev-icon {
+    color: black;
+}
