@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Untitled</title>
-  <link rel="stylesheet" href="colapse/bootstrap/css/bootstrap.min.css">
+  <title>colapse</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
   <link rel="stylesheet" href="colapse/css/Accordion.css">
   <link rel="stylesheet" href="colapse/css/menu-collapse-ultimate.css">
@@ -77,8 +76,6 @@
       </div>
     </div>
   </div>
-  <script src="colapse/js/jquery.min.js"></script>
-  <script src="colapse/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

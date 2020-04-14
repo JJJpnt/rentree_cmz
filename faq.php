@@ -31,12 +31,12 @@
 
   <!-- parallax -->
 
-  <?php include("include/parrallax.php"); ?>
+  <?php include("include/parallax.php"); ?>
 
   <!-- img text-->
   <div class="row text-center">
-    <div class="img_faq col-lg-6 col-md-12"><img src="img/charleville.jpg" class="img-responsive w-100 h-100"></div>
-    <div class="txt_faq col-lg-6 col-md-12 d-flex flex-column justify-content-between align-items-center">
+    <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/charleville.jpg" class="w-100 h-100 display-block"></div>
+    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-between align-items-center">
       <h2>S'Inscrire</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.</p>
