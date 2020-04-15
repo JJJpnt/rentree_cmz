@@ -24,9 +24,6 @@
     <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
     <?php include('include/slider.php'); ?>
 
-  <!-- Slider anim -->
-
-
 
   <!-- Texte RDE / Evenements -->
 
@@ -84,11 +81,11 @@
   </div>
 
   <!-- Carousel Testimonials -->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-image: url(img/motif.jpg);">
+    <div id="carouseltestimonials" class="carousel slide" data-ride="carousel" style="background-image: url(img/motif.jpg);">
       <div class="carousel-inner">
         <div class="carousel-item active mt-4 mb-4">
           <!-- Ici chaque item -->
-          <div class="row d-flex testimonials-background-image">
+          <div class="row d-flex">
             <div class="col-2"></div>
             <div class="col-2">
               <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
@@ -116,39 +113,71 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouseltestimonials" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Précédent</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouseltestimonials" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Suivant</span>
         </a>
       </div>
     </div>
 
-  <!-- Parallax -->
-
-  <?php include("include/parallax.php"); ?>
+  <?php include ('include/parallax.php'); ?>
 
   <!-- Partenaires -->
   <div class="container-fluid">
-    <div class="row height-mid" style="background-image: url(img/motif.jpg);">
+    <div class="row height-mid flexpartenaires" style="background-image: url(img/motif.jpg);">
     <h2 class="policetitres">Nos partenaires</h2>
-      <div class="row height-small col-9 mx-auto my-auto bg-azur-dark d-flex">
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
-        <div class="col-1 align-self-center">0</div>
+      <div class="row col-9 mx-auto my-auto bg-azur-dark" style="padding-right: 0px; padding-left: 0px;">
+
+
+      <div id="carouselpartenaires" class="carousel slide" data-ride="carousel" style="background-image: url(img/motif.jpg);">
+      <div class="carousel-inner">
+        <div class="carousel-item active mt-4 mb-4">
+          <!-- Ici chaque item -->
+          <div class="row d-flex">
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+          </div>
+        </div>
+        <div class="carousel-item mt-4 mb-4">
+          <div class="row d-flex">
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+          </div>
+        </div>
+        <div class="carousel-item mt-4 mb-4">
+          <div class="row d-flex">
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselpartenaires" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Précédent</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselpartenaires" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Suivant</span>
+        </a>
+      </div>
+    </div>
+
+
       </div>
     </div>
   </div>

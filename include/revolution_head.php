@@ -12,7 +12,7 @@
 		
 		<!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
 		<link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-		<link rel="stylesheet" type="text/css" href="assets/css/noneed.css">
+		
 		
 		<!-- REVOLUTION JS FILES -->
 		<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>

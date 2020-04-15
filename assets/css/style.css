@@ -193,6 +193,12 @@
     background-size: cover;
     background-position-y: center;
 }
+
+.flexpartenaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* anthony */
 
 .event_img {
