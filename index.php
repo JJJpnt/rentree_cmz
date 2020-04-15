@@ -132,18 +132,21 @@
   <!-- Partenaires -->
   <div class="container-fluid">
     <div class="row height-mid" style="background-image: url(img/motif.jpg);">
-      <div class="row height-small col-9 mx-auto my-auto bg-azur-dark">
-      <div class="col-2">Nos partenaires</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
-      <div class="col-1">0</div>
+    <h2 class="policetitres titrepartenaires">Nos partenaires</h2>
+      <div class="row height-small col-9 mx-auto my-auto bg-azur-dark d-flex">
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
+        <div class="col-1 align-self-center">0</div>
       </div>
     </div>
   </div>
