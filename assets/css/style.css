@@ -139,3 +139,39 @@
     backdrop-filter: blur(8px);
     color: var(--color-yellow-light);
 }
+.policetitres {
+    font-family: 'Bangers', cursive;
+}
+
+.policep {
+    font-family: 'Days One', sans-serif;
+}
+
+.rdeimg {
+    max-width: calc(100% + 30px);
+    margin-left: -15px;
+    max-height: 100%;
+    box-shadow: -2px 2px 10px black;
+}
+
+.evenementimg {
+    max-width: calc(100% + 30px);
+    margin-left: -15px;
+    max-height: 100%;
+    box-shadow: 2px -2px 10px black;
+}
+
+.motifimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motiftest {
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../../img/motif.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
