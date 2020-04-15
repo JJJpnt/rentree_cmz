@@ -92,3 +92,50 @@
 .hjk {
     margin-top: 75px;
 }
+
+.navbar-container {
+    /* overflow: visible; */
+    /* background-repeat: no-repeat; */
+    background: url("../img/navback.svg");
+    background-position-y: top;
+    background-position-x: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 5000px 80px;
+    backdrop-filter: blur(8px);
+    height: 80px;
+}
+
+.navbar {
+    max-height: 50px;
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.logocmz-nav {
+    position: relative;
+    top: 30px;
+    min-width:  100px;
+    min-height: 100px;
+}
+
+.dropdown-menu {
+    background-color: hsl(251, 88%, 27%,0.5);
+    backdrop-filter: blur(8px);
+    /* left: -24px; */
+    text-align: center;
+    min-width: 1rem;
+}
+
+.dropdown-item {
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    /* backdrop-filter: blur(8px); */
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: hsl(251, 88%, 60%,0.75);
+    backdrop-filter: blur(8px);
+    color: var(--color-yellow-light);
+}

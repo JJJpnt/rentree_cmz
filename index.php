@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Revolution includes -->
+    <?php include('include/revolution_head.php'); ?>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">    
@@ -19,7 +22,8 @@
 
     <!-- Slider anim -->
 
-    <div class="animindex bg-azur-light height-big text-center">Animation Slider</div>
+    <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
+    <?php include('include/slider.php'); ?>
 
     <!-- Texte RDE / Evenements -->
 
