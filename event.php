@@ -27,7 +27,7 @@
   <!--carte-->
 
   <div class="row text-center m-5">
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto">
+    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em" >
         <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
         <div class="card-body">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto">
+    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em" >
         <img class="card-img-top" src="img/carolo_warrior" alt="Card image cap">
         <div class="card-body">
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto">
+    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em" >
         <img class="card-img-top" src="img/concours_cuisine.png" alt="Card image cap">
         <div class="card-body">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto">
+    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em" >
         <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
         <div class="card-body">
@@ -79,18 +79,18 @@
 
   <div class="row text-center mt-5 mb-5">
     <div class="col-lg-1"></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png"></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png"></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/concours_cuisine.png"></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/pique_nique.png"></div>
+    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/concours_cuisine.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/pique_nique.png" class="img-fluid mt-1 "></div>
     <div class="col-lg-1"></div>
   </div>
 
   <div class="row text-center m-5">
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><img src="img/2019.png"></div>
+    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><img src="img/2019.png" class="mt-1"></div>
     <div class="col-xs-7 col-md-7 col-lg-1"></div>
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><img src="img/2020.png"></div>
+    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><img src="img/2020.png" class="mt-1"></div>
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
   </div>
   <div class="row height-mid text-center">
