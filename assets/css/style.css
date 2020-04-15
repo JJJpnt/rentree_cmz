@@ -239,7 +239,7 @@
     margin-bottom: 30px;
 }
 
-FOOTER {
+footer {
     
     width: 100%;
     margin-left: auto;
@@ -257,7 +257,7 @@ FOOTER {
 
 .title-footer {
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 20px;
     font-size:30px;
 }
