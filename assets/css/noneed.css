@@ -140,7 +140,7 @@ body {
 }
 
 p { 
-    color: #6f7c82;
+    
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -161,7 +161,7 @@ h2  {
         font-size: 33px;
         line-height: 45px;
         font-weight: 500;
-        color:#292e31;
+        
     }
 
 label   {
