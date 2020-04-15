@@ -220,3 +220,65 @@
         width: 30%;
     }
   }
+
+
+
+/* Footer Yohann Styles */
+
+
+.col1,
+.col2,
+.col3 {
+    margin-top: 30px;
+    
+}
+
+.col1>img,
+.col2>img,
+.col3>img {
+    margin-bottom: 30px;
+}
+
+FOOTER {
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:#130846;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:white;
+    align-items: center;
+    
+    
+}
+
+
+.title-footer {
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size:30px;
+}
+
+.liens-footer{
+    text-decoration: none;
+    font-size:20px;
+    color:#2591AA;
+    line-height:30px;
+}
+
+.liens-footer:hover{
+    color:white;
+}
+
+.col-footer{
+    margin-bottom:30px;
+    
+}
+
+.copy {
+    font-size: 10px;
+    padding-top: 10px;
+}
