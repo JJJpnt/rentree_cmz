@@ -132,7 +132,7 @@
   <!-- Partenaires -->
   <div class="container-fluid">
     <div class="row height-mid" style="background-image: url(img/motif.jpg);">
-    <h2 class="policetitres titrepartenaires">Nos partenaires</h2>
+    <h2 class="policetitres">Nos partenaires</h2>
       <div class="row height-small col-9 mx-auto my-auto bg-azur-dark d-flex">
         <div class="col-1 align-self-center">0</div>
         <div class="col-1 align-self-center">0</div>
