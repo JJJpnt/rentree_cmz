@@ -21,7 +21,7 @@
           <!-- Accordion -->
           <div id="accordionExample" class="accordion shadow">
 
-            <!-- Accordion item 1 -->
+            <!-- Accordion 1 -->
             <div class="card">
               <div id="headingOne" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne"
@@ -37,7 +37,7 @@
               </div>
             </div>
 
-            <!-- Accordion item 2 -->
+            <!-- Accordion 2 -->
             <div class="card">
               <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo"
@@ -54,7 +54,7 @@
               </div>
             </div>
 
-            <!-- Accordion item 3 -->
+            <!-- Accordion 3 -->
             <div class="card">
               <div id="headingThree" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree"
