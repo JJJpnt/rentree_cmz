@@ -40,7 +40,7 @@
     </div>
 
     <!-- Parrallaxe -->
-    <?php include('include/parrallax.php')?>
+    <?php include('include/parallax.php')?>
 
     <!-- Event Cards -->
     <div class="row my-4 mx-auto">
