@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link policetitres" href="#">Accueil<span class="sr-only">(current)</span></a>
+            <a class="nav-link policetitres" href="index.php">Accueil<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -19,9 +19,9 @@
               RDE
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Activité A</a>
-              <a class="dropdown-item" href="#">Activité B</a>
-              <a class="dropdown-item" href="#">Activité C</a>
+              <a class="dropdown-item" href="event_register.php">Activité A</a>
+              <a class="dropdown-item" href="event_register.php">Activité B</a>
+              <a class="dropdown-item" href="event_register.php">Activité C</a>
             </div>
           </li>
         </ul>
@@ -36,9 +36,9 @@
               Editions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">2020</a>
-              <a class="dropdown-item" href="#">1979</a>
-              <a class="dropdown-item" href="#">1515</a>
+              <a class="dropdown-item" href="event.php">2020</a>
+              <a class="dropdown-item" href="event.php">1979</a>
+              <a class="dropdown-item" href="event.php">1515</a>
             </div>
           </li>
         </ul>
@@ -51,8 +51,8 @@
               Contact
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">FAQ</a>
-              <a class="dropdown-item" href="#">Formulaire</a>
+              <a class="dropdown-item" href="faq.php">FAQ</a>
+              <a class="dropdown-item" href="contact.php">Formulaire</a>
             </div>
           </li>
         </ul>

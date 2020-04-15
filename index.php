@@ -24,6 +24,9 @@
     <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
     <?php include('include/slider.php'); ?>
 
+  <!-- Slider anim -->
+
+
 
   <!-- Texte RDE / Evenements -->
 
@@ -124,7 +127,9 @@
       </div>
     </div>
 
-  <?php include ('include/parallax.php'); ?>
+  <!-- Parallax -->
+
+  <?php include("include/parallax.php"); ?>
 
   <!-- Partenaires -->
   <div class="container-fluid">
