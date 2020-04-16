@@ -19,9 +19,9 @@
               RDE
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="event_register.php">Activité A</a>
-              <a class="dropdown-item" href="event_register.php">Activité B</a>
-              <a class="dropdown-item" href="event_register.php">Activité C</a>
+              <a class="dropdown-item" href="events_main.php">Activité A</a>
+              <a class="dropdown-item" href="events_main.php">Activité B</a>
+              <a class="dropdown-item" href="events_main.php">Activité C</a>
             </div>
           </li>
         </ul>
@@ -37,7 +37,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="event.php">2020</a>
-              <a class="dropdown-item" href="event.php">1979</a>
+              <a class="dropdown-item" href="event_register.php">1979</a>
               <a class="dropdown-item" href="event.php">1515</a>
             </div>
           </li>

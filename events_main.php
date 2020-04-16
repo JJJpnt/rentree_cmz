@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <?php include('include/parrallax.php')?>
+    <?php include('include/parallax.php')?>
 
     <div class="showeventinfo height-mid bg-yellow-dark">
         <div class="container-fluid">
