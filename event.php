@@ -75,7 +75,7 @@
 
   <?php include("include/parallax.php"); ?>
 
-  <!--gallery photo-->
+  <!--gallery <img src="img/pique_nique.png" class="img-fluid mt-1 ">-->
 
   <div class="row text-center mt-5 mb-5">
     <div class="col-lg-1"></div>
@@ -94,22 +94,22 @@
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
   </div>
   <div class="row height-mid text-center">
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/1.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/2.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/3.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/4.jfif" class="img-fluid mt-1 "></div>
   </div>
   <div class="row height-mid text-center">
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/7.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/8.jfif" class="img-fluid mt-1 "></div>
   </div>
   <div class="row height-mid text-center">
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
-    <div class="col-2 height-small bg-yellow-dark mx-auto my-auto">photo</div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></div>
+    <div class="col-2 height-small mx-auto my-auto"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></div>
   </div>
   <!-- footer -->
 
