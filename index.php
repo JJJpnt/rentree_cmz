@@ -30,7 +30,7 @@
 
   <!-- Texte RDE / Evenements -->
 
-  <div class="container-fluid">
+  <div id="evenements" class="container-fluid">
     <div class="row">
       <div class="col-6 my-auto">
         <h2 class="text-center policetitres">Rentrée des étudiants</h2>

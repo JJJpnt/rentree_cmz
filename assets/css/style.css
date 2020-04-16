@@ -1,6 +1,10 @@
 /* Rentrée CMZ globals */
 @import url('https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --color-yellow-light: #FDD52D;
     --color-yellow-middle: #FAB900;

@@ -81,7 +81,7 @@
                 <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
 
             <!-- LAYER NR. 6 -->
-            <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
+            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['119','99','200','220']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
@@ -92,7 +92,7 @@
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
                     <img src="assets/images/galaxy_bg-1.png" alt="" data-ww="['509px','509px','509px','407px']"
                         data-hh="['250px','250px','250px','200px']" width="407" height="200" data-no-retina> </div>
-            </div>
+            </div> -->
 
             <!-- LAYER NR. 7 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-32-layer-2"
@@ -110,8 +110,8 @@
             </div>
 
             <!-- LAYER NR. 8 -->
-            <a class="tp-caption   tp-resizeme" href="https://revolution.themepunch.com/direct-customer-benefits/"
-                target="_blank" id="slide-32-layer-16" data-x="['center','center','center','center']"
+            <a class="tp-caption   tp-resizeme" href="#evenements"
+                id="slide-32-layer-16" data-x="['center','center','center','center']"
                 data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['230','210','310','310']" data-fontsize="['25','25','25','20']"
                 data-lineheight="['25','25','25','20']" data-width="['none','none','none','320']" data-height="none"
@@ -284,6 +284,45 @@
                 sliderLayout: "fullscreen",
                 dottedOverlay: "none",
                 delay: 9000,
+
+                navigation: {},
+                responsiveLevels: [1240, 1024, 778, 480],
+                visibilityLevels: [1240, 1024, 778, 480],
+                gridwidth: [1240, 1024, 778, 480],
+                gridheight: [868, 768, 960, 720],
+                lazyType: "none",
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 400,
+                    levels: [1, 2, 3, 4, 5, 10, 15, 20, 25, 46, 47, 48, 49, 50, 51, 55],
+                },
+                shadow: 0,
+                spinner: "off",
+                autoHeight: "off",
+                fullScreenAutoWidth: "off",
+                fullScreenAlignForce: "off",
+                fullScreenOffsetContainer: "",
+                fullScreenOffset: "",
+                disableProgressBar: "on",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    disableFocusListener: false,
+                }
+            });
+        }
+
+        RsParticlesAddOn(revapi14);
+    }); /*ready*/
+
+
+/* back particles
+
                 particles: {
                     startSlide: "first",
                     endSlide: "last",
@@ -374,40 +413,10 @@
                         }
                     }
                 },
-                navigation: {},
-                responsiveLevels: [1240, 1024, 778, 480],
-                visibilityLevels: [1240, 1024, 778, 480],
-                gridwidth: [1240, 1024, 778, 480],
-                gridheight: [868, 768, 960, 720],
-                lazyType: "none",
-                parallax: {
-                    type: "mouse",
-                    origo: "slidercenter",
-                    speed: 400,
-                    levels: [1, 2, 3, 4, 5, 10, 15, 20, 25, 46, 47, 48, 49, 50, 51, 55],
-                },
-                shadow: 0,
-                spinner: "off",
-                autoHeight: "off",
-                fullScreenAutoWidth: "off",
-                fullScreenAlignForce: "off",
-                fullScreenOffsetContainer: "",
-                fullScreenOffset: "",
-                disableProgressBar: "on",
-                hideThumbsOnMobile: "off",
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                debugMode: false,
-                fallbacks: {
-                    simplifyAll: "off",
-                    disableFocusListener: false,
-                }
-            });
-        }
 
-        RsParticlesAddOn(revapi14);
-    }); /*ready*/
+*/
+
+
 </script>
 
 </article>
