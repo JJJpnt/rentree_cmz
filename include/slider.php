@@ -1,3 +1,6 @@
+<!-- "fullscreen-container" class applied slider's wrapper -->
+<div class="rev_slider_wrapper fullscreen-container">
+
 <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
 <div id="rev_slider_14_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
     <ul>
@@ -20,11 +23,11 @@
                 data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on"
                 data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 5;"><img src="assets/images/gravity_bg.jpg" alt=""
-                    data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
-                    data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
-                    width="1920" height="1280" data-no-retina> </div>
+                data-paddingright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                style="z-index: 5;"><img src="assets/img/aqua_back_02.png" alt=""
+                    data-ww="['auto','auto','auto','auto']"
+                    data-hh="['auto','auto','auto','auto']"
+                    style="width:100vw; height:100vh;" data-no-retina> </div>
 
             <!-- LAYER NR. 2 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
@@ -77,9 +80,10 @@
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Bangers;letter-spacing:+5px;">
+                style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
                 <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
 
+                <!-- style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Bangers;letter-spacing:+5px;"> -->
             <!-- LAYER NR. 6 -->
             <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -121,7 +125,7 @@
                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'experience
+                style="z-index: 666; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'experience
                 commence maintenant<br>programme et inscriptions </a>
 
             <!-- LAYER NR. 9 -->
@@ -133,36 +137,36 @@
                 data-frames='[{"delay":"bytrigger","speed":500,"frame":"0","from":"sX:0;opacity:1;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"bytrigger","speed":300,"frame":"999","to":"sX:0;opacity:1;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                data-lasttriggerstate="reset" style="z-index: 13;background-color:rgba(255,255,255,1);"> </div>
+                data-lasttriggerstate="reset" style="z-index: 13;background-color:rgba(39,49,127,1);"> </div>
 
             <!-- LAYER NR. 10 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-32-layer-9"
-                data-x="['center','center','center','center']" data-hoffset="['-531','-531','-348','-204']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['350','350','421','431']"
+                data-x="['center','center','center','center']" data-hoffset="['-265','-265','-175','-102']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['150','150','220','220']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":250,"speed":3000,"frame":"0","from":"y:150px;rZ:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":250,"speed":3000,"frame":"0","from":"y:150px;rZ:90deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 14;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/images/flake2.png" alt="" data-ww="['29px','29px','29px','29px']"
-                        data-hh="['21px','21px','21px','21px']" width="29" height="21" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['655px','655px','655px','655px']"
+                        data-hh="['340px','340px','340px','340px']" width="29" height="21" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 11 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-32-layer-10"
-                data-x="['center','center','center','center']" data-hoffset="['493','493','326','194']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['399','399','408','438']"
+                data-x="['center','center','center','center']" data-hoffset="['250','250','150','150']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','110','110']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":350,"speed":3000,"frame":"0","from":"y:150px;rZ:-90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":350,"speed":3000,"frame":"0","from":"y:150px;rZ:-90deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 15;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/images/flake5.png" alt="" data-ww="['28px','28px','28px','28px']"
-                        data-hh="['27px','27px','27px','27px']" width="28" height="27" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','900px']"
+                        data-hh="['420px','420px','420px','420px']" width="28" height="27" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 12 -->
@@ -171,13 +175,13 @@
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['338','338','331','348']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":450,"speed":3000,"frame":"0","from":"y:150px;rZ:45deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":450,"speed":3000,"frame":"0","from":"y:150px;rZ:45deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 16;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
-                    <img src="assets/images/flake4.png" alt="" data-ww="['26px','26px','26px','26px']"
-                        data-hh="['24px','24px','24px','24px']" width="26" height="24" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['645px','645px','645px','645px']"
+                        data-hh="['415px','415px','415px','415px']" width="26" height="24" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 13 -->
@@ -186,27 +190,27 @@
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['320','320','357','381']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":550,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":550,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 17;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%">
-                    <img src="assets/images/flake3.png" alt="" data-ww="['27px','27px','27px','27px']"
-                        data-hh="['26px','26px','26px','26px']" width="27" height="26" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['1000px','1000px','1000px','1000px']"
+                        data-hh="['210px','210px','210px','210px']" width="27" height="26" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 14 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-32-layer-13"
-                data-x="['center','center','center','center']" data-hoffset="['-88','-88','-88','-37']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['382','382','382','399']"
+                data-x="['center','center','center','center']" data-hoffset="['50','50','50','50']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['250','250','250','300']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":650,"speed":3000,"frame":"0","from":"y:150px;rZ:125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":650,"speed":3000,"frame":"0","from":"y:150px;rZ:125deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 18;">
                 <div class="rs-looped rs-wave" data-speed="6" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/images/flake1.png" alt="" data-ww="['13','13','13','13px']" data-hh="12px"
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="305px"
                         width="25" height="24" data-no-retina> </div>
             </div>
 
@@ -216,13 +220,13 @@
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['300','300','300','366']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
-                data-frames='[{"delay":750,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-frames='[{"delay":750,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:0.5;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 19;">
                 <div class="rs-looped rs-wave" data-speed="7" data-angle="0" data-radius="6px" data-origin="50% 50%">
-                    <img src="assets/images/flake3.png" alt="" data-ww="['16px','16px','16px','16px']"
-                        data-hh="['15px','15px','15px','15px']" width="27" height="26" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['630px','630px','630px','630px']"
+                        data-hh="['400px','400px','400px','400px']" width="27" height="26" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 16 -->
@@ -235,7 +239,7 @@
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Une
+                style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Une
                 journée 100%<br />etudiante</a>
 
             <!-- LAYER NR. 17 -->
@@ -248,7 +252,7 @@
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
+                style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
                 toutes les<br />activitées de la journée</a>
 
             <!-- LAYER NR. 18 -->
@@ -261,7 +265,7 @@
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(255,255,255,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
+                style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
                 2019</a>
 
             <!-- LAYER NR. 19 -->
@@ -271,6 +275,9 @@
     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 </div>
 </div><!-- END REVOLUTION SLIDER -->
+
+</div> <!-- END WRAPPER -->
+
 <script type="text/javascript">
     var tpj = jQuery;
     var revapi14;
