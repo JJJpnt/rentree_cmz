@@ -243,6 +243,9 @@ html {
     max-width:120px;
     max-height: 120px;
 }
+.txt_events_main{
+    font-size: 1.5em;
+}
 
 @media screen and (max-width: 500px) {
     .txt_faq {
@@ -253,6 +256,9 @@ html {
     }
     .btn-light{
         font-size: 2em;
+    }
+    .txt_events_main{
+        font-size: 0.7em;
     }
   }
 
