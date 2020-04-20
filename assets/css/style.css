@@ -115,52 +115,6 @@ html {
     margin-top: 75px;
 }
 
-.navbar-container {
-    /* overflow: visible; */
-    /* background-repeat: no-repeat; */
-    background: url("../img/navback.svg");
-    background-position-y: top;
-    background-position-x: center;
-    background-attachment: local;
-    background-repeat: no-repeat;
-    background-size: 5000px 80px;
-    backdrop-filter: blur(8px);
-    height: 80px;
-}
-
-.navbar {
-    max-height: 50px;
-    /* background-color: hsl(251, 88%, 27%,0.5); */
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-}
-
-.logocmz-nav {
-    position: relative;
-    top: 30px;
-    min-width:  100px;
-    min-height: 100px;
-}
-
-.dropdown-menu {
-    background-color: hsl(251, 88%, 27%,0.5);
-    backdrop-filter: blur(8px);
-    /* left: -24px; */
-    text-align: center;
-    min-width: 1rem;
-}
-
-.dropdown-item {
-    /* background-color: hsl(251, 88%, 27%,0.5); */
-    /* backdrop-filter: blur(8px); */
-    color: white;
-}
-
-.dropdown-item:hover {
-    background-color: hsl(251, 88%, 60%,0.75);
-    backdrop-filter: blur(8px);
-    color: var(--color-yellow-light);
-}
 .policetitres {
     font-family: 'Bangers', cursive;
 }
@@ -391,4 +345,144 @@ footer {
     width:200px;
     cursor: pointer;
   }
+
   
+
+/* JJJ Navbar styles */
+
+
+.navbar-container {
+    /* overflow: visible; */
+    /* background-repeat: no-repeat; */
+    /* background: url("../img/navback.svg"); */
+    background: url("../img/clouds/cloud_nav.png");
+    background-position-y: top;
+    background-position-x: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 5000px 80px;
+    /* backdrop-filter: blur(8px); */
+    height: 80px;
+}
+
+.navbar {
+    max-height: 50px;
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.logocmz-nav {
+    position: relative;
+    top: 30px;
+    min-width:  100px;
+    min-height: 100px;
+}
+
+.dropdown-menu {
+    background-color: hsl(251, 88%, 27%,0.5);
+    backdrop-filter: blur(8px);
+    /* left: -24px; */
+    text-align: center;
+    min-width: 1rem;
+}
+
+.dropdown-item {
+    /* background-color: hsl(251, 88%, 27%,0.5); */
+    /* backdrop-filter: blur(8px); */
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: hsl(251, 88%, 60%,0.75);
+    backdrop-filter: blur(8px);
+    color: var(--color-yellow-light);
+}
+  header {
+    margin-top: 0;
+    width: 100%;
+    /* height: 140px; */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: visible;
+    transition: all 0.5s ease;
+    /* background-color: rgba(0, 0, 0, 0.0); */
+    z-index: 9999 !important;
+    line-height: 80px;
+
+  }
+/*  header h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 42px;
+    color: #fff;
+    line-height: 80px;
+    text-transform: capitalize;
+    font-weight: 100;
+    // transition: all 2s ease; 
+    filter: drop-shadow(0px 3px 4px rgba(0,0,0,0.75));
+  } */
+  header nav {
+    /* position: absolute; */
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+  }
+    header div a {
+    /* line-height: 80px; */
+    /* height: 1.5rem; */
+    }
+
+
+    .first-content {
+        margin-top: 250px;
+    }
+
+
+
+  header a, button, .btn {
+    /* color: var(--color-yellow-light) !important; */
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    /* filter: drop-shadow(0px, 2px, 6px, 5px, black); */
+    filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.75));
+  }
+  header a:hover, button:hover, .btn:hover {
+    background-color: hsla(var(--color-dark-hsl),0.7);
+    box-shadow: 0 0 0 1px var(--color-danger);
+    text-decoration: none;
+    color: var(--color-danger);
+  }
+
+/* Sticky Header Style */
+/* ---------------------------------------- */
+body.sticky-header {
+    /* padding-top: 60px; */
+}
+body.sticky-header header {
+    /* position: fixed; */
+    margin-top: -80px;
+    /* height: 60px; */
+    /* background-color: rgba(52, 152, 219, 0.9); */
+}
+body.sticky-header header h1 {
+/* transform: scale(1, 0); */
+}
+    
+.nav-trans {
+    /* background-color: rgba(0, 0, 0, 0.0); */
+}
+
+.nav-opaque {
+    background-color: hsla(var(--color-dark-hsl),0.7);
+    /* backdrop-filter: blur(8px); */
+}
+
+header .input-group {
+    margin-bottom: 1px !important;
+}
