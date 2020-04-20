@@ -235,13 +235,13 @@ html {
     align-items: center;
 }
 .cercle_info{
-      text-align:center;
-      color:white;
-      background:#707070 ;
-      border-radius:50%;
-      border:2px solid #404040 ;
-      max-width:120px;
-      max-height: 120px;
+    text-align:center;
+    color:white;
+    background:#707070 ;
+    border-radius:50%;
+    border:2px solid #404040 ;
+    max-width:120px;
+    max-height: 120px;
 }
 
 @media screen and (max-width: 500px) {
@@ -340,6 +340,29 @@ footer {
       background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
       -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
+  }
+
+  .get-in-touch .title2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+
+  .text_text{
+    font-size: 20px;
+  }
+  #etablissement{
+    font-size: 20px;
   }
   
   .contact-form .form-field {
