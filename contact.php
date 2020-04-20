@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">    
@@ -15,32 +18,81 @@
 
     <?php include('include/nav.php')?>
 
-    <div class="headercontact height-mid bg-azur-dark">
-        <p class="text-center">Header contact</p>
+    <div class="headercontact">
+        <img src="img/contactbanner.png" class="img-fluid">
     </div>
 
-    <div class="contactform height-big bg-yellow-light">
-        <p class="text-center ">Formulaire de contact</p>
+    <div class="contactform">
+    <section class="get-in-touch">
+        <h1 class="title">Contactez-nous</h1>
+        <form class="contact-form row">
+        <div class="col-lg-3"></div>
+            <div class="form-field col-lg-6">
+                <input id="name" class="input-text js-input" type="text" required>
+                <label class="label" for="name">Nom</label>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="form-field col-lg-6 ">
+                <input id="email" class="input-text js-input" type="email" required>
+                <label class="label" for="email">Prénom</label>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="form-field col-lg-6">
+                <input id="message" class="input-text js-input" type="text" required>
+                <label class="label" for="message">Mail</label>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+            <div class="form-field col-lg-6">
+                <input id="message" class="input-text js-input" type="text" required>
+                <label class="label" for="message">Message</label>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="form-field col-lg-12">
+                <center><input class="submit-btn" type="submit" value="Submit"></center>
+            </div>
+        </form>
+    </section>
     </div>
 
-    <div class="contactfontawesome height-small bg-blue-dark">
-        <p class="text-center color-yellow-light">Icones</p>
+    <div class="contactfontawesome">
+        <h2 class="text-center policetitres mt-2">Ou alors</h2>
         <div class="row">
-            <div class="col-4 mx-auto">
-                <p class="text-center color-yellow-light">Tel : </p>
+            <div class="col-4 mx-auto text-center">
+                <i class="fas fa-phone fa-2x"></i>
             </div>
-            <div class="col-4 mx-auto">
-                <p class="text-center color-yellow-light">Adresse : </p>
+            <div class="col-4 mx-auto text-center">
+                <i class="fas fa-map-marked-alt fa-2x"></i>
             </div>
-            <div class="col-4 mx-auto">
-                <p class="text-center color-yellow-light">Mail : </p>
+            <div class="col-4 mx-auto text-center">
+                <i class="fas fa-envelope fa-2x"></i>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-4 mx-auto text-center">
+                <p class="policep">03 24 32 44 91</p>
+            </div>
+            <div class="col-4 mx-auto text-center">
+                <p class="policep">Place du Théâtre<br>CS 40490<br>08109 Charleville-Mézières Cedex</p>
+            </div>
+            <div class="col-4 mx-auto text-center">
+                <p class="policep">etudiants@mairie-charlevillemezieres.fr</p>
             </div>
         </div>
     </div>
 
-    <div class="nospartenaires height-mid bg-azur-light">
-        <p class="text-center">Nos partenaires</p>
-        <p class="my-auto"></p>
+    <div class="nospartenaires bg-azur-light">
+        <h2 class="policetitres text-center">Nos partenaires</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="img/event_2019/1.jfif"></div>
+            <div class="grid-item grid-item--width2"><img src="img/event_2019/2.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/3.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/4.jfif"></div>
+            <div class="grid-item grid-item--width2"><img src="img/event_2019/5.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/6.jfif"></div>
+        </div>
     </div>
 
 
@@ -51,6 +103,15 @@
     <!-- Page d'acceuil content end -->
 
     <?php include('include/footer.php')?>
+
+    <!-- Masonry -->
+    <script src="assets/masonry.pkgd.min.js"></script>
+
+    <script>$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});</script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
