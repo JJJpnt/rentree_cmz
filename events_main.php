@@ -15,61 +15,63 @@
 
     <?php include('include/nav.php')?>
 
-    <div class="showeventimg height-mid bg-azur-light">
-        <p class="text-center">Img Carolo Express</p>
-    </div>
+    <div><img class="event_img" src="img/caroloexpress.png"></div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6 bg-blue-middle color-yellow-light height-mid">Img
-        </div>
-        <div class="col-6 bg-yellow-dark height-mid">Description
-        </div>
-      </div>
+    <div class="row text-center ">
+    <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg" class="w-100 h-100 display-block"></div>
+    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+      <h2>Carolo Express</h2>
+      <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+         Etes-vous déjà entré au sein de la TOUR DU ROY ?
+         <br><br>
+         Le parcours est composé d’environ 10 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
+         <br><br>
+         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes.</p>
     </div>
+  </div>
 
     <?php include('include/parallax.php')?>
 
-    <div class="showeventinfo height-mid bg-yellow-dark">
+    <div class="showeventinfo m-3">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+            <div class="row text-center">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mx-auto my-auto " style="width: 18rem;">
+                        
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mx-auto my-auto " style="width: 18rem;">
+                        
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mx-auto my-auto " style="width: 18rem;">
+                        
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mx-auto my-auto " style="width: 18rem;">
+                        
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -77,37 +79,69 @@
         </div>
     </div>
 
-    <div class="showeventcarac height-mid bg-azur-light">
+    <div class="showeventcarac">
         <p class="text-center">Caractéristiques</p>
         <div class="row">
-            <div class="col-3">
-                <p class="text-center">Participants</p>
-            </div>
-            <div class="col-3">
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <br>
                 <p class="text-center">Temps</p>
+                <br>
+                <p class="text-center">5h00</p>
+                <br>
             </div>
-            <div class="col-3">
-                <p class="text-center">Parpaing</p>
             </div>
-            <div class="col-3">
-                <p class="text-center">Chameau</p>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <br>
+                <p class="text-center">Temps</p>
+                <br>
+                <p class="text-center">5h00</p>
+                <br>
+            </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <br>
+                <p class="text-center">Temps</p>
+                <br>
+                <p class="text-center">5h00</p>
+                <br>
+            </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <br>
+                <p class="text-center">Temps</p>
+                <br>
+                <p class="text-center">5h00</p>
+                <br>
+            </div>
             </div>
         </div>
     </div>
 
-    <div class="showeventinscription height-small bg-blue-light">
-        <p class="text-center color-yellow-dark">S'inscrire</p>
+    <div class="showeventinscription height-small">
+    <h2>S'inscrire<h2>
     </div>
 
     <div class="container-fluid">
-      <div class="row height-mid">
-        <div class="col-6 bg-azur-light">
-            <p class="text-center">Règles</p>
-        </div>
-        <div class="col-6 bg-yellow-dark">
-            <p class="text-center">S'inscrire</p>
-        </div>
-      </div>
+    <div class="row text-center">
+    <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+        <h2>Regle</h2>
+        <div class="w-75">
+        <h4> A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+             Etes-vous déjà entré au sein de la TOUR DU ROY ?
+             <br><br>
+             Le parcours est composé d’environ 10 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
+             <br><br>
+             Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes. </h4>
+    </div>
+    </div>
+    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+    <a href="event_register.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+    </div>
+  </div>
     </div>
 
 

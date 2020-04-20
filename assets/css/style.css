@@ -223,12 +223,36 @@ html {
     width: 20%;
     margin-bottom: 1em;
 }
+.btn-light{
+    text-align: center;
+    width: 50%;
+    height: 15%;
+    font-size: 3em;
+}
+.showeventinscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle_info{
+      text-align:center;
+      color:white;
+      background:#707070 ;
+      border-radius:50%;
+      border:2px solid #404040 ;
+      max-width:120px;
+      max-height: 120px;
+}
+
 @media screen and (max-width: 500px) {
     .txt_faq {
         height: 408px;
     }
     .btn-warning {
         width: 30%;
+    }
+    .btn-light{
+        font-size: 2em;
     }
   }
 
