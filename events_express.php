@@ -19,14 +19,16 @@
 
     <div class="row text-center ">
     <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg" class="w-100 h-100 display-block"></div>
-    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
       <h2>Carolo Express</h2>
-      <p>A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+      <div class="w-75 my-auto">
+      <p class="txt_events_main">A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
          Etes-vous déjà entré au sein de la TOUR DU ROY ?
          <br><br>
          Le parcours est composé d’environ 10 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
          <br><br>
-         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes.</p>
+         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes.<p>
+         </div>
     </div>
   </div>
 
@@ -35,7 +37,7 @@
     <div class="showeventinfo m-3">
         <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                     <div class="card mx-auto my-auto " style="width: 18rem;">
                         
                         <div class="card-body">
@@ -45,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                     <div class="card mx-auto my-auto " style="width: 18rem;">
                         
                         <div class="card-body">
@@ -55,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                     <div class="card mx-auto my-auto " style="width: 18rem;">
                         
                         <div class="card-body">
@@ -80,9 +82,18 @@
     </div>
 
     <div class="showeventcarac">
-        <p class="text-center">Caractéristiques</p>
-        <div class="row">
-            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+        <h2 class="text-center">Caractéristiques</h2>
+        <div class="row mt-5">
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
+            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <br>
+                <p class="text-center">Participants</p>
+                <br>
+                <p class="text-center">5</p>
+                <br>
+            </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
             <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                 <br>
                 <p class="text-center">Temps</p>
@@ -91,16 +102,7 @@
                 <br>
             </div>
             </div>
-            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
-            <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
-                <br>
-                <p class="text-center">Temps</p>
-                <br>
-                <p class="text-center">5h00</p>
-                <br>
-            </div>
-            </div>
-            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
             <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                 <br>
                 <p class="text-center">Temps</p>
@@ -127,15 +129,15 @@
 
     <div class="container-fluid">
     <div class="row text-center">
-    <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+    <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
         <h2>Regle</h2>
-        <div class="w-75">
-        <h4> A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+        <div class="w-75 my-auto">
+        <p class="txt_events_main"> A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
              Etes-vous déjà entré au sein de la TOUR DU ROY ?
              <br><br>
              Le parcours est composé d’environ 10 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
              <br><br>
-             Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes. </h4>
+             Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes. </p>
     </div>
     </div>
     <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">

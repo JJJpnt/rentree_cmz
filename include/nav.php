@@ -140,9 +140,10 @@ $(function(){
               RDE
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="events_main.php">Activité A</a>
-              <a class="dropdown-item" href="events_main.php">Activité B</a>
-              <a class="dropdown-item" href="events_main.php">Activité C</a>
+              <a class="dropdown-item" href="events_express.php">Carolo Express</a>
+              <a class="dropdown-item" href="events_warrior.php">Carolo Warrior</a>
+              <a class="dropdown-item" href="events_cuisine.php">Concours De Cuisine</a>
+              <a class="dropdown-item" href="events_pique-nique.php">Pique-Nique</a>
             </div>
           </li>
         </ul>

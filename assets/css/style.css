@@ -189,13 +189,16 @@ html {
     align-items: center;
 }
 .cercle_info{
-      text-align:center;
-      color:white;
-      background:#707070 ;
-      border-radius:50%;
-      border:2px solid #404040 ;
-      max-width:120px;
-      max-height: 120px;
+    text-align:center;
+    color:white;
+    background:#707070 ;
+    border-radius:50%;
+    border:2px solid #404040 ;
+    max-width:120px;
+    max-height: 120px;
+}
+.txt_events_main{
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 500px) {
@@ -207,6 +210,9 @@ html {
     }
     .btn-light{
         font-size: 2em;
+    }
+    .txt_events_main{
+        font-size: 0.7em;
     }
   }
 
