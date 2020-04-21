@@ -83,33 +83,33 @@
         </div>
       </div>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>
       </div>
       <h2 class="title2">Mot de passe</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="password" required>
           <label class="label" for="name">mot de passe</label>
         </div>
       </div>
       <h2 class="title2">Participant 1</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="email" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="company" class="input-text js-input" type="text" required>
           <label class="label" for="company">Mobile</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="phone" class="input-text js-input" type="text" required>
           <label class="label" for="phone">E-mail</label>
         </div>
@@ -120,19 +120,19 @@
       </div>
       <h2 class="title2">Participant 2</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="email" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="company" class="input-text js-input" type="text" required>
           <label class="label" for="company">Mobile</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="phone" class="input-text js-input" type="text" required>
           <label class="label" for="phone">E-mail</label>
         </div>
@@ -143,19 +143,19 @@
       </div>
       <h2 class="title2">Participant 3</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="email" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="company" class="input-text js-input" type="text" required>
           <label class="label" for="company">Mobile</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="phone" class="input-text js-input" type="text" required>
           <label class="label" for="phone">E-mail</label>
         </div>
@@ -166,19 +166,19 @@
       </div>
       <h2 class="title2">Participant 4</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="email" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="company" class="input-text js-input" type="text" required>
           <label class="label" for="company">Mobile</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="phone" class="input-text js-input" type="text" required>
           <label class="label" for="phone">E-mail</label>
         </div>
@@ -189,19 +189,19 @@
       </div>
       <h2 class="title2">Participant 5</h2>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="email" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="company" class="input-text js-input" type="text" required>
           <label class="label" for="company">Mobile</label>
         </div>
-        <div class="form-field col-lg-6 ">
+        <div class="form-field col-lg-12 ">
           <input id="phone" class="input-text js-input" type="text" required>
           <label class="label" for="phone">E-mail</label>
         </div>

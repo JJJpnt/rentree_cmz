@@ -512,3 +512,10 @@ body.sticky-header header h1 {
 header .input-group {
     margin-bottom: 1px !important;
 }
+
+
+/* Fix for Yohann forms */
+
+.contact-form.row {
+    display: block !important;
+}
