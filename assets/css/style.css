@@ -170,7 +170,7 @@ html {
 }
 
 .txt_faq {
-    height: 708px;
+    font-size: 20px;
 }
 
 .btn-warning {
@@ -202,9 +202,6 @@ html {
 }
 
 @media screen and (max-width: 500px) {
-    .txt_faq {
-        height: 408px;
-    }
     .btn-warning {
         width: 30%;
     }
