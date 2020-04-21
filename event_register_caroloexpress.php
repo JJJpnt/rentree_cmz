@@ -78,7 +78,7 @@
           </select></center>
       </div>
       <div class="contact-form row">
-        <div class="form-field col-lg-6">
+        <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>

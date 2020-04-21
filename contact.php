@@ -24,38 +24,30 @@
     </div>
 
     <div class="contactform">
-    <section class="get-in-touch">
-        <h1 class="title">Contactez-nous</h1>
-        <form class="contact-form row">
-        <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="name" class="input-text js-input" type="text" required>
-                <label class="label" for="name">Nom</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6 ">
-                <input id="email" class="input-text js-input" type="email" required>
-                <label class="label" for="email">Prénom</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">Mail</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">Message</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-12">
-                <center><input class="submit-btn" type="submit" value="Submit"></center>
-            </div>
-        </form>
-    </section>
+        <section class="get-in-touch">
+            <h1 class="title">Contactez-nous</h1>
+            <form class="contact-form row justify-content-center">
+                <div class="col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Nom</label>
+                </div>
+                <div class="col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="firstname">Prénom</label>
+                </div>
+                <div class="col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="mail">Mail</label>
+                </div>
+                <div class="col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="message">Message</label>
+                </div>
+                <div class="form-field col-12">
+                    <center><input class="submit-btn" type="submit" value="Envoyer"></center>
+                </div>
+            </form>
+        </section>
     </div>
 
     <div class="contactfontawesome">
@@ -84,17 +76,7 @@
         </div>
     </div>
 
-    <div class="nospartenaires bg-azur-light">
-        <h2 class="policetitres text-center">Nos partenaires</h2>
-        <div class="grid">
-            <div class="grid-item"><img src="img/event_2019/1.jfif"></div>
-            <div class="grid-item grid-item--width2"><img src="img/event_2019/2.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/3.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/4.jfif"></div>
-            <div class="grid-item grid-item--width2"><img src="img/event_2019/5.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/6.jfif"></div>
-        </div>
-    </div>
+
 
 
 
