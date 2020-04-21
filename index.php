@@ -89,7 +89,7 @@
 
   <!-- Carousel Testimonials -->
   <div id="carouseltestimonials" class="carousel slide" data-ride="carousel"
-    style="background-image: url(img/motif.jpg);">
+    style="background-image: url(img/motif2.gif);">
     <div class="carousel-inner">
       <div class="carousel-item active mt-4 mb-4">
         <!-- Ici chaque item -->
@@ -137,7 +137,7 @@
 
   <!-- Partenaires -->
   <div class="container-fluid">
-    <div class="row height-mid flexpartenaires" style="background-image: url(img/motif.jpg);">
+    <div class="row height-mid flexpartenaires" style="background-image: url(img/motif2.gif);">
       <h2 class="policetitres">Nos partenaires</h2>
       <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;">
         <div class="container">
