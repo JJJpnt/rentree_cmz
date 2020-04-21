@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+  <!-- Required meta tags 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -52,7 +52,7 @@
         de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
         Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
         le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
-        Opérez votre inscription ensemble.
+        Opérez votre inscription ensemble.</p>
     </center><br><br><br>
     <h2 class="title2">Etablissement</h2>
     <form class="contact-form row">
@@ -78,144 +78,143 @@
           </select></center>
       </div>
       <div class="contact-form row">
-        <div class="form-field col-lg-12">
-          <h2 class="title2">Nom de l'équipe ( à votre choix)</h2>
-        </div>
-      </div>
-      <div class="contact-form row">
         <div class="form-field col-lg-6">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>
-      </div>
-      <h2 class="title2">Mot de passe</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="password" required>
-          <label class="label" for="name">mot de passe</label>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom d'équipe</label>
+          </div>
         </div>
-      </div>
-      <h2 class="title2">Participant 1</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
+        <h2 class="title2">Mot de passe</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="password" required>
+            <label class="label" for="name">mot de passe</label>
+          </div>
         </div>
-        <div class="form-field col-lg-6 ">
-          <input id="email" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
+        <h2 class="title2">Participant 1</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Prenom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Mobile</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">E-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Retapez l'e-mail</label>
+          </div>
         </div>
-        <div class="form-field col-lg-6 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <h2 class="title2">Participant 2</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Prenom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Mobile</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">E-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Retapez l'e-mail</label>
+          </div>
         </div>
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <h2 class="title2">Participant 3</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Prenom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Mobile</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">E-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Retapez l'e-mail</label>
+          </div>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <h2 class="title2">Participant 4</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Prenom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Mobile</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">E-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Retapez l'e-mail</label>
+          </div>
         </div>
-      </div>
-      <h2 class="title2">Participant 2</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
+        <h2 class="title2">Participant 5</h2>
+        <div class="contact-form row">
+          <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Nom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">Prenom</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Mobile</label>
+          </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">E-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Retapez l'e-mail</label>
+          </div>
+          <div class="form-field col-lg-12">
+            <input class="submit-btn" type="submit" value="Submit">
+          </div>
         </div>
-        <div class="form-field col-lg-6 ">
-          <input id="email" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
-        </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
-        </div>
-      </div>
-      <h2 class="title2">Participant 3</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="email" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
-        </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
-        </div>
-      </div>
-      <h2 class="title2">Participant 4</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="email" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
-        </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
-        </div>
-      </div>
-      <h2 class="title2">Participant 5</h2>
-      <div class="contact-form row">
-        <div class="form-field col-lg-6">
-          <input id="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="email" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
-        </div>
-        <div class="form-field col-lg-6 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
-        </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
-        </div>
-        <div class="form-field col-lg-12">
-          <input class="submit-btn" type="submit" value="Submit">
-        </div>
-      </div>
     </form>
   </section>
-
   <!-- Parrallaxe -->
   <?php include('include/parallax.php')?>
 

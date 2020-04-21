@@ -201,20 +201,6 @@ html {
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 500px) {
-    .btn-warning {
-        width: 30%;
-    }
-    .btn-light{
-        font-size: 2em;
-    }
-    .txt_events_main{
-        font-size: 0.7em;
-    }
-  }
-
-
-
 /* Footer Yohann Styles */
 
 
@@ -298,7 +284,7 @@ footer {
       -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
   }
-
+/*
   .get-in-touch .title2 {
     text-align: center;
     text-transform: uppercase;
@@ -314,7 +300,7 @@ footer {
       -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
   }
-
+*/
   .text_text{
     font-size: 20px;
   }
@@ -512,3 +498,16 @@ body.sticky-header header h1 {
 header .input-group {
     margin-bottom: 1px !important;
 }
+/* anthony */
+
+@media screen and (max-width: 500px) {
+    .btn-warning {
+        width: 30%;
+    }
+    .btn-light{
+        font-size: 2em;
+    }
+    .txt_events_main{
+        font-size: 0.7em;
+    }
+  }

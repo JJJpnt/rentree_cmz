@@ -35,7 +35,7 @@
         <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Carolo Express</h5>
-          <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville<br> autrement.</p>
+          <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
           <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
