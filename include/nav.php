@@ -69,12 +69,13 @@ $(function(){
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              RDE
+              Inscription
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="events_main.php">Activité A</a>
-              <a class="dropdown-item" href="events_main.php">Activité B</a>
-              <a class="dropdown-item" href="events_main.php">Activité C</a>
+              <a class="dropdown-item" href="event_register_caroloexpress.php">Carolo Express</a>
+              <a class="dropdown-item" href="event_register_carolowarrior.php">Carolo Warrior</a>
+              <a class="dropdown-item" href="event_register_concourscuisine.php">Concours de Cuisine</a>
+              <a class="dropdown-item" href="event_register_piquenique.php">Pique-Nique</a>
             </div>
           </li>
         </ul>
