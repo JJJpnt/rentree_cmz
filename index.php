@@ -45,7 +45,7 @@
           natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
       </div>
       <div class="col-6">
-        <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
+        <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-6">
-        <img class="evenementimg" src="img/imgetudiantspiscine.jpg">
+        <img class="evenementimg" src="img/event_2019/1.jfif">
       </div>
       <div class="col-6 my-auto">
         <h2 class="text-center policetitres">Les évènements</h2>
