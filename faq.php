@@ -36,11 +36,15 @@
   <!-- img text-->
   <div class="row text-center">
     <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/charleville.jpg" class="w-100 h-100 display-block"></div>
-    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-between align-items-center">
+    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center"><br>
       <h2>S'Inscrire</h2>
+      <div class="w-75 mt-5">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
+        rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.</p>
-      <button type="button" class="btn btn-warning">S'Inscrire</button>
+</div>
+      <button type="button" class="btn btn-warning mt-5">S'Inscrire</button>
     </div>
   </div>
   <!-- footer -->
