@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- PrettyPhoto css -->
   <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
 
@@ -80,7 +79,7 @@
 
   <!--gallery <img src="img/pique_nique.png" class="img-fluid mt-1 ">-->
 
-  <div class="row text-center mt-5 mb-5">
+  <div class="row mt-5 mb-5">
     <div class="col-lg-1"></div>
     <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png" class="img-fluid mt-1 "></div>
     <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png" class="img-fluid mt-1 "></div>
@@ -89,30 +88,32 @@
     <div class="col-lg-1"></div>
   </div>
 
-  <div class="row text-center m-5">
+  <div class="row m-5">
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
     <div class="col-xs-7 col-md-7 col-lg-1"></div>
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
   </div>
-  <div class="row height-mid text-center">
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/3.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/3.jfif" class="img-fluid mt-1"></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/4.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/4.jfif" class="img-fluid mt-1"></a></div>
-  </div>
-  <div class="row height-mid text-center">
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/5.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/6.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/7.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/7.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/8.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/8.jfif" class="img-fluid mt-1 "></a></div>
-  </div>
-  <div class="row height-mid text-center">
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/9.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/10.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/11.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></a></div>
-    <div class="col-2 height-small mx-auto my-auto"><a href="img/event_2019/12.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></a></div>
+
+  <!-- Galerie photo -->
+  <div class="container-fluid pl-5 pr-5">
+    <div class="row mb-5">
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/3.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/3.jfif" class="img-fluid mt-1"></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/4.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/4.jfif" class="img-fluid mt-1"></a></div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/5.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/6.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/7.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/7.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/8.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/8.jfif" class="img-fluid mt-1 "></a></div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/9.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/10.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/11.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></a></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/12.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></a></div>
+    </div>
   </div>
   <!-- footer -->
 

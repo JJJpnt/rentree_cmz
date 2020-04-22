@@ -230,7 +230,7 @@
             </div>
 
             <!-- LAYER NR. 16 -->
-            <a class="tp-caption   tp-resizeme" href="https://revolution.themepunch.com/direct-customer-benefits/"
+            <a class="tp-caption   tp-resizeme" href="faq.php"
                 target="_blank" id="slide-32-layer-18" data-x="['center','center','center','center']"
                 data-hoffset="['-270','-270','-230','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['100','100','200','210']" data-fontsize="['30','30','25','25']"
@@ -244,7 +244,7 @@
 
             <!-- LAYER NR. 17 -->
             <a class="tp-caption   tp-resizeme"
-                href="https://revolution.themepunch.com/direct-customer-benefits/#templatelibrary" target="_blank"
+                href="event.php" target="_blank"
                 id="slide-32-layer-19" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','200','150']"
                 data-fontsize="['30','30','25','25']" data-lineheight="['28','28','23','23']" data-width="270"
@@ -253,10 +253,10 @@
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
-                toutes les<br />activitées de la journée</a>
+                toutes les<br />activités de la journée</a>
 
             <!-- LAYER NR. 18 -->
-            <a class="tp-caption   tp-resizeme" href="https://revolution.themepunch.com/examples/" target="_blank"
+            <a class="tp-caption   tp-resizeme" href="https://rentree-etudiants-cmz.fr/" target="_blank"
                 id="slide-32-layer-20" data-x="['center','center','center','center']"
                 data-hoffset="['270','270','230','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['100','100','200','90']" data-fontsize="['30','30','25','25']"
