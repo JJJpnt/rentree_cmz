@@ -56,7 +56,7 @@
     <h2 class="title2">Etablissement</h2>
     <form class="contact-form row displayfix">
       <div class="form-field col-lg-12">
-        <center><select name="etablissement" id="etablissement">
+        <center><select class="form-control" name="etablissement" id="etablissement">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
             <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
             <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
