@@ -43,7 +43,7 @@
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.<br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.</p>
-        </div>
+</div>
       <button type="button" class="btn btn-warning mt-5">S'Inscrire</button>
     </div>
   </div>

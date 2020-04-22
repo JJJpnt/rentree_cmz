@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">    
 
     <title>Rentrée des étudiants - CMZ</title>
@@ -142,6 +142,7 @@
     </div>
     <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
     <a href="event_register_caroloexpress.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+    <br>
     </div>
   </div>
     </div>

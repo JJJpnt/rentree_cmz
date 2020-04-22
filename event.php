@@ -28,47 +28,47 @@
 
   <!--carte-->
 
-  <div class="row text-center m-5">
-    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+  <div class="row card_event text-center m-5">
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em mb-2" >
         <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Carolo Express</h5>
-          <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville<br> autrement.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
+          <a href="events_express.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em mb-2" >
         <img class="card-img-top" src="img/carolo_warrior" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Carolo Warrior</h5>
           <p class="card-text">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou
             ludiques.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark ">en savoir plus</a>
+          <a href="events_warrior.php" class="btn btn-primary bg-blue-dark ">en savoir plus</a>
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em mb-2" >
         <img class="card-img-top" src="img/concours_cuisine.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Concours De Cuisine</h5>
           <p class="card-text">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.
           </p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <a href="events_cuisine.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>
-    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em" >
         <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Pique-Nique</h5>
           <p class="card-text">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
             disposition.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <a href="events_pique-nique.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>

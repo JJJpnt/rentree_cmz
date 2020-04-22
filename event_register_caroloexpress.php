@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+  <!-- Required meta tags 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -52,7 +52,7 @@
         de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
         Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
         le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
-        Opérez votre inscription ensemble.
+        Opérez votre inscription ensemble.</p>
     </center><br><br><br>
     <h2 class="title2">Etablissement</h2>
     <form class="contact-form row displayfix">
@@ -215,7 +215,6 @@
       </div>
     </form>
   </section>
-
   <!-- Parrallaxe -->
   <?php include('include/parallax.php')?>
 
