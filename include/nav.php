@@ -5,11 +5,11 @@ $(function(){
         st = $(this).scrollTop();
         // console.log(st);
         if((st <= 40)||(st < lastScrollTop)){
-            // console.log("<40 or up");
+            console.log("<40 or up");
             // $("body").removeClass("sticky-header");
             $("header").css("marginTop", 0 );
         }else{
-            // console.log(">40 or down");
+            console.log(">40 or down");
             $("header").css( "marginTop", ($("#header-top").height()*-0.666) );
             // $("body").addClass("sticky-header");
         }
@@ -18,6 +18,20 @@ $(function(){
         }else{
             $("header").removeClass("nav-opaque");
         }
+
+        if(navCloud){
+          if(st<$("#top_slider_container").height()) {
+            $("#header-top").addClass("nav-cloud");
+            $("#header-top").removeClass("nav-svg");
+          } else {
+            $("#header-top").removeClass("nav-cloud");
+            $("#header-top").addClass("nav-svg");
+          }
+        } else {
+            $("#header-top").removeClass("nav-cloud");
+            $("#header-top").addClass("nav-svg");
+        }
+
 
         lastScrollTop = st;
     });

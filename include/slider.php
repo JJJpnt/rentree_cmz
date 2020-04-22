@@ -1,5 +1,5 @@
 <!-- "fullscreen-container" class applied slider's wrapper -->
-<div class="rev_slider_wrapper fullscreen-container">
+<div id="top_slider_container" class="rev_slider_wrapper fullscreen-container">
 
 <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
 <div id="rev_slider_14_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">

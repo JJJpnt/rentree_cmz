@@ -24,6 +24,7 @@
 
 <body>
 
+  <script>var navCloud=true;</script>
   <?php include('include/nav.php')?>
 
   <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->

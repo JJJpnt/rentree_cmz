@@ -376,12 +376,20 @@ footer {
 
 /* JJJ Navbar styles */
 
+.nav-cloud {
+    background: url("../img/clouds/cloud_nav.png");
+    /* background: url("../img/navback.svg"); */
+}
+.nav-svg {
+    /* background: url("../img/clouds/cloud_nav.png"); */
+    background: url("../img/navback.svg");
+}
 
 .navbar-container {
     /* overflow: visible; */
     /* background-repeat: no-repeat; */
     /* background: url("../img/navback.svg"); */
-    background: url("../img/clouds/cloud_nav.png");
+    /* background: url("../img/clouds/cloud_nav.png"); */
     background-position-y: top;
     background-position-x: center;
     background-attachment: local;
@@ -389,6 +397,7 @@ footer {
     background-size: 5000px 80px;
     /* backdrop-filter: blur(8px); */
     height: 80px;
+    transition: all 1s ease;
 }
 
 .navbar {
