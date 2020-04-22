@@ -31,10 +31,10 @@
 
 
   <!-- Texte RDE / Evenements -->
-
-  <div id="evenements" class="container-fluid">
+  
+  <div id="evenements" class="container-fluid ">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-xl-6 my-auto col-mb-10  order-1 p-0 m-0">
         <h2 class="text-center policetitres">Rentrée des étudiants</h2>
         <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
           Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
@@ -44,18 +44,18 @@
           similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
           natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
       </div>
-      <div class="col-6">
-        <img class="rdeimg" src="img/event_2019/1.jfif">
+      <div class="col-xl-6 col-mb-10  order-2 p-0 m-0">
+        <img class="rdeimg" src="img/event_2019/1.jfif" >
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
+  
     <div class="row">
-      <div class="col-6">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-0">
         <img class="evenementimg" src="img/event_2019/1.jfif">
       </div>
-      <div class="col-6 my-auto">
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
         <h2 class="text-center policetitres">Les évènements</h2>
         <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
           Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
@@ -67,7 +67,7 @@
       </div>
     </div>
   </div>
-
+  
   <!-- Image / Motif / Editions -->
   <div class="container-fluid">
     <div class="row motifimg">
