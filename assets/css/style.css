@@ -178,10 +178,9 @@ html {
     margin-bottom: 1em;
 }
 .btn-light{
-    text-align: center;
     width: 50%;
-    height: 15%;
-    font-size: 3em;
+    height: 2em;
+    font-size: 1em;
 }
 .showeventinscription {
     display: flex;
@@ -199,6 +198,23 @@ html {
 }
 .txt_events_main{
     font-size: 1.5em;
+}
+@media screen and (min-width: 1200px){
+    .card_event .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 19em;
+    }
+    .btn-light{
+        text-align: center;
+        width: 50%;
+        height: 15%;
+        font-size: 3em;
+    }
 }
 
 /* Footer Yohann Styles */
