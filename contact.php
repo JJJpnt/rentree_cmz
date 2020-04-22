@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rentrée des étudiants - CMZ</title>
   </head>
@@ -24,38 +26,30 @@
     </div>
 
     <div class="contactform">
-    <section class="get-in-touch">
-        <h1 class="title">Contactez-nous</h1>
-        <form class="contact-form row">
-        <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="name" class="input-text js-input" type="text" required>
-                <label class="label" for="name">Nom</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6 ">
-                <input id="email" class="input-text js-input" type="email" required>
-                <label class="label" for="email">Prénom</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">Mail</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-6">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">Message</label>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="form-field col-lg-12">
-                <center><input class="submit-btn" type="submit" value="Submit"></center>
-            </div>
-        </form>
-    </section>
+        <section class="get-in-touch">
+            <h1 class="title">Contactez-nous</h1>
+            <form class="contact-form row justify-content-center">
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Nom</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="firstname">Prénom</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="mail">Mail</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" required>
+                    <label class="label" for="message">Message</label>
+                </div>
+                <div class="form-field col-12">
+                    <center><input class="submit-btn" type="submit" value="Envoyer"></center>
+                </div>
+            </form>
+        </section>
     </div>
 
     <div class="contactfontawesome">

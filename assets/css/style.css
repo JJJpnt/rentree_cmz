@@ -149,7 +149,7 @@ html {
     position: absolute;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url(../../img/motif.jpg);
+    background-image: url(../../img/motif3.jpg);
     background-size: cover;
     background-position-y: center;
 }
@@ -278,7 +278,6 @@ footer {
 
 
 .get-in-touch {
-    max-width: 800px;
     margin: 50px auto;
     position: relative;
   
