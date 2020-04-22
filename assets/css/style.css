@@ -498,16 +498,10 @@ body.sticky-header header h1 {
 header .input-group {
     margin-bottom: 1px !important;
 }
-/* anthony */
 
-@media screen and (max-width: 500px) {
-    .btn-warning {
-        width: 30%;
-    }
-    .btn-light{
-        font-size: 2em;
-    }
-    .txt_events_main{
-        font-size: 0.7em;
-    }
-  }
+
+/* Fix for Yohann forms */
+
+.contact-form.row {
+    display: block !important;
+}
