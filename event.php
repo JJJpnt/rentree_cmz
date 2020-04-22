@@ -36,7 +36,7 @@
         <div class="card-body">
           <h5 class="card-title">Carolo Express</h5>
           <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <a href="events_express.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@
           <h5 class="card-title">Carolo Warrior</h5>
           <p class="card-text">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou
             ludiques.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark ">en savoir plus</a>
+          <a href="events_warrior.php" class="btn btn-primary bg-blue-dark ">en savoir plus</a>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
           <h5 class="card-title">Concours De Cuisine</h5>
           <p class="card-text">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.
           </p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <a href="events_cuisine.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@
           <h5 class="card-title">Pique-Nique</h5>
           <p class="card-text">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
             disposition.</p>
-          <a href="#" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+          <a href="events_pique-nique.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>
