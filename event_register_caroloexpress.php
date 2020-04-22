@@ -55,7 +55,7 @@
         Opérez votre inscription ensemble.
     </center><br><br><br>
     <h2 class="title2">Etablissement</h2>
-    <form class="contact-form row">
+    <form class="contact-form row displayfix">
       <div class="form-field col-lg-12">
         <center><select name="etablissement" id="etablissement">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -77,26 +77,26 @@
             <option value="LSV">Lycée Simone Veil</option>
           </select></center>
       </div>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <h2 class="title2">Nom de l'équipe ( à votre choix)</h2>
         </div>
       </div>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>
       </div>
       <h2 class="title2">Mot de passe</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="password" required>
           <label class="label" for="name">mot de passe</label>
         </div>
       </div>
       <h2 class="title2">Participant 1</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -119,7 +119,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 2</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -142,7 +142,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 3</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -165,7 +165,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 4</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -188,7 +188,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 5</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
