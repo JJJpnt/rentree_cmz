@@ -34,7 +34,7 @@
 pour les 200 premières réservations.</p>
       </div>
       <div class="col-6">
-        <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
+        <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
   </div>
