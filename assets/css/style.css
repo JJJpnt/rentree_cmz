@@ -516,7 +516,7 @@ header .input-group {
 
 /* Fix for Yohann forms */
 
-.contact-form.row {
+.contact-form.row.displayfix {
     display: block !important;
 }
 

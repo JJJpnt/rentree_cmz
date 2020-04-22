@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <title>Inscription Carolo Express</title>
 </head>
@@ -35,7 +36,7 @@
           Opérez votre inscription ensemble.</p>
       </div>
       <div class="col-12 col-md-6">
-        <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
+        <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
   </div>
@@ -53,7 +54,7 @@
         Opérez votre inscription ensemble.
     </center><br><br><br>
     <h2 class="title2">Etablissement</h2>
-    <form class="contact-form row">
+    <form class="contact-form row displayfix">
       <div class="form-field col-lg-12">
         <center><select class="custom-select" name="etablissement" id="etablissement">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -75,26 +76,26 @@
             <option value="LSV">Lycée Simone Veil</option>
           </select></center>
       </div>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <h2 class="title2">Nom de l'équipe ( à votre choix)</h2>
         </div>
       </div>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>
       </div>
       <h2 class="title2">Mot de passe</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="password" required>
           <label class="label" for="name">mot de passe</label>
         </div>
       </div>
       <h2 class="title2">Participant 1</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -117,7 +118,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 2</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -140,7 +141,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 3</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -163,7 +164,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 4</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -186,7 +187,7 @@
         </div>
       </div>
       <h2 class="title2">Participant 5</h2>
-      <div class="contact-form row">
+      <div class="contact-form row displayfix">
         <div class="form-field col-lg-12">
           <input id="name" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
@@ -263,7 +264,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
 </body>
 
