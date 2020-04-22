@@ -25,7 +25,7 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Le Carolo Express</h2>
         <p class="policep">Merci de remplir les champs ci-dessous pour inscrire votre équipe
           et participer au Carolo express (course d’orientation) qui pourra vous permettre
@@ -34,7 +34,7 @@
           le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
           Opérez votre inscription ensemble.</p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <img class="rdeimg" src="img/imgetudiantspiscine.jpg">
       </div>
     </div>
@@ -219,7 +219,7 @@
 
   <!-- Event Cards -->
   <div class="row my-4 mx-auto">
-    <div class="col-6 col-md-4 mb-2">
+    <div class="col-12 col-md-6 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -229,7 +229,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6 col-md-4 mb-2">
+    <div class="col-12 col-md-6 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -239,7 +239,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6 col-md-4 mb-2">
+    <div class="col-12 col-md-6 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">

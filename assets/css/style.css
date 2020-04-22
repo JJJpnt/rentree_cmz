@@ -211,7 +211,8 @@ html {
     .txt_events_main{
         font-size: 0.7em;
     }
-  }
+
+}
 
 
 
@@ -517,4 +518,20 @@ header .input-group {
 
 .contact-form.row {
     display: block !important;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .get-in-touch .title {
+        letter-spacing: 1px;
+        font-size: 2.2em;
+        line-height: 32px;
+        padding-bottom: 32px;
+      }
+    
+
+
+
+
 }
