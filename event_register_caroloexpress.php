@@ -219,8 +219,8 @@
   <?php include('include/parallax.php')?>
 
   <!-- Event Cards -->
-  <div class="row my-4 mx-auto">
-    <div class="col-6 col-md-4 mb-2">
+  <div class="row my-4 justify-content-center">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -230,7 +230,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6 col-md-4 mb-2">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -240,7 +240,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6 col-md-4 mb-2">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
