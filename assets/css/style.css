@@ -200,6 +200,7 @@ html {
 .txt_events_main{
     font-size: 1.5em;
 }
+
 @media screen and (min-width: 1200px){
     .card_event .card-body{
         display: flex;
@@ -215,9 +216,6 @@ html {
         width: 50%;
         height: 15%;
         font-size: 3em;
-    }
-    .txt_events_main{
-        font-size: 0.7em;
     }
 
 }

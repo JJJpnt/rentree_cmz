@@ -82,10 +82,10 @@
 
   <div class="row mt-5 mb-5">
     <div class="col-lg-1"></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/concours_cuisine.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-6 col-lg-2 mx-auto my-auto"><img src="img/pique_nique.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/concours_cuisine.png" class="img-fluid mt-1 "></div>
+    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/pique_nique.png" class="img-fluid mt-1 "></div>
     <div class="col-lg-1"></div>
   </div>
 

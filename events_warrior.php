@@ -172,8 +172,9 @@
                 </div>
             </div>
             <div
-                class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
+                class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center text-center">
                 <a href="event_register_carolowarrior.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+                <br>
             </div>
         </div>
     </div>
