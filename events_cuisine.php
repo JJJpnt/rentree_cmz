@@ -163,6 +163,7 @@
             <div
                 class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
                 <a href="event_register_concourscuisine.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+                <br>
             </div>
         </div>
     </div>
