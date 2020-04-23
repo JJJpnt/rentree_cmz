@@ -9,9 +9,7 @@
   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- Fonts CSS -->
 <link href="https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap" rel="stylesheet">
 <!-- Slick pour carousel partenaires -->
 <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />

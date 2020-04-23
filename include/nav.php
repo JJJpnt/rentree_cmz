@@ -1,7 +1,15 @@
 <script type="text/javascript">
 $(function(){
     var lastScrollTop = 0;
+    if (typeof navCloud === 'undefined') { 
+              navCloud = false; 
+              $("#header-top").addClass("nav-svg");
+            } else {
+              $("#header-top").addClass("nav-cloud");
+          }
     $(window).scroll(function(){
+
+
         st = $(this).scrollTop();
         // console.log(st);
         if((st <= 40)||(st < lastScrollTop)){

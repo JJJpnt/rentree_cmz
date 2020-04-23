@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rentrée des étudiants - CMZ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
   </head>
   <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <?php include('include/nav.php')?>
 
     <div class="headercontact">
@@ -80,7 +81,17 @@
 
 
 
-
+    <div class="nospartenaires bg-azur-light">
+        <h2 class="policetitres text-center">Nos partenaires</h2>
+        <div class="grid max-auto">
+            <div class="grid-item"><img src="img/event_2019/1.jfif"></div>
+            <div class="grid-item grid-item--width2"><img src="img/event_2019/2.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/3.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/4.jfif"></div>
+            <div class="grid-item grid-item--width2"><img src="img/event_2019/5.jfif"></div>
+            <div class="grid-item"><img src="img/event_2019/6.jfif"></div>
+        </div>
+    </div>
 
 
 
@@ -97,7 +108,8 @@
         $('.grid').masonry({
             // options
             itemSelector: '.grid-item',
-            columnWidth: 200
+            columnWidth: 200,
+            gutter: 20
         });
 
     });
@@ -106,7 +118,6 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
