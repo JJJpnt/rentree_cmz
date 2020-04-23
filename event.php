@@ -88,6 +88,34 @@
     <div class="col-lg-1"></div>
   </div>
 
+<!-- Test tabs pour galerie photos -->
+  <!-- <div class="container-fluid">
+    <div class="row justify-content-center">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item mr-5">
+          <a class="nav-link active" id="tabcaroloexpress" data-toggle="tab" href="#tabcaroloexpress" role="tab" aria-controls="home" aria-selected="true">Carolo Express</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" id="tabcarolowarrior" data-toggle="tab" href="#tabcarolowarrior" role="tab" aria-controls="profile" aria-selected="false">Carolo Warrior</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" id="tabcuisine" data-toggle="tab" href="#tabcuisine" role="tab" aria-controls="contact" aria-selected="false">Concours de Cuisine</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tabpiquenique" data-toggle="tab" href="#tabpiquenique" role="tab" aria-controls="contact" aria-selected="false">Pique-Nique</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row justify-content-center">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="caroloexpresscontent" role="tabpanel" aria-labelledby="caroloexpress-tab">Carolo express content</div>
+        <div class="tab-pane fade" id="carolowarriorcontent" role="tabpanel" aria-labelledby="carolowarrior-tab">Carolo warrior content</div>
+        <div class="tab-pane fade" id="concourscuisinecontent" role="tabpanel" aria-labelledby="concourscuisine-tab">Concours de cuisine content</div>
+        <div class="tab-pane fade" id="piqueniquecontent" role="tabpanel" aria-labelledby="piquenique-tab">Pique-Nique content</div>
+      </div>
+    </div>
+  </div> -->
+
   <div class="row m-5 justify-content-center">
 
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
@@ -118,6 +146,15 @@
   <!-- footer -->
 
   <?php include("include/footer.php"); ?>
+
+
+  <!-- Test script tabs pour galerie photos -->
+  <!-- <script>
+    $('#myTab a[href="#caroloexpresscontent"]').tab('show') // Select tab by name
+    $('#myTab li:first-child a[href="#carolowarriorcontent"]').tab('show') // Select first tab
+    $('#myTab li:last-child a[href="#piqueniquecontent"]').tab('show') // Select last tab
+    $('#myTab li:nth-child(3) a[href="#concourscuisinecontent"]').tab('show') // Select third tab
+  </script> -->
 
 
   <!-- PrettyPhoto js -->
