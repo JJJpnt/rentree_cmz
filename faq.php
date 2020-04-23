@@ -44,7 +44,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.</p>
 </div>
-      <button type="button" class="btn btn-warning mt-5">S'Inscrire</button>
+      <a href="event.php" type="button" class="btn btn-warning mt-5">S'Inscrire</a>
     </div>
   </div>
   <!-- footer -->

@@ -30,7 +30,7 @@
                 <h3 class="title-footer">A savoir</h3>
             <a class="liens-footer" href="https://www.charleville-mezieres.fr/"> Charleville Mézières</a> <br>
             <a class="liens-footer" href="https://www.ardennes.cci.fr/votre-cci/nous-rencontrer/acces-au-pole-formation-article884.html"> Campus du cci des ardennes </a> <br> 
-            <a class="liens-footer" href="">Mentions légale </a>  <br>
+            <a class="liens-footer" href="include/mention.php">Mentions légale </a>  <br>
             <a class="liens-footer" href="faq.php">FAQ </a>  <br>
 
 

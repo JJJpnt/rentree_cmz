@@ -80,11 +80,6 @@
 
 
 
-
-
-
-
-
     <!-- Page d'acceuil content end -->
 
     <?php include('include/footer.php')?>
