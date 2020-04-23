@@ -22,7 +22,9 @@
 
 <body>
 
-  <script>var navCloud=true;</script>
+  <script>
+    var navCloud = true;
+  </script>
   <?php include('include/nav.php')?>
 
   <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
@@ -30,9 +32,9 @@
 
 
   <!-- Texte RDE / Evenements -->
-  
-  <div id="evenements" class="container-fluid ">
-    <div class="row">
+
+  <div id="evenements" class="container-fluid">
+    <div class="row w-100">
       <div class="col-xl-6 my-auto col-mb-10  order-1 p-0 m-0">
         <h2 class="text-center policetitres">Rentrée des étudiants</h2>
         <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
@@ -44,29 +46,29 @@
           natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
       </div>
       <div class="col-xl-6 col-mb-10  order-2 p-0 m-0">
-        <img class="rdeimg" src="img/event_2019/1.jfif" >
+        <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
   </div>
 
-  
-    <div class="row">
-      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-0">
-        <img class="evenementimg" src="img/event_2019/1.jfif">
-      </div>
-      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
-        <h2 class="text-center policetitres">Les évènements</h2>
-        <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
-          Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
-          expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
-          illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
-          quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-          similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
-          natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
-      </div>
+
+  <div class="row w-100">
+    <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-0">
+      <img class="evenementimg" src="img/event_2019/1.jfif">
+    </div>
+    <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+      <h2 class="text-center policetitres">Les évènements</h2>
+      <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
+        Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
+        expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
+        illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
+        quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+        similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
+        natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
     </div>
   </div>
-  
+  </div>
+
   <!-- Image / Motif / Editions -->
   <div class="container-fluid">
     <div class="row motifimg">
@@ -141,12 +143,18 @@
       <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;">
         <div class="container">
           <div class="slicktest mb-5">
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
-            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo"></div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
+            <div class="col-2"><img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            </div>
           </div>
         </div>
       </div>
@@ -179,27 +187,26 @@
       centerMode: true,
       centerPadding: '60px',
       slidesToShow: 5,
-      responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-      
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+
     });
   </script>
 

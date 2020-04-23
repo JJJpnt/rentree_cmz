@@ -26,7 +26,6 @@
         <img src="img/contactbanner.png" class="img-fluid">
     </div>
 
-    <div class="contactform">
         <section class="get-in-touch">
             <h1 class="title">Contactez-nous</h1>
             <form class="contact-form row justify-content-center">
@@ -51,7 +50,6 @@
                 </div>
             </form>
         </section>
-    </div>
 
     <div class="contactfontawesome">
         <h2 class="text-center policetitres mt-2">Ou alors</h2>
