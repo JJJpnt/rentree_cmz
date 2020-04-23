@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
   <title>Inscription Carolo Express</title>
@@ -16,7 +17,9 @@
 <body>
 
 
-<script>var navCloud=true;</script>
+  <script>
+    var navCloud = true;
+  </script>
   <?php include('include/nav.php')?>
   <!-- Evenement register content -->
 
@@ -45,18 +48,16 @@
   <!-- Formumaire -->
 
   <section class="get-in-touch container-lg">
-    <center>
-      <h1 class="title">Inscription Carolo Express</h1><br><br>
-      <p class="text_text policep">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-        et participer au Carolo express (course d’orientation) qui pourra vous permettre
-        de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
-        Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
-        le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
-        Opérez votre inscription ensemble.</p>
-    </center><br><br><br>
-    <h2 class="title2">Etablissement</h2>
-    <form class="contact-form row displayfix">
-      <div class="form-field col-lg-12">
+    <h1 class="title">Inscription Carolo Express</h1><br>
+    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
+      et participer au Carolo express (course d’orientation) qui pourra vous permettre
+      de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
+      Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
+      le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
+      Opérez votre inscription ensemble.</p><br>
+    <h2 class="title2 mt-3">Etablissement</h2>
+    <form class="contact-form row w-100 justify-content-center">
+      <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
             <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
@@ -77,150 +78,158 @@
             <option value="LSV">Lycée Simone Veil</option>
           </select></center>
       </div>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <h2 class="title2">Nom de l'équipe ( à votre choix)</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-12 form-field">
+          <h2 class="title2">Nom de l'équipe (à votre choix)</h2>
         </div>
       </div>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" class="input-text js-input" name="teamname" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
         </div>
       </div>
-      <h2 class="title2">Mot de passe</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="password" required>
-          <label class="label" for="name">mot de passe</label>
+
+      <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="password" class="input-text js-input" type="password" required>
+          <label class="label" for="name">Mot de passe</label>
         </div>
       </div>
-      <h2 class="title2">Participant 1</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+
+      <h2 class="title2 mt-3">Participant 1</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="namepart1" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="email" class="input-text js-input" type="email" required>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="telpart1" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Mobile</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="mailpart1" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="verifmailpart1" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
-      <h2 class="title2">Participant 2</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+
+      <h2 class="title2 mt-3">Participant 2</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="namepart2" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="email" class="input-text js-input" type="email" required>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="telpart2" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Mobile</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
-      <h2 class="title2">Participant 3</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+
+      <h2 class="title2 mt-3">Participant 3</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="namepart3" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="email" class="input-text js-input" type="email" required>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="firstnamepart3" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="telpart3" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Mobile</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="mailpart3" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="verifmailpart3" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
-      <h2 class="title2">Participant 4</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+
+      <h2 class="title2 mt-3">Participant 4</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="namepart4" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="email" class="input-text js-input" type="email" required>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="firstnamepart4" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="telpart4" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Mobile</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="mailpart4" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="verifmailpart4" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
-      <h2 class="title2">Participant 5</h2>
-      <div class="contact-form row displayfix">
-        <div class="form-field col-lg-12">
-          <input id="name" class="input-text js-input" type="text" required>
+
+      <h2 class="title2 mt-3">Participant 5</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="namepart5" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="email" class="input-text js-input" type="email" required>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="firstnamepart5" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="company" class="input-text js-input" type="text" required>
-          <label class="label" for="company">Mobile</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="telpart5" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Mobile</label>
         </div>
-        <div class="form-field col-lg-12 ">
-          <input id="phone" class="input-text js-input" type="text" required>
-          <label class="label" for="phone">E-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="mailpart5" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input id="message" class="input-text js-input" type="text" required>
-          <label class="label" for="message">Retapez l'e-mail</label>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="email" name="verifmailpart5" class="input-text js-input" type="email" required>
+          <label class="label" for="email">Retapez l'email</label>
         </div>
-        <div class="form-field col-lg-12">
-          <input class="submit-btn" type="submit" value="Submit">
-        </div>
+      </div>
+
+      <div class="form-field col-12">
+        <center><input class="submit-btn" type="submit" value="Valider"></center>
       </div>
     </form>
   </section>
+
   <!-- Parrallaxe -->
   <?php include('include/parallax.php')?>
 
   <!-- Event Cards -->
-  <div class="row my-4 justify-content-center">
-    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
+  <div class="row my-4 justify-content-center w-100">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -230,7 +239,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -240,7 +249,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-8 mb-2">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
@@ -259,10 +268,12 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

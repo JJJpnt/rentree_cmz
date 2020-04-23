@@ -88,12 +88,12 @@
     <div class="col-lg-1"></div>
   </div>
 
-  <div class="row m-5">
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
+  <div class="row m-5 justify-content-center">
+
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
-    <div class="col-xs-7 col-md-7 col-lg-1"></div>
+
     <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"></div>
+
   </div>
 
   <!-- Galerie photo -->
