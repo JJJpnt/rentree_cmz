@@ -117,11 +117,11 @@
     </div>
   </div> -->
 
-  <div class="row m-5 justify-content-center">
+  <div class="row m-5 d-flex justify-content-center">
 
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
+    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
 
-    <div class="col-xs-6 col-md-7 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
+    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
 
   </div>
 
