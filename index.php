@@ -37,36 +37,40 @@
     <div class="row w-100">
       <div class="col-xl-6 my-auto col-mb-10  order-1 p-0 m-0">
         <h2 class="text-center policetitres">Rentrée des étudiants</h2>
-        <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
-          Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
-          expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
-          illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
-          quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-          similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
-          natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
+        <div class="w-75 mx-auto">
+          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
+            Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
+            expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
+            illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
+            quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+            similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
+            natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
+        </div>
       </div>
       <div class="col-xl-6 col-mb-10  order-2 p-0 m-0">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
-  </div>
+  
 
-
-  <div class="row w-100">
-    <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-0">
-      <img class="evenementimg" src="img/event_2019/1.jfif">
+  
+    <div class="row w-100">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-0">
+        <img class="evenementimg" src="img/event_2019/1.jfif">
+      </div>
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+        <h2 class="text-center policetitres">Les évènements</h2>
+        <div class="w-75 mx-auto">
+          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
+            Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
+            expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
+            illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
+            quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+            similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
+            natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
+        </div>
+      </div>
     </div>
-    <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
-      <h2 class="text-center policetitres">Les évènements</h2>
-      <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
-        Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
-        expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
-        illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
-        quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-        similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
-        natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
-    </div>
-  </div>
   </div>
 
   <!-- Image / Motif / Editions -->
@@ -75,12 +79,12 @@
       <img src="img/imgmotifetudiants.jpg" style="width: 100%;">
       <div class="col-8 motiftest">
         <div class="row">
-          <div class="bg-yellow-light col-3 mx-auto">
+          <div class="bg-yellow-light col-md-3  col-5 mx-auto ">
             <h2 class="policetitres text-center">Edition 2020</h2>
           </div>
-          <div class="bg-yellow-light col-3 mx-auto">
+          <div class="bg-yellow-light col-md-3  col-5 mx-auto">
             <a href="https://rentree-etudiants-cmz.fr/" style="text-decoration: none;">
-              <h2 class="policetitres text-center">Edition 2019</h2>
+              <h2 class="policetitres text-center ">Edition 2019</h2>
             </a>
           </div>
         </div>
@@ -113,7 +117,7 @@
         <div class="row d-flex">
           <div class="col-2"></div>
           <div class="col-2">
-            <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <img src="img/logoetudiantcarolo.png" class="carou-img d-block w-100" alt="Logo étudiant carolo">
           </div>
           <div class="col-1"></div>
           <div class="col-5 align-self-center">
