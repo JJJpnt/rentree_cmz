@@ -22,8 +22,8 @@
     <div><img class="event_img" src="img/caroloexpress.png"></div>
 
     <div class="row text-center ">
-        <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
-                class="w-100 h-100 display-block"></div>
+        <div class="col-xl-6 col-lg-12 col-md-12 my-auto"><img src="img/carolo_express_img.jpg"
+                class="w-100 display-block"></div>
         <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
             <h2>Carolo Warrior</h2>
             <div class="w-75 my-auto">
@@ -149,7 +149,7 @@
         <h2>S'inscrire<h2>
     </div>
 
-    <div class="container-fluid">
+   <div class="container-fluid">
         <div class="row text-center">
             <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
                 <h2>Regle</h2>
