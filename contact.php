@@ -81,7 +81,7 @@
 
     <div class="nospartenaires bg-azur-light">
         <h2 class="policetitres text-center">Nos partenaires</h2>
-        <div class="grid max-auto">
+        <div class="grid">
             <div class="grid-item"><img src="img/event_2019/1.jfif"></div>
             <div class="grid-item grid-item--width2"><img src="img/event_2019/2.jfif"></div>
             <div class="grid-item"><img src="img/event_2019/3.jfif"></div>
