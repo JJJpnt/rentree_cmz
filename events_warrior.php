@@ -21,7 +21,7 @@
 
     <div><img class="event_img" src="img/caroloexpress.png"></div>
 
-    <div class="row text-center ">
+    <div class="row w-100 text-center ">
         <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
                 class="w-100 h-100 display-block"></div>
         <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
@@ -50,7 +50,7 @@
 
     <div class="showeventinfo m-3">
         <div class="container-fluid">
-            <div class="row text-center">
+            <div class="row w-100 text-center">
                 <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                     <div class="card mx-auto my-auto " style="width: 18rem;">
 
@@ -105,7 +105,7 @@
 
     <div class="showeventcarac">
         <h2 class="text-center">Caractéristiques</h2>
-        <div class="row mt-5">
+        <div class="row w-100 mt-5">
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                     <br>
@@ -150,7 +150,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row text-center">
+        <div class="row w-100 text-center">
             <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
                 <h2>Regle</h2>
                 <div class="w-75 my-auto">
