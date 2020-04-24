@@ -549,6 +549,8 @@ header .input-group {
     
 
 
-
+.carou-img{
+    display: none !important;
+}
 
 }
