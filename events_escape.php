@@ -11,7 +11,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Rentrée des étudiants - CMZ</title>
+    <title>Escape game</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
@@ -25,20 +25,18 @@
         <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
                 class="w-100 h-100 display-block"></div>
         <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
-            <h2>Pique-Nique</h2>
+            <h2>Escape game</h2>
             <div class="w-75 my-auto">
-                <p class="txt_events_main">Afin de passer tous ensemble une pause déjeuner conviviale, vous avez la
-                        possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition sur un
-                        espace de la Plaine du Mont Olympe.
+                <p class="txt_events_main">Pour ceux qui aiment cuisiner, un Concours de cuisine sera proposé sur
+                        la Place Ducale en partenariat avec l’association INTERCampus.
                         <br><br>
-                        Sinon, vous avez la possibilité de profiter d’une formule déjeuner à 3€ (au lieu de 5€)
-                        pour les 200 premiers les plus rapides !!
+                        Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat ! Plusieurs équipes
+                        s’affronteront. Le matériel minimum nécessaire sera mis à disposition.
                         <br><br>
-                        La formule sera composée d’un burger, d’une frite et d’une boisson.
+                        Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos préparations.
                         <br><br>
-                        Afin de bénéficier du repas à 3€, il est impératif de réserver votre repas.
-                        <br><br>
-                        Vous paierez sur place le jour J.<p>
+                        Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe
+                        de 2 personnes.<p>
             </div>
         </div>
     </div>
@@ -106,36 +104,36 @@
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                     <br>
+                    <p class="text-center">Participants</p>
+                    <br>
+                    <p class="text-center">...</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
+                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                    <br>
                     <p class="text-center">Horaires</p>
                     <br>
-                    <p class="text-center">12h00</p>
+                    <p class="text-center">14h / 20h</p>
                     <br>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                     <br>
-                    <p class="text-center">Temps</p>
+                    <p class="text-center">lieux</p>
                     <br>
-                    <p class="text-center">5h00</p>
-                    <br>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
-                    <br>
-                    <p class="text-center">Temps</p>
-                    <br>
-                    <p class="text-center">5h00</p>
+                    <p class="text-center">Charleville-Mézières</p>
                     <br>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
                 <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
                     <br>
-                    <p class="text-center">Temps</p>
+                    <p class="text-center">Date</p>
                     <br>
-                    <p class="text-center">5h00</p>
+                    <p class="text-center">27/09/2020</p>
                     <br>
                 </div>
             </div>
@@ -151,23 +149,21 @@
             <div class="col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
                 <h2>Regle</h2>
                 <div class="w-75 my-auto">
-                    <p class="txt_events_main">Afin de passer tous ensemble une pause déjeuner conviviale, vous avez la
-                        possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition sur un
-                        espace de la Plaine du Mont Olympe.
+                    <p class="txt_events_main"> Pour ceux qui aiment cuisiner, un Concours de cuisine sera proposé sur
+                        la Place Ducale en partenariat avec l’association INTERCampus.
                         <br><br>
-                        Sinon, vous avez la possibilité de profiter d’une formule déjeuner à 3€ (au lieu de 5€)
-                        pour les 200 premiers les plus rapides !!
+                        Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat ! Plusieurs équipes
+                        s’affronteront. Le matériel minimum nécessaire sera mis à disposition.
                         <br><br>
-                        La formule sera composée d’un burger, d’une frite et d’une boisson.
+                        Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos préparations.
                         <br><br>
-                        Afin de bénéficier du repas à 3€, il est impératif de réserver votre repas.
-                        <br><br>
-                        Vous paierez sur place le jour J. </p>
+                        Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe
+                        de 2 personnes. </p>
                 </div>
             </div>
             <div
                 class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column justify-content-around align-items-center">
-                <a href="event_register_piquenique.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+                <a href="event_register_escape.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
                 <br>
             </div>
         </div>

@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <!-- Required meta tags -->
+  <!-- Required meta tags  -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,7 +29,7 @@
 
   <!--carte-->
 
-  <div class="row card_event text-center m-5">
+  <div class="row card_event text-center pt-2">
     <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
       <div class="card height-20em mb-2" >
         <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
@@ -70,6 +70,48 @@
           <p class="card-text">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
             disposition.</p>
           <a href="events_pique-nique.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row card_event text-center pt-2" style="background-color: whitesmoke">
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+      <div class="card height-20em" >
+        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Tournoi de basket</h5>
+          <p class="card-text">Tournoi de basket 5 à 7 participants.<br><br></p>
+          <a href="events_basket.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+      <div class="card height-20em" >
+        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Gacolor</h5>
+          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <a href="events_gacolor.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+      <div class="card height-20em" >
+        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bal de rentrée</h5>
+          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <a href="events_bal.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
+      <div class="card height-20em" >
+        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Escape game</h5>
+          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <a href="events_escape.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
         </div>
       </div>
     </div>

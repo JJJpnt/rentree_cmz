@@ -2,21 +2,25 @@
 <html lang="fr">
 
 <head>
-  <!-- Required meta tags -->
+  <!-- Required meta tags 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Inscription Carolo Warrior</title>
+  <title>Inscription Carolo Express</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
 
+  <script>
+    var navCloud = true;
+  </script>
   <?php include('include/nav.php')?>
   <!-- Evenement register content -->
 
@@ -27,14 +31,15 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
-        <h2 class="text-center policetitres">Le Carolo Warrior</h2>
-        <p class="policep">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-et participer au Carolo warrior (relai sportif et ludique). De nombreux
-lots sont à gagner. Pour constituer une équipe, vous devez être 8 participants.
-Opérez votre inscription ensemble</p>
+      <div class="col-12 col-md-6 my-auto">
+        <h2 class="text-center policetitres">Le Tournoi de basket</h2>
+        <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe <br>
+et participer au Tournoi de basket qui pourra vous permettre <br>
+de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 à 7 participants.<br>
+Opérez votre inscription ensemble.<br>
+Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’Arena de Charleville-Mézières.</p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
@@ -43,11 +48,12 @@ Opérez votre inscription ensemble</p>
   <!-- Formumaire -->
 
   <section class="get-in-touch container-lg">
-    <h1 class="title">Inscription Carolo Warrior</h1><br>
-    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-et participer au Carolo warrior (relai sportif et ludique). De nombreux
-lots sont à gagner. Pour constituer une équipe, vous devez être 8 participants.
-Opérez votre inscription ensemble</p><br>
+    <h1 class="title">Inscription Tournoi de basket</h1><br>
+    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe <br>
+et participer au Tournoi de basket qui pourra vous permettre <br>
+de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 à 7 participants.<br>
+Opérez votre inscription ensemble.<br>
+Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’Arena de Charleville-Mézières.</p><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
@@ -80,6 +86,14 @@ Opérez votre inscription ensemble</p><br>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
           <input id="name" class="input-text js-input" name="teamname" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
+        </div>
+      </div>
+
+      <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" name="password" class="input-text js-input" type="password" required>
+          <label class="label" for="name">Mot de passe</label>
         </div>
       </div>
 
@@ -206,23 +220,23 @@ Opérez votre inscription ensemble</p><br>
       <h2 class="title2 mt-3">Participant 6</h2>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart6" class="input-text js-input" type="text" required>
+          <input id="name" name="namepart2" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart6" class="input-text js-input" type="email" required>
+          <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart6" class="input-text js-input" type="email" required>
+          <input id="email" name="telpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Mobile</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart6" class="input-text js-input" type="email" required>
+          <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Email</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart6" class="input-text js-input" type="email" required>
+          <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
@@ -230,47 +244,23 @@ Opérez votre inscription ensemble</p><br>
       <h2 class="title2 mt-3">Participant 7</h2>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart7" class="input-text js-input" type="text" required>
+          <input id="name" name="namepart2" class="input-text js-input" type="text" required>
           <label class="label" for="name">Nom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart7" class="input-text js-input" type="email" required>
+          <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Prenom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart7" class="input-text js-input" type="email" required>
+          <input id="email" name="telpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Mobile</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart7" class="input-text js-input" type="email" required>
+          <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Email</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart7" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
-        </div>
-      </div>
-
-      <h2 class="title2 mt-3">Participant 8</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart8" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart8" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart8" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart8" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart8" class="input-text js-input" type="email" required>
+          <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
           <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
@@ -285,16 +275,14 @@ Opérez votre inscription ensemble</p><br>
   <?php include('include/parallax.php')?>
 
   <!-- Event Cards -->
-
-
   <div class="row my-4 justify-content-center w-100">
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title text-center">Carolo Express</h5>
-          
-          <center><a href="event_register_caroloexpress.php" class="btn btn-primary">S'inscrire</a></center>
+          <h5 class="card-title text-center">Carolo Warrior</h5>
+
+          <center><a href="event_register_carolowarrior.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
@@ -302,8 +290,8 @@ Opérez votre inscription ensemble</p><br>
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title text-center">Concours de cuisine</h5>
-          
+          <h5 class="card-title text-center">Concours de cuisine</h5>
+
           <center><a href="event_register_concourscuisine.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
@@ -312,24 +300,27 @@ Opérez votre inscription ensemble</p><br>
       <div class="card mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title text-center">Pique-nique</h5>
-          
+          <h5 class="card-title text-center">Pique-nique</h5>
+
           <center><a href="event_register_piquenique.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Event register content end -->
+  <!-- Footer -->
   <?php include('include/footer.php')?>
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

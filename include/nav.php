@@ -115,6 +115,10 @@ $(function(){
               <a class="dropdown-item" href="event_register_carolowarrior.php">Carolo Warrior</a>
               <a class="dropdown-item" href="event_register_concourscuisine.php">Concours de Cuisine</a>
               <a class="dropdown-item" href="event_register_piquenique.php">Pique-Nique</a>
+              <a class="dropdown-item" href="event_register_basket.php">Tournoi de basket</a>
+              <a class="dropdown-item" href="event_register_gacolor.php">Gacolor</a>
+              <a class="dropdown-item" href="event_register_bal.php">Bal de rentrée</a>
+              <a class="dropdown-item" href="event_register_escape.php">Escape game</a>
             </div>
           </li>
         </ul>
