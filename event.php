@@ -126,7 +126,7 @@
   </div>
 
   <!-- Galerie photo -->
-  <div class="container-fluid pl-5 pr-5">
+  <div class="container-fluid pl-5 pr-5" id="galerie">
     <div class="row mb-5">
       <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
       <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>

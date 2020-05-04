@@ -281,6 +281,22 @@ footer {
     font-size: 10px;
     padding-top: 10px;
 }
+
+.edition2019index :hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 5px rgb(49, 49, 49);
+    border: none;
+}
+
+.dropbtn {
+    background-color: transparent !important;
+}
+
+.dropitem {
+    background-color: transparent !important;
+}
+
 /* Formcontact */
 
 
