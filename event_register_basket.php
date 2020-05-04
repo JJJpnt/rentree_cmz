@@ -308,7 +308,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
     </div>
   </div>
 
-  <!-- Event register content end -->
+  <!-- Footer -->
   <?php include('include/footer.php')?>
 
 
