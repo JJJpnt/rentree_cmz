@@ -50,7 +50,7 @@ La Rentrée des étudiants est une occasion festive, ludique, sportive et cultur
         </div>
       </div>
       <div class="col-xl-6 col-mb-10  order-2 p-0 m-0">
-        <img class="rdeimg" src="img/event_2019/1.jfif">
+        <img class="rdeimg img-fluid" src="img/event_2019/1.jfif">
       </div>
     </div>
   
@@ -111,8 +111,8 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
                 <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_piquenique.php"><h4 class="policetitres">Pique-Nique</h4></a>
                 <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_basket.php"><h4 class="policetitres">Tournoi de Basket</h4></a>
                 <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_gacolor.php"><h4 class="policetitres">Gacolor</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_escapegame.php"><h4 class="policetitres">Escape Game</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_balrentree.php"><h4 class="policetitres">Bal de Rentrée</h4></a>
+                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_escape.php"><h4 class="policetitres">Escape Game</h4></a>
+                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_bal.php"><h4 class="policetitres">Bal de Rentrée</h4></a>
               </div>
             </div>
             <!-- /Collapse 2 -->
@@ -216,7 +216,7 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
       <h2 class="policetitres mt-3 mb-3">Nos partenaires</h2>
       <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;">
         <div class="container">
-          <div class="slicktest mb-5">
+          <div class="slicktest d-flex mb-5">
             <div class="col-2"><img src="img/ardennemetropole.png" class="d-block w-100" alt="Logo étudiant carolo">
             </div>
             <div class="col-2"><img src="img/campussupardennes.jpg" class="d-block w-100" alt="Logo étudiant carolo">
