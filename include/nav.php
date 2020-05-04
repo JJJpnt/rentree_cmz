@@ -98,6 +98,8 @@ $(function(){
               <a class="dropdown-item" href="event_register_carolowarrior.php">Carolo Warrior</a>
               <a class="dropdown-item" href="event_register_concourscuisine.php">Concours de Cuisine</a>
               <a class="dropdown-item" href="event_register_piquenique.php">Pique-Nique</a>
+              <a class="dropdown-item" href="event_register_basket.php">Tournoi de basket</a>
+              <a class="dropdown-item" href="event_register_gacolor.php">Gacolor</a>
             </div>
           </li>
         </ul>
