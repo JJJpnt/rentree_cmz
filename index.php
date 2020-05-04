@@ -214,42 +214,43 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
   <div class="container-fluid">
     <div class="row flexpartenaires" style="background-image: url(img/motif2.gif);">
       <h2 class="policetitres mt-3 mb-3">Nos partenaires</h2>
-      <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;">
+      <!-- <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;"> -->
+      <div class="row" style="padding-right: 0px; padding-left: 0px;">
         <div class="container">
           <div class="slicktest mb-5">
-            <div class="col-2"><img src="img/ardennemetropole.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/ardennemetropole.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/campussupardennes.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/campussupardennes.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/crous.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/crous.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/cv.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/cv.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/decathlon.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/decathlon.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/flap.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/flap.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/grandest.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/grandest.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/intercampus.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/intercampus.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/jeanteur.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/jeanteur.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/leroymerlin.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/leroymerlin.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/mcdo.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/mcdo.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/orange.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/orange.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/prefecture.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/prefecture.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/tacos.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/tacos.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/terraltitude.jpg" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/terraltitude.jpg" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/vitrines.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/vitrines.png" class="d-block" alt="Logo étudiant carolo">
             </div>
-            <div class="col-2"><img src="img/yvesrocher.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <div><img src="img/yvesrocher.png" class="d-block" alt="Logo étudiant carolo">
             </div>
           </div>
         </div>
@@ -282,7 +283,7 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
     $('.slicktest').slick({
       centerMode: true,
       centerPadding: '60px',
-      slidesToShow: 5,
+      slidesToShow: 3,
       responsive: [{
           breakpoint: 768,
           settings: {
