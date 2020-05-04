@@ -36,15 +36,17 @@
   <div id="evenements" class="container-fluid">
     <div class="row w-100">
       <div class="col-xl-6 my-auto col-mb-10  order-1 p-0 m-0">
-        <h2 class="text-center policetitres">Rentrée des étudiants</h2>
+        <h2 class="text-center policetitres">Quésaco ?</h2>
         <div class="w-75 mx-auto">
-          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
-            Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
-            expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
-            illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
-            quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-            similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
-            natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
+          <p class="policep">A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les associations étudiantes, cette manifestation vise à souhaiter la bienvenue à tous les étudiants du territoire. <br>
+
+Jusque-là organisée sur une journée unique, l’édition 2020 aura lieu durant 4 jours intégrant notamment des manifestations qui auraient dû se tenir durant le Printemps des étudiants !
+
+Ainsi, nous vous proposons cette année un format XXL de la Rentrée des étudiants avec les incontournables Carolo Express et Carolo Warrior mais également le Tournoi de basket inter-établissements, un Escape Game, le Bal de rentrée, la fameuse et attendue GACOLOR et bien d’autres manifestations !
+
+La Rentrée des étudiants est une manifestation ouverte à tous les étudiants du territoire mais également à ceux qui veulent fêter les étudiants en participant notamment à la Gacolor, événement coloré et grand public.
+
+La Rentrée des étudiants est une occasion festive, ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres étudiants issus des différents établissements du territoire et d’affirmer notre ambition étudiante.</p>
         </div>
       </div>
       <div class="col-xl-6 col-mb-10  order-2 p-0 m-0">
@@ -59,19 +61,24 @@
         <img class="evenementimg" src="img/event_2019/1.jfif">
       </div>
       <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
-        <h2 class="text-center policetitres">Les évènements</h2>
+        <h2 class="text-center policetitres">Qui ? Quand ? Où ?</h2>
         <div class="w-75 mx-auto">
-          <p class="policep">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quaerat maxime vero minus!
-            Sunt veritatis architecto, amet deserunt harum eum pariatur? Similique natus tempore quidem. Voluptate aperiam
-            expedita repellendus quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium nemo quas,
-            illo repellendus sunt voluptates nam mollitia. Libero magni deleniti a asperiores nihil quae voluptas sapiente
-            quos consequatur inventore? Voluptatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-            similique harum repudiandae atque, a quae voluptatum modi reiciendis nobis cumque, voluptas recusandae ratione
-            natus, eum tempora vitae architecto? Deserunt, dolorem?</p>
+          <p class="policep">La Rentrée des étudiants est proposée à tous les étudiants du territoire de Charleville-Mézières jusqu’à Sedan. 
+Tous les étudiants qui entament ou poursuivent une formation post bac sur le territoire peuvent participer à cette manifestation. Par ailleurs, quelques manifestations sont ouvertes au grand public. Ce faisant, n’hésitez pas à vous renseigner.
+
+La Rentrée des étudiants 2020 aura lieu du jeudi 24 septembre avec pour commencer le « Carolo Express » jusqu’ au dimanche 27 septembre avec la fameuse GACOLOR.. 
+
+Toutes les manifestations de l’édition 2020 se dérouleront à Charleville-Mézières dans l’hyper-centre, à la Plaine du Mont Olympe, au Campus Sup Ardenne et dans toute la ville.
+
+Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étudiante !</p>
         </div>
       </div>
     </div>
   </div>
+
+
+  <?php include ('include/video.php'); ?>
+
 
   <!-- Image / Motif / Editions -->
   <div class="container-fluid">

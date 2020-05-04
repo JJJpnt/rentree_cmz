@@ -72,9 +72,9 @@ $(function(){
 
 
 
-    <header id="header-top" class="container-fluid navbar-container fixed-top d-flex align-items-center justify-content-between">
-        <!-- <div id="header-top" class=" "> -->
-        <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+<header id="header-top" class="container-fluid navbar-container fixed-top d-flex align-items-start justify-content-between">
+  <!-- <div id="header-top" class=" "> -->
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between pt-0">
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -91,6 +91,23 @@ $(function(){
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Editions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="event.php">2020</a>
+              <a class="dropdown-item" href="event_register.php">1979</a>
+              <a class="dropdown-item" href="event.php">1515</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center"><img class="logocmz-nav img-fluid" src="img/logocmz.svg"></div>
+  
+      <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown policetitres">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Inscription
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -102,24 +119,7 @@ $(function(){
           </li>
         </ul>
       </div>
-  
-      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center"><img class="logocmz-nav img-fluid" src="img/logocmz.svg"></div>
-  
-      <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center" id="navbarToggler">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown policetitres">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Editions
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="event.php">2020</a>
-              <a class="dropdown-item" href="event_register.php">1979</a>
-              <a class="dropdown-item" href="event.php">1515</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-  
+    
       <div class="collapse navbar-collapse order-7 order-lg-5 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres">
@@ -134,7 +134,8 @@ $(function(){
         </ul>
       </div>
   </nav>
-    </header>
+
+</header>
 
 
 

@@ -11,10 +11,28 @@
             data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""
             data-description="">
             <!-- MAIN IMAGE -->
-            <img src="assets/images/transparent.png" data-bgcolor='#1d2931'' style=' background:#1d2931' alt=""
+            <img src="assets/images/transparent.png" data-bgcolor='#1d2931' style=' background:#1d2931' alt=""
                 data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
                 class="rev-slidebg" data-no-retina>
+            
+            
+            
+            
+            
+            
+            
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/lc8plTCIWCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            
+            
+            
+            
             <!-- LAYERS -->
+
+
+
+
+
+
 
             <!-- LAYER NR. 1 -->
             <div class="tp-caption   tp-resizeme" id="slide-32-layer-1" data-x="['center','center','center','center']"
@@ -32,7 +50,7 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['597','517','597','497']"
+                data-y="['center','center','center','center']" data-voffset="['-257','-177','-257','-157']"
                 data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -46,7 +64,7 @@
             <!-- LAYER NR. 3 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
                 data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['600','520','600','500']"
+                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
                 data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -57,10 +75,11 @@
                     <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
             </div>
 
+                <!-- data-y="['bottom','bottom','bottom','bottom']" data-voffset="['600','520','600','500']" -->
             <!-- LAYER NR. 4 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
                 data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['600','520','600','500']"
+                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
                 data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -74,7 +93,7 @@
             <!-- LAYER NR. 5 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['600','520','600','500']"
+                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
                 data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -98,10 +117,11 @@
                         data-hh="['250px','250px','250px','200px']" width="407" height="200" data-no-retina> </div>
             </div> -->
 
+                <!-- data-y="['bottom','bottom','bottom','bottom']" data-voffset="['299','260','380','350']" -->
             <!-- LAYER NR. 7 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-32-layer-2"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['299','260','380','350']"
+                data-y="['center','center','center','center']" data-voffset="['0','0','0','0']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
                 data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:100px;rZ:15deg;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'

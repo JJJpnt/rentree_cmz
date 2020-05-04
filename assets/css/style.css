@@ -488,15 +488,17 @@ footer {
     line-height: 1;
     text-decoration: none;
     border-radius: 2px;
+    /* filter: drop-shadow(0px, 2px, 4px, 15px, black) !important; */
+
     /* filter: drop-shadow(0px, 2px, 6px, 5px, black); */
-    filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.75));
-  }
-  header a:hover, button:hover, .btn:hover {
+    /* filter: drop-shadow(0px 2px 5px rgba(255,255,255,0.75)); */
+}
+header a:hover, button:hover, .btn:hover {
     background-color: hsla(var(--color-dark-hsl),0.7);
     box-shadow: 0 0 0 1px var(--color-danger);
     text-decoration: none;
     color: var(--color-danger);
-  }
+}
 
 /* Sticky Header Style */
 /* ---------------------------------------- */
@@ -510,9 +512,9 @@ body.sticky-header header {
     /* background-color: rgba(52, 152, 219, 0.9); */
 }
 body.sticky-header header h1 {
-/* transform: scale(1, 0); */
+    /* transform: scale(1, 0); */
 }
-    
+
 .nav-trans {
     /* background-color: rgba(0, 0, 0, 0.0); */
 }
@@ -526,6 +528,19 @@ header .input-group {
     margin-bottom: 1px !important;
 }
 
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--color-yellow-light);
+    /* filter: drop-shadow(0px 2px 4px 15px black) !important; */
+    filter: drop-shadow(0px 1px 2px 1px rgba(0,0,64,0.75));
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-yellow-middle);
+    /* color: rgba(255,0,255,.5); */
+}
+
+
+
 
 /* Fix for Yohann forms */
 
@@ -534,8 +549,8 @@ header .input-group {
 }
 
 @media screen and (max-width: 500px) {
-
-
+    
+    
     .get-in-touch .title {
         letter-spacing: 1px;
         font-size: 2.2em;
@@ -576,3 +591,22 @@ header .input-group {
       /* max-height: 100%; */
       
   }
+
+
+
+
+/* Video Player classes */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /* padding-top: 25px; */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
