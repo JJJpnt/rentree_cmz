@@ -8,7 +8,7 @@ $tel = !empty($_POST['tel']) ? $_POST['tel'] : NULL;
 $objet = !empty($_POST['objet']) ? $_POST['objet'] : NULL;
 $msg = !empty($_POST['message']) ? $_POST['message'] : NULL;
 $destinataire = "valentin_mg08@hotmail.fr";
-$message = "Nom : $nom \r Prénom : $prenom \r Etablissement : $etablissement \r Adresse mail : $mail \r Téléphone : $tel \r \r Message : \r $msg";
+$message = "Nom : $nom \rPrénom : $prenom \rEtablissement : $etablissement \rAdresse mail : $mail \rTéléphone : $tel \r\rMessage : \r$msg";
 
     mail($destinataire, $objet, $message);
     header('Location: ../contact.php?success=1');
