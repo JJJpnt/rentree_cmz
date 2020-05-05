@@ -82,14 +82,14 @@ $(function(){
       <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link policetitres" href="index.php">Accueil<span class="sr-only">(current)</span></a>
+            <a class="nav-link policetitres-nav" href="index.php">Accueil<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
   
       <div class="collapse navbar-collapse order-5 order-lg-2 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown policetitres">
+          <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Editions
             </a>
@@ -106,7 +106,7 @@ $(function(){
   
       <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown policetitres">
+          <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Inscription
             </a>
@@ -126,7 +126,7 @@ $(function(){
     
       <div class="collapse navbar-collapse order-7 order-lg-5 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown policetitres">
+          <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Contact
             </a>
