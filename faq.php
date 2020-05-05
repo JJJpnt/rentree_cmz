@@ -24,7 +24,9 @@
 
   <!-- img faq -->
 
-  <div><img class="event_img" src="img/faq.png"></div>
+  <div class="header_img">
+    <div class="d-flex align-items-center justify-content-center" style="height:250px;"><h2 class="display-2 text-white"><strong>FAQ</strong></h2></div>
+  </div>
 
   <!-- faq collapse -->
 

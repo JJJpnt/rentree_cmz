@@ -22,7 +22,9 @@
 
 
   <!-- Image header -->
-  <div><img class="event_img" src="img/caroloexpress.png"></div>
+  <div class="header_img">
+    <div class="d-flex align-items-center justify-content-center" style="height:250px;"><h2 class="display-2 text-white"><strong>Pique-Nique</strong></h2></div>
+  </div>
 
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">

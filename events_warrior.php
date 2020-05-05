@@ -19,7 +19,9 @@
 
     <?php include('include/nav.php')?>
 
-    <div><img class="event_img" src="img/caroloexpress.png"></div>
+    <div class="header_img">
+    <div class="d-flex align-items-center justify-content-center" style="height:250px;"><h2 class="display-2 text-white"><strong>Carolo Warrior</strong></h2></div>
+  </div>
 
     <div class="row w-100 text-center ">
         <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"

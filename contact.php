@@ -22,9 +22,9 @@
   <body>
     <?php include('include/nav.php')?>
 
-    <div class="headercontact">
-        <img src="img/contactbanner.png" class="img-fluid">
-    </div>
+    <div class="header_img">
+    <div class="d-flex align-items-center justify-content-center" style="height:250px;"><h2 class="display-2 text-white"><strong>Contact</strong></h2></div>
+  </div>
 
         <section class="get-in-touch">
             <?php
