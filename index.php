@@ -81,41 +81,38 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
 
 
   <!-- Image / Motif / Editions -->
+
   <div class="container-fluid">
     <div class="row motifimg">
-      <img src="img/imgmotifetudiants.jpg" style="width: 100%;">
+      <img src="img/gacolor.jpeg" style="width: 100%;">
       <div class="col-8 motiftest">
         <div class="row">
           <div class="col-md-3 col-5 mx-auto ">
-          <button class="btn dropbtn" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              <h2 class="policetitres text-center">PROGRAMME</h2>
-            </button>
-            <!-- Collapse -->
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body dropitem">
-                <h4 class="policetitres">En attente de communication</h4>
+            <div class="dropdown">
+              <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonProgramme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <h2 class="policetitres text-center">Programme</h2>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonProgramme">
+                <a class="dropdown-item policetitres" href="#">En attente de communication</a>
               </div>
             </div>
-            <!-- /Collapse -->
           </div>
           <div class="col-md-3 col-5 mx-auto">
-            <button class="btn dropbtn" style="color: black;" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-              <h2 class="policetitres text-center ">INSCRIPTIONS</h2>
-            </button>
-            <!-- Collapse 2 -->
-            <div class="collapse" id="collapseExample2">
-              <div class="card card-body dropitem">
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_caroloexpress.php"><h4 class="policetitres">Carolo Express</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_carolowarrior.php"><h4 class="policetitres">Carolo Warrior</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_concourscuisine.php"><h4 class="policetitres">Concours de Cuisine</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_piquenique.php"><h4 class="policetitres">Pique-Nique</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_basket.php"><h4 class="policetitres">Tournoi de Basket</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_gacolor.php"><h4 class="policetitres">Gacolor</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_escape.php"><h4 class="policetitres">Escape Game</h4></a>
-                <a class="mb-2" style="text-decoration: none; color: black;" href="event_register_bal.php"><h4 class="policetitres">Bal de Rentrée</h4></a>
+            <div class="dropdown">
+              <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonInscriptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <h2 class="policetitres text-center">Inscriptions</h2>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonInscriptions">
+                <a class="dropdown-item policetitres" href="event_register_caroloexpress.php">Carolo Express</a>
+                <a class="dropdown-item policetitres" href="event_register_carolowarrior.php">Carolo Warrior</a>
+                <a class="dropdown-item policetitres" href="event_register_concourscuisine.php">Concours de Cuisine</a>
+                <a class="dropdown-item policetitres" href="event_register_piquenique.php">Pique-Nique</a>
+                <a class="dropdown-item policetitres" href="event_register_basket.php">Tournoi de Basket</a>
+                <a class="dropdown-item policetitres" href="event_register_gacolor.php">Gacolor</a>
+                <a class="dropdown-item policetitres" href="event_register_escape.php">Escape Game</a>
+                <a class="dropdown-item policetitres" href="event_register_bal.php">Bal de Rentrée</a>
               </div>
             </div>
-            <!-- /Collapse 2 -->
           </div>
         </div>
       </div>
@@ -178,34 +175,34 @@ Durant 4 jours, la Ville de Charleville-Mézières sera 100% festive, 100% étud
         <p class="policep text-center">Carolo Warrior</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/2.jfif"></a>
         <p class="policep text-center">Carolo Express</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/3.jfif"></a>
         <p class="policep text-center">Concours de Cuisine</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/4.jfif"></a>
         <p class="policep text-center">Pique-Nique</p>
       </div>
     </div>
     <div class="row">
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/7.jfif"></a>
         <p class="policep text-center">Tournoi de Basket</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/8.jfif"></a>
         <p class="policep text-center">Gacolor</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/9.jfif"></a>
         <p class="policep text-center">Escape Game</p>
       </div>
       <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
-        <p class="policep text-center">Bam de Rentrée</p>
+        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/10.jfif"></a>
+        <p class="policep text-center">Bal de Rentrée</p>
       </div>
     </div>
   </div>

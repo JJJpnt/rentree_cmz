@@ -150,7 +150,8 @@ html {
     position: absolute;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url(../../img/motif3.jpg);
+    /* Si on rajoute un fond en image/motif à programme et inscriptions */
+    /* background-image: url(../../img/motif3.jpg); */
     background-size: cover;
     background-position-y: center;
 }
@@ -159,6 +160,18 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#dropdownMenuButtonInscriptions{
+    background-color: hsl(251, 88%, 27%,0.5) !important;
+}
+
+#dropdownMenuButtonProgramme{
+    background-color: hsl(251, 88%, 27%,0.5) !important;
+}
+
+.btn-dark:hover{
+    background-color: #343a40 !important;
+    color: var(--color-yellow-middle) !important;
 }
 /* anthony */
 
