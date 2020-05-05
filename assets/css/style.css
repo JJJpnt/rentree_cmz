@@ -165,6 +165,19 @@ html {
 .event_img {
     max-width: 100%;
 }
+.header_img {
+    /* The image used */
+    background-image: url("../../img/header.png");
+  
+    /* Set a specific height */
+    height: 250px;
+  
+    /* Create the parallax scrolling effect */
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .img_faq {
     background-size: 150%;
