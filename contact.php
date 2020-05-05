@@ -27,26 +27,53 @@
     </div>
 
         <section class="get-in-touch">
+            <?php
+
+            if(isset($_GET['success'])) {
+                if($_GET['success'] == 1) { ?>
+                <div class="row justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
+                        <div class="alert alert-danger text-center" role="alert">
+                            Votre mail a bien été envoyé.
+                        </div>
+                    </div>
+                </div>
+                <?php }
+            }
+
+            ?>
             <h1 class="title">Contactez-nous</h1>
-            <form class="contact-form row justify-content-center">
+            <form class="contact-form row justify-content-center" action="include/traitementcontact.php" method="post">
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                    <input class="input-text js-input" type="text" required>
-                    <label class="label" for="name">Nom</label>
+                    <input class="input-text js-input" type="text" name="name" autofocus tabindex="1" required>
+                    <label class="label">Nom</label>
                 </div>
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                    <input class="input-text js-input" type="text" required>
-                    <label class="label" for="firstname">Prénom</label>
+                    <input class="input-text js-input" type="text" name="firstname" tabindex="2" required>
+                    <label class="label">Prénom</label>
                 </div>
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                    <input class="input-text js-input" type="text" required>
-                    <label class="label" for="mail">Mail</label>
+                    <input class="input-text js-input" type="text" name="etablissement" tabindex="3" required>
+                    <label class="label">Etablissement</label>
                 </div>
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                    <input class="input-text js-input" type="text" required>
-                    <label class="label" for="message">Message</label>
+                    <input class="input-text js-input" type="text" name="mail" tabindex="4" required>
+                    <label class="label">Mail</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" name="tel" tabindex="5" required>
+                    <label class="label">Telephone</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" name="objet" tabindex="6" required>
+                    <label class="label">Objet de la demande ou observation</label>
+                </div>
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                    <input class="input-text js-input" type="text" name="message" tabindex="7" required>
+                    <label class="label">Message</label>
                 </div>
                 <div class="form-field col-12">
-                    <center><input class="submit-btn" type="submit" value="Envoyer"></center>
+                    <center><button class="submit-btn" type="submit" value="submit">Envoyer</button></center>
                 </div>
             </form>
         </section>

@@ -29,94 +29,90 @@
 
   <!--carte-->
 
-  <div class="row card_event text-center pt-2">
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em mb-2" >
-        <img class="card-img-top" src="img/carolo_express.png" alt="Card image cap">
+  <div class="row my-4 justify-content-center w-100">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Carolo Express</h5>
-          <p class="card-text">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
-          <a href="events_express.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Carolo Express</h5>
+          <p class="card-text text-center">le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
+          <center><a href="event_register_caroloexpress.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em mb-2" >
-        <img class="card-img-top" src="img/carolo_warrior" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Carolo Warrior</h5>
-          <p class="card-text">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou
-            ludiques.</p>
-          <a href="events_warrior.php" class="btn btn-primary bg-blue-dark ">en savoir plus</a>
+        <h5 class="card-title text-center">Carolo Warrior</h5>
+          <p class="card-text text-center">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou ludiques.</p>
+          <center><a href="event_register_carolowarrior.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em mb-2" >
-        <img class="card-img-top" src="img/concours_cuisine.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Concours De Cuisine</h5>
-          <p class="card-text">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.
-          </p>
-          <a href="events_cuisine.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Concours De Cuisine</h5>
+          <p class="card-text text-center">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.</p>
+          <center><a href="event_register_concourscuisine.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em" >
-        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Pique-Nique</h5>
-          <p class="card-text">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à
-            disposition.</p>
-          <a href="events_pique-nique.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Pique-Nique</h5>
+          <p class="card-text text-center">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition.</p>
+          <center><a href="event_register_piquenique.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-</div>
-<div class="row card_event text-center pt-2" style="background-color: whitesmoke">
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em" >
-        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Tournoi de basket</h5>
-          <p class="card-text">Tournoi de basket 5 à 7 participants.<br><br></p>
-          <a href="events_basket.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Tournoi de basket</h5>
+          <p class="card-text text-center">Tournoi de basket 5 à 7 participants.<br><br></p>
+          <center><a href="event_register_basket.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em" >
-        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Gacolor</h5>
-          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
-          <a href="events_gacolor.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Gacolor</h5>
+          <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <center><a href="event_register_gacolor.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em" >
-        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Bal de rentrée</h5>
-          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
-          <a href="events_bal.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Bal de rentrée</h5>
+          <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <center><a href="event_register_bal.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
-    <div class="cards_events col-xs-6 col-md-6 col-lg-6 col-xl-2 mx-auto my-auto">
-      <div class="card height-20em" >
-        <img class="card-img-top" src="img/pique_nique.png" alt="Card image cap">
+    <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Escape game</h5>
-          <p class="card-text">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
-          <a href="events_escape.php" class="btn btn-primary bg-blue-dark">en savoir plus</a>
+        <h5 class="card-title text-center">Escape game</h5>
+          <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
+          <center><a href="event_register_escape.php" class="btn btn-primary">S'inscrire</a></center>
         </div>
       </div>
     </div>
   </div>
-  <!-- parallax -->
+
+<!-- parallax -->
 
   <?php include("include/parallax.php"); ?>
 

@@ -69,6 +69,7 @@ vous devez être 2 participants. Opérez votre inscription ensemble.</p><br>
             <option value="LJBC">Lycée JB Clément</option>
             <option value="LPB">Lycée Pierre Bayle</option>
             <option value="LSV">Lycée Simone Veil</option>
+            <option value="SCBS">SCBS – Y Schools</option>
           </select></center>
       </div>
       <div class="contact-form row w-100 justify-content-center">

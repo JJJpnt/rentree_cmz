@@ -11,7 +11,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Inscription Carolo Express</title>
+  <title>Inscription Tournoi de Basket</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
@@ -75,6 +75,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
             <option value="LJBC">Lycée JB Clément</option>
             <option value="LPB">Lycée Pierre Bayle</option>
             <option value="LSV">Lycée Simone Veil</option>
+            <option value="SCBS">SCBS – Y Schools</option>
           </select></center>
       </div>
       <div class="contact-form row w-100 justify-content-center">
