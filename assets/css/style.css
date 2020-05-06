@@ -142,6 +142,23 @@ html {
     font-weight: 100;
 } */
 
+.policetitres-proginc {
+    font-family: 'Bangers', cursive;
+    color: var(--color-yellow-middle);
+    font-size: 2em;
+    transform: rotateZ(-2deg);
+}
+
+.policetitres-proginc-a {
+    font-family: 'Bangers', cursive;
+    font-size: 1em;
+    transform: rotateZ(-2deg);
+}
+
+.dropindex-a {
+    backdrop-filter: blur(0px) !important;
+}
+
 .rdeimg {
     width: 70%;
     /* max-width: calc(100% + 30px); */

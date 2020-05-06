@@ -90,27 +90,27 @@
           <div class="col-md-3 col-5 mx-auto ">
             <div class="dropdown">
               <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonProgramme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <h2 class="policetitres text-center">Programme</h2>
+                <h2 class="policetitres-proginc text-center">Programme</h2>
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonProgramme">
-                <a class="dropdown-item policetitres" href="#">En attente de communication</a>
+              <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonProgramme">
+                <a class="dropdown-item policetitres-proginc-a" href="#">En attente de communication</a>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-5 mx-auto">
             <div class="dropdown">
               <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonInscriptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <h2 class="policetitres text-center">Inscriptions</h2>
+                <h2 class="policetitres-proginc text-center">Inscriptions</h2>
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonInscriptions">
-                <a class="dropdown-item policetitres" href="event_register_caroloexpress.php">Carolo Express</a>
-                <a class="dropdown-item policetitres" href="event_register_carolowarrior.php">Carolo Warrior</a>
-                <a class="dropdown-item policetitres" href="event_register_concourscuisine.php">Concours de Cuisine</a>
-                <a class="dropdown-item policetitres" href="event_register_piquenique.php">Pique-Nique</a>
-                <a class="dropdown-item policetitres" href="event_register_basket.php">Tournoi de Basket</a>
-                <a class="dropdown-item policetitres" href="event_register_gacolor.php">Gacolor</a>
-                <a class="dropdown-item policetitres" href="event_register_escape.php">Escape Game</a>
-                <a class="dropdown-item policetitres" href="event_register_bal.php">Bal de Rentrée</a>
+              <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonInscriptions">
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_caroloexpress.php">Carolo Express</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_carolowarrior.php">Carolo Warrior</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_concourscuisine.php">Concours de Cuisine</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_piquenique.php">Pique-Nique</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_basket.php">Tournoi de Basket</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_gacolor.php">Gacolor</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_escape.php">Escape Game</a>
+                <a class="dropdown-item policetitres-proginc-a" href="event_register_bal.php">Bal de Rentrée</a>
               </div>
             </div>
           </div>
