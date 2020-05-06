@@ -171,7 +171,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+.header_text {
+    margin-bottom: 0.5em;
+    font-family: 'Bangers', cursive;
+}
 .img_faq {
     background-size: 150%;
 }
@@ -225,8 +228,11 @@ html {
     }
 
 }
-
-
+@media screen and (max-width: 858px){
+    .header_text {
+        font-size: 2.2em;
+    }
+}
 
 /* Footer Yohann Styles */
 

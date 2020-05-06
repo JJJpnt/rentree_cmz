@@ -24,7 +24,7 @@
 
     <!-- Image header -->
     <div class="header_img">
-    <div class="d-flex align-items-center justify-content-center" style="height:250px;"><h2 class="display-2 text-white"><strong>Escape Game</strong></h2></div>
+    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Escape Game</strong></h2></div>
   </div>
 
     <!-- Second Row -->
