@@ -25,7 +25,9 @@
 
   <!-- img event -->
 
-  <div><img class="event_img" src="img/evenement.jpeg"></div>
+  <div class="header_img">
+    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Les événements de la Rentrée</strong></h2></div>
+  </div>
 
   <!--carte-->
 

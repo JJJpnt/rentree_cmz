@@ -19,7 +19,10 @@
 
     <?php include('include/nav.php')?>
 
-    <div><img class="event_img" src="img/caroloexpress.png"></div>
+    <div class="header_img">
+    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Gacolor</strong></h2></div>
+  </div>
+
 
     <div class="row w-100 text-center ">
         <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
@@ -102,7 +105,7 @@
         <h2 class="text-center">Caractéristiques</h2>
         <div class="row w-100 mt-5">
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;border:2px solid #130846; ">
                     <br>
                     <p class="text-center">Participants</p>
                     <br>
@@ -111,7 +114,7 @@
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;border:2px solid #130846; ">
                     <br>
                     <p class="text-center">Horaires</p>
                     <br>
@@ -120,7 +123,7 @@
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;border:2px solid #130846; ">
                     <br>
                     <p class="text-center">lieux</p>
                     <br>
@@ -129,7 +132,7 @@
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
-                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;">
+                <div class="rounded-circle bg-azur-light mx-auto my-auto" style="width: 10rem; height: 10rem;border:2px solid #130846; ">
                     <br>
                     <p class="text-center">Date</p>
                     <br>

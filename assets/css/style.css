@@ -253,7 +253,16 @@ html {
 .event_img {
     max-width: 100%;
 }
-
+.header_img {
+    background-image: url("../../img/header.png");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header_text {
+    margin-bottom: 0.5em;
+    font-family: 'Bangers', cursive;
+}
 .img_faq {
     background-size: 150%;
 }
@@ -340,6 +349,12 @@ html {
     z-index: 100;
 }
 
+@media screen and (max-width: 858px){
+    .header_text {
+        margin-bottom: 1.5em;
+        font-size: 2.2em;
+    }
+}
 
 /* Footer Yohann Styles */
 
@@ -375,6 +390,7 @@ footer {
 
 .title-footer {
     font-weight: bolder;
+    color: var(--color-yellow-middle);
     margin-bottom: 40px;
     margin-top: 20px;
     font-size:30px;
@@ -383,7 +399,7 @@ footer {
 .liens-footer{
     text-decoration: none;
     font-size:20px;
-    color:#2591AA;
+    color:white;
     line-height:30px;
 }
 
