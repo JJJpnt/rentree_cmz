@@ -20,8 +20,8 @@
 		<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 		
 		<!-- PARTICLES ADD-ON FILES -->
-		<link rel='stylesheet' href='revolution-addons/particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' />
-		<script type='text/javascript' src='revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script>
+		<!-- <link rel='stylesheet' href='revolution-addons/particles/css/revolution.addon.particles.css?ver=1.0.3' type='text/css' media='all' /> -->
+		<!-- <script type='text/javascript' src='revolution-addons/particles/js/revolution.addon.particles.min.js?ver=1.0.3'></script> -->
 
 		<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->	
 		<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>

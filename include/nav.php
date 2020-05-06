@@ -13,11 +13,11 @@ $(function(){
         st = $(this).scrollTop();
         // console.log(st);
         if((st <= 40)||(st < lastScrollTop)){
-            console.log("<40 or up");
+            // console.log("<40 or up");
             // $("body").removeClass("sticky-header");
             $("header").css("marginTop", 0 );
         }else{
-            console.log(">40 or down");
+            // console.log(">40 or down");
             $("header").css( "marginTop", ($("#header-top").height()*-0.666) );
             // $("body").addClass("sticky-header");
         }

@@ -26,7 +26,7 @@
         <img src="img/contactbanner.png" class="img-fluid">
     </div>
 
-        <section class="get-in-touch">
+        <section class="get-in-touch container-fluid">
             <?php
 
             if(isset($_GET['success'])) {
@@ -78,7 +78,7 @@
             </form>
         </section>
 
-    <div class="contactfontawesome">
+    <div class="contactfontawesome container-fluid">
         <h2 class="text-center policetitres mt-2">Ou alors</h2>
         <div class="row">
             <div class="col-4 mx-auto text-center">
@@ -106,7 +106,7 @@
 
 
 
-    <div class="nospartenaires bg-azur-light">
+    <div class="nospartenaires bg-azur-light container-fluid">
         <h2 class="policetitres text-center">Nos partenaires</h2>
         <div class="grid">
             <div class="grid-item"><img src="img/event_2019/1.jfif"></div>

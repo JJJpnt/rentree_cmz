@@ -167,43 +167,41 @@
 
   <?php include ('include/parallax.php'); ?>
 
-  <div class="container-fluid mt-2 mb-5 pr-5 pl-5">
+  <div class="container-fluid mt-2 mb-5 pr-5 pl-5 persp">
     <h2 class="text-center policetitres mt-3 mb-3">EDITION 2019</h2>
     <div class="row">
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
         <p class="policep text-center">Carolo Warrior</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/2.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/2.jfif"></a>
         <p class="policep text-center">Carolo Express</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/3.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/3.jfif"></a>
         <p class="policep text-center">Concours de Cuisine</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/4.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/4.jfif"></a>
         <p class="policep text-center">Pique-Nique</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/7.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/7.jfif"></a>
         <p class="policep text-center">Tournoi de Basket</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/8.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/8.jfif"></a>
         <p class="policep text-center">Gacolor</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/9.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/9.jfif"></a>
         <p class="policep text-center">Escape Game</p>
-      </div>
-      <div class="col-3">
-        <a class="edition2019index" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/10.jfif"></a>
+      </div></div>
+      <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/10.jfif"></a>
         <p class="policep text-center">Bal de Rentrée</p>
-      </div>
+      </div></div>
     </div>
   </div>
 

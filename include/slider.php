@@ -343,7 +343,7 @@
             });
         }
 
-        RsParticlesAddOn(revapi14);
+        // RsParticlesAddOn(revapi14);
     }); /*ready*/
 
 
