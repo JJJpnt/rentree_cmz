@@ -116,44 +116,131 @@
 
   <?php include("include/parallax.php"); ?>
 
-  <!--gallery <img src="img/pique_nique.png" class="img-fluid mt-1 ">-->
+  <div class="mb-5"></div>
 
-  <div class="row mt-5 mb-5">
-    <div class="col-lg-1"></div>
-    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/carolo_express.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/carolo_warrior.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/concours_cuisine.png" class="img-fluid mt-1 "></div>
-    <div class="col-xs-6 col-md-5 col-lg-2 mx-auto my-auto"><img src="img/pique_nique.png" class="img-fluid mt-1 "></div>
-    <div class="col-lg-1"></div>
-  </div>
-
-<!-- Test tabs pour galerie photos -->
-  <!-- <div class="container-fluid">
+<!-- Tabs pour galerie photos -->
+  <div class="container-fluid">
     <div class="row justify-content-center">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item mr-5">
-          <a class="nav-link active" id="tabcaroloexpress" data-toggle="tab" href="#tabcaroloexpress" role="tab" aria-controls="home" aria-selected="true">Carolo Express</a>
+      <ul class="nav nav-tabs" id="galerie" role="tablist">
+        <li class="nav-item mr-2">
+          <a class="nav-link active" id="tabcaroloexpress" data-toggle="tab" href="#caroloexpresscontent" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Carolo Express</p></a>
         </li>
-        <li class="nav-item mr-5">
-          <a class="nav-link" id="tabcarolowarrior" data-toggle="tab" href="#tabcarolowarrior" role="tab" aria-controls="profile" aria-selected="false">Carolo Warrior</a>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabcarolowarrior" data-toggle="tab" href="#carolowarriorcontent" role="tab" aria-controls="profile" aria-selected="false"><p class="tabgalerietxt">Carolo Warrior</p></a>
         </li>
-        <li class="nav-item mr-5">
-          <a class="nav-link" id="tabcuisine" data-toggle="tab" href="#tabcuisine" role="tab" aria-controls="contact" aria-selected="false">Concours de Cuisine</a>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabcuisine" data-toggle="tab" href="#concourscuisinecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Concours de Cuisine</p></a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabpiquenique" data-toggle="tab" href="#piqueniquecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Pique-Nique</p></a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabbasket" data-toggle="tab" href="#basketcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Tournoi de Basket</p></a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabgacolor" data-toggle="tab" href="#gacolorcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Gacolor</p></a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link" id="tabescape" data-toggle="tab" href="#escapecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Escape Game</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="tabpiquenique" data-toggle="tab" href="#tabpiquenique" role="tab" aria-controls="contact" aria-selected="false">Pique-Nique</a>
+          <a class="nav-link" id="tabbal" data-toggle="tab" href="#balcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Bal de Rentrée</p></a>
         </li>
       </ul>
     </div>
+    <div class="mb-5"></div>
     <div class="row justify-content-center">
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="caroloexpresscontent" role="tabpanel" aria-labelledby="caroloexpress-tab">Carolo express content</div>
-        <div class="tab-pane fade" id="carolowarriorcontent" role="tabpanel" aria-labelledby="carolowarrior-tab">Carolo warrior content</div>
-        <div class="tab-pane fade" id="concourscuisinecontent" role="tabpanel" aria-labelledby="concourscuisine-tab">Concours de cuisine content</div>
-        <div class="tab-pane fade" id="piqueniquecontent" role="tabpanel" aria-labelledby="piquenique-tab">Pique-Nique content</div>
+        <!-- Tab carolo express -->
+        <div class="tab-pane fade show active" id="caroloexpresscontent" role="tabpanel" aria-labelledby="caroloexpress-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/3.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/3.jfif" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/4.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/4.jfif" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/9.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/10.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/11.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/12.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- /Tab carolo express -->
+
+        <!-- Tab carolo warrior -->
+        <div class="tab-pane fade" id="carolowarriorcontent" role="tabpanel" aria-labelledby="carolowarrior-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/5.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/6.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- /Tab carolo warrior -->
+
+        <!-- Tab concours de cuisine -->
+        <div class="tab-pane fade" id="concourscuisinecontent" role="tabpanel" aria-labelledby="concourscuisine-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab concours de cuisine -->
+
+        <!-- Tab pique-nique -->
+        <div class="tab-pane fade" id="piqueniquecontent" role="tabpanel" aria-labelledby="piquenique-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab pique-nique -->
+
+        <!-- Tab basket -->
+        <div class="tab-pane fade" id="basketcontent" role="tabpanel" aria-labelledby="basket-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab basket -->
+
+        <!-- Tab gacolor -->
+        <div class="tab-pane fade" id="gacolorcontent" role="tabpanel" aria-labelledby="gacolor-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab gacolor -->
+
+        <!-- Tab escape game -->
+        <div class="tab-pane fade" id="escapecontent" role="tabpanel" aria-labelledby="escape-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab escape game -->
+
+        <!-- Tab bal -->
+        <div class="tab-pane fade" id="balcontent" role="tabpanel" aria-labelledby="bal-tab">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row mb-5">
+              <!-- Photos -->
+            </div>
+          </div>
+        </div>
+        <!-- /Tab bal -->
       </div>
     </div>
-  </div> -->
+  </div>
 
   <div class="row m-5 d-flex justify-content-center">
 
@@ -163,38 +250,9 @@
 
   </div>
 
-  <!-- Galerie photo -->
-  <div class="container-fluid pl-5 pr-5" id="galerie">
-    <div class="row mb-5">
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/3.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/3.jfif" class="img-fluid mt-1"></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/4.jfif" rel="prettyPhoto[Gallery1]" data-lightbox="mygallery"><img src="img/event_2019/4.jfif" class="img-fluid mt-1"></a></div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/5.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/6.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/7.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/7.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/8.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/8.jfif" class="img-fluid mt-1 "></a></div>
-
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/9.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/10.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/11.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></a></div>
-      <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3"><a href="img/event_2019/12.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></a></div>
-    </div>
-  </div>
   <!-- footer -->
 
   <?php include("include/footer.php"); ?>
-
-
-  <!-- Test script tabs pour galerie photos -->
-  <!-- <script>
-    $('#myTab a[href="#caroloexpresscontent"]').tab('show') // Select tab by name
-    $('#myTab li:first-child a[href="#carolowarriorcontent"]').tab('show') // Select first tab
-    $('#myTab li:last-child a[href="#piqueniquecontent"]').tab('show') // Select last tab
-    $('#myTab li:nth-child(3) a[href="#concourscuisinecontent"]').tab('show') // Select third tab
-  </script> -->
-
 
   <!-- PrettyPhoto js -->
   <script src="assets/lightbox-plus-jquery.min.js"></script>

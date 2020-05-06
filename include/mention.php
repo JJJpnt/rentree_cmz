@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mention légales</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+ 
 </head>
 <body>
+
     <div class="mention"><br><br><br><br>
         <center><h2>Mentions Légales</h2><hr color="black" width="200em" size="2"><br></center><br><br>
      
@@ -32,12 +33,5 @@
      <input type = "button" value = "Retour"  onclick = "history.back()">
      </center></form>
         
-
-
-
-
-
-
-
 </body>
 </html>

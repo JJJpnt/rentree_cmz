@@ -92,7 +92,7 @@ pour les 200 premières réservations.</p><br>
           <label class="label" for="email">Retapez l'email</label>
         </div>
       </div>
-      <h2 class="title2 mt-3">XXX Repas sont déjà réservés sur les 200 repas à 3€, il reste XXX place(s)</h2>
+      <h2 class="title2 mt-3">Vite, il ne reste que XXX places pour les repas à 3€!</h2>
       <div class="form-field col-12">
         <center><input class="submit-btn" type="submit" value="Valider"></center>
       </div>

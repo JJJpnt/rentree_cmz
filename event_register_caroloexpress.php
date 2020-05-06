@@ -94,134 +94,198 @@
 
       <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
       <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field mb-5">
           <input id="name" name="password" class="input-text js-input" type="password" required>
           <label class="label" for="name">Mot de passe</label>
         </div>
       </div>
 
-      <h2 class="title2 mt-3">Participant 1</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart1" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart1" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart1" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart1" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
+
+      <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+          <ul class="nav nav-tabs" id="register" role="tablist">
+            <li class="nav-item mr-2">
+              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 1</p></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 2</p></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" id="part3" data-toggle="tab" href="#register3" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 3</p></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" id="part4" data-toggle="tab" href="#register4" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 4</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="part5" data-toggle="tab" href="#register5" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 5</p></a>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <h2 class="title2 mt-3">Participant 2</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart2" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart2" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
-        </div>
-      </div>
+      <div class="mb-5"></div>
+      <div class="row justify-content-center">
+        <div class="tab-content" id="myTabContent">
+          <!-- Tabs participants -->
+            <div class="tab-pane fade show active" id="register1" role="tabpanel" aria-labelledby="register1-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 1</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart1" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <h2 class="title2 mt-3">Participant 3</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart3" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart3" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart3" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart3" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart3" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
-        </div>
-      </div>
 
-      <h2 class="title2 mt-3">Participant 4</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart4" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart4" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart4" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart4" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart4" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
-        </div>
-      </div>
+            <div class="tab-pane fade show" id="register2" role="tabpanel" aria-labelledby="register2-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3 text-center">Participant 2</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart2" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <h2 class="title2 mt-3">Participant 5</h2>
-      <div class="contact-form row w-100 justify-content-center">
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="namepart5" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstnamepart5" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prenom</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="telpart5" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mailpart5" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
-        </div>
-        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmailpart5" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
-        </div>
-      </div>
 
-      <div class="form-field col-12">
-        <center><input class="submit-btn" type="submit" value="Valider"></center>
+            <div class="tab-pane fade show" id="register3" role="tabpanel" aria-labelledby="register3-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 3</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart3" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart3" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart3" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart3" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart3" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane fade show" id="register4" role="tabpanel" aria-labelledby="register4-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 4</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart4" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart4" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart4" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart4" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart4" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="register5" role="tabpanel" aria-labelledby="register5-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 5</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart5" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart5" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart5" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart5" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart5" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+
+                  <div class="form-field col-12">
+                    <center><input class="submit-btn" type="submit" value="Valider"></center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </form>
   </section>

@@ -81,25 +81,25 @@
     <div class="contactfontawesome container-fluid">
         <h2 class="text-center policetitres mt-2">Ou alors</h2>
         <div class="row">
-            <div class="col-4 mx-auto text-center">
-                <i class="fas fa-phone fa-2x"></i>
+        <div class="col-4 mx-auto text-center">
+                <i class="fas fa-envelope fa-2x"></i>
             </div>
             <div class="col-4 mx-auto text-center">
                 <i class="fas fa-map-marked-alt fa-2x"></i>
             </div>
             <div class="col-4 mx-auto text-center">
-                <i class="fas fa-envelope fa-2x"></i>
+                <i class="fas fa-phone fa-2x"></i>
             </div>
         </div>
-        <div class="row mt-3">
-            <div class="col-4 mx-auto text-center">
-                <p class="policep">03 24 32 44 91</p>
+        <div class="row mt-3 mb-3">
+        <div class="col-4 mx-auto text-center">
+                <p class="policep">etudiants@mairie-charlevillemezieres.fr</p>
             </div>
             <div class="col-4 mx-auto text-center">
                 <p class="policep">Place du Théâtre<br>CS 40490<br>08109 Charleville-Mézières Cedex</p>
             </div>
             <div class="col-4 mx-auto text-center">
-                <p class="policep">etudiants@mairie-charlevillemezieres.fr</p>
+                <p class="policep">03 24 32 44 91</p>
             </div>
         </div>
     </div>

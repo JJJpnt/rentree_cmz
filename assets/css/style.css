@@ -146,6 +146,30 @@ html {
     font-weight: 100;
 } */
 
+.policetitres-proginc {
+    font-family: 'Bangers', cursive;
+    color: var(--color-yellow-middle);
+    font-size: 2em;
+    transform: rotateZ(-2deg);
+}
+
+.policetitres-proginc-a {
+    font-family: 'Bangers', cursive;
+    font-size: 1em;
+    transform: rotateZ(-2deg);
+}
+
+.tabgalerietxt {
+    font-family: 'Bangers', cursive;
+    font-size: 1em;
+    transform: rotateZ(-2deg);
+    color: var(--color-blue-middle);
+}
+
+.dropindex-a {
+    backdrop-filter: blur(0px) !important;
+}
+
 .rdeimg {
     width: 70%;
     /* max-width: calc(100% + 30px); */
@@ -219,6 +243,10 @@ html {
 .btn-dark:hover{
     background-color: #343a40 !important;
     color: var(--color-yellow-middle) !important;
+}
+
+.hovergallery:hover {
+    transform: rotateZ(2deg);
 }
 /* anthony */
 
