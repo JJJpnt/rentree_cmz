@@ -248,6 +248,16 @@ html {
 .hovergallery:hover {
     transform: rotateZ(2deg);
 }
+
+.contact-fa {
+    border: 2px solid var(--color-blue-middle);
+    padding: 10px;
+    border-radius: 12%;
+}
+
+.text-contact-fa {
+    font-size: 16px;
+}
 /* anthony */
 
 .event_img {
