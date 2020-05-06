@@ -42,7 +42,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/2.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Carolo Warrior</h5>
           <p class="card-text text-center">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou ludiques.</p>
@@ -52,7 +52,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/3.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Concours De Cuisine</h5>
           <p class="card-text text-center">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.</p>
@@ -62,7 +62,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/4.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Pique-Nique</h5>
           <p class="card-text text-center">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition.</p>
@@ -72,7 +72,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/9.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Tournoi de basket</h5>
           <p class="card-text text-center">Tournoi de basket 5 à 7 participants.<br><br></p>
@@ -82,7 +82,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/14.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Gacolor</h5>
           <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
@@ -92,7 +92,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/11.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Bal de rentrée</h5>
           <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
@@ -102,7 +102,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card mx-auto" style="width: 18rem;">
-        <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
+        <img class="card-img-top" src="img/event_2019/12.jfif" alt="Card image cap">
         <div class="card-body">
         <h5 class="card-title text-center">Escape game</h5>
           <p class="card-text text-center">Vous souhaitez passer un moment convivial, festif et haut en couleurs ?</p>
