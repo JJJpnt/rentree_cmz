@@ -262,6 +262,7 @@ footer {
 
 .title-footer {
     font-weight: bolder;
+    color: var(--color-yellow-middle);
     margin-bottom: 40px;
     margin-top: 20px;
     font-size:30px;
@@ -270,7 +271,7 @@ footer {
 .liens-footer{
     text-decoration: none;
     font-size:20px;
-    color:#2591AA;
+    color:white;
     line-height:30px;
 }
 

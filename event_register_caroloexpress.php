@@ -18,9 +18,7 @@
 <body>
 
 
-  <script>
-    var navCloud = true;
-  </script>
+
   <?php include('include/nav.php')?>
   <!-- Evenement register content -->
 
