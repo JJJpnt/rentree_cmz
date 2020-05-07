@@ -81,40 +81,51 @@
     <div class="contactfontawesome container-fluid">
         <h2 class="text-center policetitres mt-2">Ou alors</h2>
         <div class="row">
-        <div class="col-4 mx-auto text-center">
-                <i class="fas fa-envelope fa-2x"></i>
+            <div class="col-4 mx-auto text-center">
+                <i class="fas fa-envelope fa-2x  contact-fa" style="color: var(--color-blue-middle"></i>
             </div>
             <div class="col-4 mx-auto text-center">
-                <i class="fas fa-map-marked-alt fa-2x"></i>
+                <i class="fas fa-map-marked-alt fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
             </div>
             <div class="col-4 mx-auto text-center">
-                <i class="fas fa-phone fa-2x"></i>
+                <i class="fas fa-phone fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
             </div>
         </div>
         <div class="row mt-3 mb-3">
         <div class="col-4 mx-auto text-center">
-                <p class="policep">etudiants@mairie-charlevillemezieres.fr</p>
+                <p class="policep text-center text-contact-fa">etudiants@mairie-charlevillemezieres.fr</p>
             </div>
             <div class="col-4 mx-auto text-center">
-                <p class="policep">Place du Théâtre<br>CS 40490<br>08109 Charleville-Mézières Cedex</p>
+                <p class="policep text-center text-contact-fa">Place du Théâtre CS 40490 08109 Charleville-Mézières Cedex</p>
             </div>
             <div class="col-4 mx-auto text-center">
-                <p class="policep">03 24 32 44 91</p>
+                <p class="policep text-center text-contact-fa">03 24 32 44 91</p>
             </div>
         </div>
     </div>
 
 
 
-    <div class="nospartenaires bg-azur-light container-fluid">
+    <div class="container-fluid">
         <h2 class="policetitres text-center">Nos partenaires</h2>
         <div class="grid">
-            <div class="grid-item"><img src="img/event_2019/1.jfif"></div>
-            <div class="grid-item grid-item--width2"><img src="img/event_2019/2.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/3.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/4.jfif"></div>
-            <div class="grid-item grid-item--width2"><img src="img/event_2019/5.jfif"></div>
-            <div class="grid-item"><img src="img/event_2019/6.jfif"></div>
+            <div class="grid-item"><img src="img/ardennemetropole.png"></div>
+            <div class="grid-item grid-item--width2"><img src="img/campussupardennes.jpg"></div>
+            <div class="grid-item"><img src="img/crous.png"></div>
+            <div class="grid-item"><img src="img/cv.png"></div>
+            <div class="grid-item grid-item--width2"><img src="img/decathlon.jpg"></div>
+            <div class="grid-item"><img src="img/flap.png"></div>
+            <div class="grid-item"><img src="img/grandest.png"></div>
+            <div class="grid-item grid-item--width2"><img src="img/intercampus.jpg"></div>
+            <div class="grid-item"><img src="img/jeanteur.png"></div>
+            <div class="grid-item"><img src="img/leroymerlin.png"></div>
+            <div class="grid-item grid-item--width2"><img src="img/mcdo.jpg"></div>
+            <div class="grid-item"><img src="img/orange.png"></div>
+            <div class="grid-item"><img src="img/prefecture.jpg"></div>
+            <div class="grid-item grid-item--width2"><img src="img/tacos.png"></div>
+            <div class="grid-item"><img src="img/terraltitude.jpg"></div>
+            <div class="grid-item"><img src="img/vitrines.png"></div>
+            <div class="grid-item grid-item--width2"><img src="img/yvesrocher.png"></div>
         </div>
     </div>
 

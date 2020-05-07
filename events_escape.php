@@ -24,13 +24,14 @@
   </div>
 
 
-    <div class="row w-100 text-center ">
-        <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
-                class="w-100 h-100 display-block"></div>
-        <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
-            <h2>Escape game</h2>
-            <div class="w-75 my-auto">
-                <p class="txt_events_main">Pour ceux qui aiment cuisiner, un Concours de cuisine sera proposé sur
+  <div class="row w-100 text-center">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+      </div>
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+        <h2 class="text-center policetitres mt-5">Escape Game</h2>
+        <div class="w-75 mx-auto">
+          <p class="policep">Pour ceux qui aiment cuisiner, un Concours de cuisine sera proposé sur
                         la Place Ducale en partenariat avec l’association INTERCampus.
                         <br><br>
                         Sur la base de quelques ingrédients, vous devrez concocter un bon petit plat ! Plusieurs équipes
@@ -39,9 +40,9 @@
                         Un jury à la fin notera et goûtera, pour le meilleur ou pour le pire, vos préparations.
                         <br><br>
                         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe
-                        de 2 personnes.<p>
-            </div>
+                        de 2 personnes.<p class="mb-5">
         </div>
+      </div>
     </div>
 
     <?php include('include/parallax.php')?>

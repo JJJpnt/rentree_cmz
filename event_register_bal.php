@@ -37,7 +37,7 @@
                     Charleville-Mézières. Cette manifestation, grand public, est ouverte à tous. <br>
                     La Gacolor aura lieu le dimanche 27 septembre 2020 entre 14h et 20h.</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 mt-5">
                 <img class="rdeimg" src="img/event_2019/1.jfif">
             </div>
         </div>
@@ -61,38 +61,66 @@
     <!-- Event Cards -->
 
 
-    <div class="row my-4 justify-content-center w-100">
-        <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
-            <div class="card mx-auto" style="width: 18rem;">
-                <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Carolo Express</h5>
-
-                    <center><a href="event_register_caroloexpress.php" class="btn btn-primary">S'inscrire</a></center>
-                </div>
-            </div>
+  <div class="row my-4 justify-content-center align-items-center w-100">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/1.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Express</p>
+        <hr class="style-five">
+        <div class="dropdown">
+        <center><a href="event_register_caroloexpress.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
-            <div class="card mx-auto" style="width: 18rem;">
-                <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Carolo Warrior</h5>
-
-                    <center><a href="event_register_carolowarrior.php" class="btn btn-primary">S'inscrire</a></center>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-8 mb-4">
-            <div class="card mx-auto" style="width: 18rem;">
-                <img class="card-img-top" src="img/event_2019/1.jfif" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Pique-Nique</h5>
-
-                    <center><a href="event_register_piquenique.php" class="btn btn-primary">S'inscrire</a></center>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/6.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Warrior</p>
+        <hr class="style-five">
+        <center><a href="event_register_carolowarrior.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/3.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours De Cuisine</p>
+        <hr class="style-five">
+        <center><a href="event_register_concourscuisine.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/12.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Pique-Nique</p>
+        <hr class="style-five">
+        <center><a href="event_register_piquenique.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/14.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Tournoi de Basket</p>
+        <hr class="style-five">
+        <center><a href="event_register_basket.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/gacolor.jpeg">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Gacolor</p>
+        <hr class="style-five">
+        <center><a href="event_register_gacolor.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/9.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Escape Game</p>
+        <hr class="style-five">
+        <center><a href="event_register_escape.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+  </div>
 
 
     <!-- Event register content end -->

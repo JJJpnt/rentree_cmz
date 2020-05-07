@@ -20,21 +20,22 @@
     <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Carolo Express</strong></h2></div>
   </div>
 
-
-    <div class="row w-100 text-center ">
-    <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg" class="w-100 h-100 display-block"></div>
-    <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
-      <h2>Carolo Express</h2>
-      <div class="w-75 my-auto">
-      <p class="txt_events_main">A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
+  <div class="row w-100 text-center">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+      </div>
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+        <h2 class="text-center policetitres mt-5">Carolo Express</h2>
+        <div class="w-75 mx-auto">
+          <p class="policep">A travers les rues de Charleville-Mézières, le Carolo Express permet aux étudiants de découvrir la ville autrement avec ses moments incontournables et de nombreux lieux insolites ou méconnus.
          Etes-vous déjà entré au sein de la TOUR DU ROY ?
          <br><br>
          Le parcours est composé d’environ 10 étapes. Sur chaque étape, une énigme ou une mise en situation sera demandée. Les équipes qui auront découvert les lieux le plus rapidement possible remporteront cette course d’orientation. Le parcours du Carolo Express doit, bien évidemment, se faire à pied (sinon, c’est trop facile ).
          <br><br>
-         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes.<p>
-         </div>
+         Afin de participer à cette manifestation, il est nécessaire au préalable de composer une équipe de 5 personnes.<p class="mb-5">
+        </div>
+      </div>
     </div>
-  </div>
 
     <?php include('include/parallax.php')?>
 

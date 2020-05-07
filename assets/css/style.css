@@ -159,6 +159,12 @@ html {
     transform: rotateZ(-2deg);
 }
 
+.policecards {
+    font-family: 'Titillium Web', cursive;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .tabgalerietxt {
     font-family: 'Bangers', cursive;
     font-size: 1em;
@@ -247,6 +253,34 @@ html {
 
 .hovergallery:hover {
     transform: rotateZ(2deg);
+    transition-duration: 0.5s;
+}
+
+.contact-fa {
+    border: 2px solid var(--color-blue-middle);
+    padding: 10px;
+    border-radius: 12%;
+}
+
+.text-contact-fa {
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background-color: var(--color-blue-middle) !important;
+}
+
+.btn-secondary:hover {
+    color: var(--color-yellow-middle) !important;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
 }
 /* anthony */
 
@@ -342,10 +376,33 @@ html {
     /* margin: 25px; */
 }
 
+.card-polaroid {
+    width: 90%;
+    /* max-width: calc(100% + 30px); */
+    /* padding: 0 !important; */
+    /* margin: 0 !important; */
+    /* max-height: 100%; */
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    border: 1px solid #999;
+    background-color: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    transition: all 0.4s ease;
+    z-index:10;
+    /* margin: 25px; */
+}
+
 
 .polaroid:hover {
     /* transform: rotateZ(2.5deg) scale(1.15); */
     transform: rotateZ(2.5deg) translateZ(5px);
+    z-index: 100;
+}
+.card-polaroid:hover {
+    /* transform: rotateZ(2.5deg) scale(1.15); */
+    transform: rotateZ(-1.5deg) translateZ(2px);
     z-index: 100;
 }
 

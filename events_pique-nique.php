@@ -22,15 +22,14 @@
     <div class="header_img">
     <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Pique-Nique</strong></h2></div>
   </div>
-
-
-    <div class="row w-100 text-center ">
-        <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
-                class="w-100 h-100 display-block"></div>
-        <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
-            <h2>Pique-Nique</h2>
-            <div class="w-75 my-auto">
-                <p class="txt_events_main">Afin de passer tous ensemble une pause déjeuner conviviale, vous avez la
+    <div class="row w-100 text-center">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+      </div>
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+        <h2 class="text-center policetitres mt-5">Pique-Nique</h2>
+        <div class="w-75 mx-auto">
+          <p class="policep">Afin de passer tous ensemble une pause déjeuner conviviale, vous avez la
                         possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition sur un
                         espace de la Plaine du Mont Olympe.
                         <br><br>
@@ -41,9 +40,9 @@
                         <br><br>
                         Afin de bénéficier du repas à 3€, il est impératif de réserver votre repas.
                         <br><br>
-                        Vous paierez sur place le jour J.<p>
-            </div>
+                        Vous paierez sur place le jour J.<p class="mb-5">
         </div>
+      </div>
     </div>
 
     <?php include('include/parallax.php')?>
