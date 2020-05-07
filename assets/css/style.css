@@ -20,6 +20,10 @@ html {
 
 /* Rentrée CMZ color classes */
 
+.text-shadow {
+    text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.54);
+}
+
 .policetitres {
     font-family: 'Bangers', cursive;
     margin-bottom: 3rem;
@@ -33,6 +37,9 @@ html {
     line-height: 1.2em;
     margin-top: 0.75rem;
     margin-bottom: 0;
+}
+
+.indentp {
     text-indent: 3rem;
 }
 
@@ -174,7 +181,14 @@ html {
 }
 
 .rounded-circle {
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(6px);
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    border: 5px solid rgba(255,255,255,0.25);
 }
 
 .tabgalerietxt {
