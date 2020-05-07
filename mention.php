@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Fonts CSS -->
+<link href="https://fonts.googleapis.com/css?family=Bangers|Days+One&display=swap" rel="stylesheet">
+<!-- Slick pour carousel partenaires -->
+
+<link rel="stylesheet" href="assets/css/style.css">
     <title>Mention légales</title>
  
 </head>
 <body>
+
+    <?php include('include/nav.php'); ?>
 
     <div class="mention"><br><br><br><br>
         <center><h2>Mentions Légales</h2><hr color="black" width="200em" size="2"><br></center><br><br>
@@ -30,8 +42,10 @@
      </p></center>
      </div>
      <form><center>
-     <input type = "button" value = "Retour"  onclick = "history.back()">
+     <input type = "button" value = "Retour"  onclick = "history.back()" class="mb-5">
      </center></form>
-        
+
+     <?php include('include/footer.php'); ?>   
+
 </body>
 </html>

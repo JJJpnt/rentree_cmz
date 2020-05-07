@@ -114,6 +114,8 @@
 
   <div class="mb-5"></div>
 
+  <center><h2 class="policetitres">2019</h2></center>
+
 <!-- Tabs pour galerie photos -->
   <div class="container-fluid">
     <div class="row justify-content-center">
@@ -236,14 +238,6 @@
         <!-- /Tab bal -->
       </div>
     </div>
-  </div>
-
-  <div class="row m-5 d-flex justify-content-center">
-
-    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
-
-    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
-
   </div>
 
   <!-- footer -->
