@@ -25,7 +25,7 @@
   <script>
     var navCloud = true;
   </script>
-  <?php include('include/nav.php')?>
+  <?php include('include/nav.php') ?>
 
   <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
   <?php include('include/slider.php'); ?>
@@ -127,15 +127,14 @@
         <!-- Ici chaque item -->
         <div class="row d-flex">
           <div class="col-2"></div>
-          <div class="col-2">
+          <div class="col-2 carou_img">
             <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
           </div>
           <div class="col-1"></div>
-          <div class="col-5 align-self-center">
-            <p class="policep">Guillaume, 21 ans (EGC) :<br><br>J’ai apprécié cette journée et toutes les villes
-              devraient
+          <div class="col-md-12 col-lg-5 align-self-center m-2">
+            <p class="policep"><center>Guillaume, 21 ans (EGC) :<br><br>J’ai apprécié cette journée et toutes les villes devraient
               organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au Carolo Express, c’était
-              fun !</p>
+              fun !</center></p>
           </div>
         </div>
       </div>
@@ -143,14 +142,14 @@
         <!-- Ici chaque item -->
         <div class="row d-flex">
           <div class="col-2"></div>
-          <div class="col-2">
-            <img src="img/logoetudiantcarolo.png" class="carou-img d-block w-100" alt="Logo étudiant carolo">
+          <div class="col-2 carou_img">
+            <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
           </div>
           <div class="col-1"></div>
-          <div class="col-5 align-self-center">
-            <p class="policep">Guillaume, 21 ans (EGC) :<br>J’ai apprécié cette journée et toutes les villes devraient
+          <div class="col-md-12 col-lg-5 align-self-center m-2">
+            <p class="policep"><center>Guillaume, 21 ans (EGC) :<br><br>J’ai apprécié cette journée et toutes les villes devraient
               organiser ce genre de manifestation pour les étudiants. Moi j’ai participé au Carolo Express, c’était
-              fun !</p>
+              fun !</center></p>
           </div>
         </div>
       </div>

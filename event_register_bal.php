@@ -46,14 +46,76 @@
     <!-- Formumaire -->
 
     <section class="get-in-touch container-lg">
-        <h1 class="title">Inscription Gacolor</h1><br>
-        <p class="policep text-center">Pour opérer votre inscription, merci de cliquer sur le boutton ci-dessous & de
-            vous laisser guider :<br><br>
+    <h1 class="title">Inscription bal de la rentrée</h1><br>
+    <p class="policep text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam iure
+     dignissimos veniam nulla distinctio ea minus optio quia,
+     repudiandae illum dolorum debitis aspernatur accusamus earum magnam nihil nam ut.</p><br>
+    <h2 class="title2 mt-3">Etablissement</h2>
+    <form class="contact-form row w-100 justify-content-center">
+      <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
+        <center><select class="custom-select" name="etablissement" id="etablissement">
+            <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
+            <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
+            <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
+            <option value="EGC">Ecole de gestion et de commerce (EGC)</option>
+            <option value="SIMPLON">Ecole Simplon</option>
+            <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)</option>
+            <option value="ESNAM">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
+            <option value="IFSI">Institut de formation en soins infirmiers (IFSI)</option>
+            <option value="CFAI">Centre de formation des apprentis de l’industrie (CFAI)</option>
+            <option value="LABDA">Lycée agricole Balcon des Ardennes</option>
+            <option value="LDMDB">Lycée des métiers de Bazeilles</option>
+            <option value="LMDS">Lycée Sévigné</option>
+            <option value="LDMB">Lycée des métiers Bazin</option>
+            <option value="LM">Lycée Monge</option>
+            <option value="LJBC">Lycée JB Clément</option>
+            <option value="LPB">Lycée Pierre Bayle</option>
+            <option value="LSV">Lycée Simone Veil</option>
+            <option value="SCBS">SCBS – Y Schools</option>
+          </select></center>
+      </div>
+ 
 
-            <a href="https://www.helloasso.com/associations/gacolor/evenements/gacolor-2020" type="button" class="btn btn-primary mx-auto my-auto">S'inscrire</a>
-
-           
-    </section>
+      <div class="mb-5"></div>
+        <div class="row justify-content-center">
+          <div class="tab-content" id="myTabContent">
+            <!-- Tabs participants -->
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart2" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                  <div class="form-field col-12">
+                    <center><input class="submit-btn" type="submit" value="Valider"></center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
 
     <!-- Parrallaxe -->
     <?php include('include/parallax.php')?>
