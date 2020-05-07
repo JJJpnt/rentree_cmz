@@ -35,7 +35,7 @@
 à la plaine du Mont Olympe pour le prix de 3€ au lieu de 5€
 pour les 200 premières réservations.</p>
       </div>
-      <div class="col-6">
+      <div class="col-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>

@@ -37,7 +37,7 @@ et participer au Concours de cuisine qui se déroulera Place Ducale et peut-êtr
 devenir la meilleure équipe de cuisine de 2020 de la ville. Pour constituer une équipe,
 vous devez être 2 participants. Opérez votre inscription ensemble.</p>
       </div>
-      <div class="col-6">
+      <div class="col-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>

@@ -247,6 +247,7 @@ html {
 
 .hovergallery:hover {
     transform: rotateZ(2deg);
+    transition-duration: 0.5s;
 }
 
 .contact-fa {

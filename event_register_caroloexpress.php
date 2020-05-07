@@ -41,7 +41,7 @@
           le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
           Opérez votre inscription ensemble.</p>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>

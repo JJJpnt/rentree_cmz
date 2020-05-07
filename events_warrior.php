@@ -23,14 +23,14 @@
     <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Carolo Warrior</strong></h2></div>
   </div>
 
-
-    <div class="row w-100 text-center ">
-        <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/carolo_express_img.jpg"
-                class="w-100 h-100 display-block"></div>
-        <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center">
-            <h2>Carolo Warrior</h2>
-            <div class="w-75 my-auto">
-                <p class="txt_events_main">Carolo Warrior est un relai sportif composé de nombreuses activités sportives
+    <div class="row w-100 text-center">
+      <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+      </div>
+      <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
+        <h2 class="text-center policetitres mt-5">Carolo Warrior</h2>
+        <div class="w-75 mx-auto">
+          <p class="policep">Carolo Warrior est un relai sportif composé de nombreuses activités sportives
                     et/ou ludiques.
                     Plusieurs activités composent le relais, à savoir :
                     <br><br>
@@ -44,9 +44,9 @@
                     - Blind Foot<br>
                     - Course<br>
                     - Activité aquatique<br>
-                    - Course & passage d’obstacles<p>
-            </div>
+                    - Course & passage d’obstacles<p class="mb-5">
         </div>
+      </div>
     </div>
 
     <?php include('include/parallax.php')?>

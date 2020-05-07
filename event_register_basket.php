@@ -39,7 +39,7 @@ de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 à 7
 Opérez votre inscription ensemble.<br>
 Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’Arena de Charleville-Mézières.</p>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>

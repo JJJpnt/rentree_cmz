@@ -37,7 +37,7 @@
                     Charleville-Mézières. Cette manifestation, grand public, est ouverte à tous. <br>
                     La Gacolor aura lieu le dimanche 27 septembre 2020 entre 14h et 20h.</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 mt-5">
                 <img class="rdeimg" src="img/event_2019/1.jfif">
             </div>
         </div>

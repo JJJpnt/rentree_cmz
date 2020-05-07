@@ -37,7 +37,7 @@ et participer au Carolo warrior (relai sportif et ludique). De nombreux
 lots sont à gagner. Pour constituer une équipe, vous devez être 8 participants.
 Opérez votre inscription ensemble</p>
       </div>
-      <div class="col-6">
+      <div class="col-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jfif">
       </div>
     </div>
