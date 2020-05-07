@@ -93,7 +93,7 @@
                 <h2 class="policetitres-proginc text-center mt-3">Programme</h2>
               </button>
               <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonProgramme">
-                <a class="dropdown-item policetitres-proginc-a" href="#">En attente de communication</a>
+                <a class="dropdown-item policetitres-proginc-a" href="#">Attente de contenu</a>
               </div>
             </div>
           </div>
