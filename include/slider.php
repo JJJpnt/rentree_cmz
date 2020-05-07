@@ -50,8 +50,8 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['center','center','center','center']" data-voffset="['-257','-177','-257','-157']"
-                data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['53','53','53','53']"
+                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
@@ -64,8 +64,8 @@
             <!-- LAYER NR. 3 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
                 data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
-                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
-                data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
+                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
@@ -79,8 +79,8 @@
             <!-- LAYER NR. 4 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
                 data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
-                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
-                data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
+                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
@@ -93,8 +93,8 @@
             <!-- LAYER NR. 5 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['center','center','center','center']" data-voffset="['-260','-180','-260','-160']"
-                data-fontsize="['120','120','120','80']" data-lineheight="['90','90','90','60']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
+                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
@@ -121,24 +121,24 @@
             <!-- LAYER NR. 7 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-32-layer-2"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['center','center','center','center']" data-voffset="['0','0','0','0']"
+                data-y="['center','center','center','center']" data-voffset="['-25','-25','-90','-90']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
                 data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:100px;rZ:15deg;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 11;">
-                <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%">
-                    <img src="img/mascotte.png" alt="" data-ww="['520px','718px','615px','410px']"
-                        data-hh="['500px','350px','300px','200px']" width="1025" height="500" data-no-retina> </div>
+                <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="9px" data-origin="50% 50%">
+                    <img src="img/mascotte.png" alt="" data-ww="['510px','450px','450px','325px']"
+                        data-hh="['510px','450px','450px','325px']" width="500" height="500" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 8 -->
             <a class="tp-caption   tp-resizeme" href="#evenements"
                 id="slide-32-layer-16" data-x="['center','center','center','center']"
                 data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['230','210','310','310']" data-fontsize="['25','25','25','20']"
-                data-lineheight="['25','25','25','20']" data-width="['none','none','none','320']" data-height="none"
+                data-voffset="['230','210','310','250']" data-fontsize="['25','25','25','25']"
+                data-lineheight="['25','25','25','20']" data-width="['none','none','none','380']" data-height="none"
                 data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text"
                 data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-32-layer-17","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-32-layer-17","delay":""}]'
                 data-responsive_offset="on"
@@ -253,24 +253,24 @@
             <a class="tp-caption   tp-resizeme" href="faq.php"
                 target="_blank" id="slide-32-layer-18" data-x="['center','center','center','center']"
                 data-hoffset="['-270','-270','-230','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['100','100','200','210']" data-fontsize="['30','30','25','25']"
+                data-voffset="['100','100','200','140']" data-fontsize="['30','30','25','25']"
                 data-lineheight="['28','28','23','23']" data-width="270" data-height="none" data-whitespace="nowrap"
                 data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Une édition 2020<br>survitaminée</a>
 
             <!-- LAYER NR. 17 -->
             <a class="tp-caption   tp-resizeme"
                 href="https://rentree-etudiants-cmz.fr/" target="_blank"
                 id="slide-32-layer-19" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','200','150']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','200','85']"
                 data-fontsize="['30','30','25','25']" data-lineheight="['28','28','23','23']" data-width="270"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
                 2019</a>
 
@@ -278,12 +278,12 @@
             <a class="tp-caption   tp-resizeme" href="event.php" target="_blank"
                 id="slide-32-layer-20" data-x="['center','center','center','center']"
                 data-hoffset="['270','270','230','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['100','100','200','90']" data-fontsize="['30','30','25','25']"
+                data-voffset="['100','100','200','30']" data-fontsize="['30','30','25','25']"
                 data-lineheight="['28','28','23','23']" data-width="270" data-height="none" data-whitespace="nowrap"
                 data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
                 toutes les<br />activités de la rentrée</a>
 
