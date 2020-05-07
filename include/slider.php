@@ -1,3 +1,4 @@
+<div class="container-fluid">
 <!-- "fullscreen-container" class applied slider's wrapper -->
 <div id="top_slider_container" class="rev_slider_wrapper fullscreen-container">
 
@@ -50,13 +51,13 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['top','top','top','top']" data-voffset="['53','53','53','53']"
-                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['113','113','53','53']"
+                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,0,255,1);font-family:Bangers;letter-spacing:+5px;">
+                style="z-index: 6; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(255,0,255,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
                     <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
             </div>
@@ -64,13 +65,13 @@
             <!-- LAYER NR. 3 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
                 data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
-                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
-                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,0,1);font-family:Bangers;letter-spacing:+5px;">
+                style="z-index: 7; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(255,255,0,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
                     <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
             </div>
@@ -79,13 +80,13 @@
             <!-- LAYER NR. 4 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
                 data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
-                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
-                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(0,255,255,1);font-family:Bangers;letter-spacing:+5px;">
+                style="z-index: 8; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(0,255,255,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
                     <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
             </div>
@@ -93,31 +94,15 @@
             <!-- LAYER NR. 5 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['top','top','top','top']" data-voffset="['50','50','50','50']"
-                data-fontsize="['100','100','90','60']" data-lineheight="['90','90','70','46']" data-width="none"
+                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
+                style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
                 <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
 
-                <!-- style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255,255,255,1);font-family:Bangers;letter-spacing:+5px;"> -->
-            <!-- LAYER NR. 6 -->
-            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-15"
-                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['119','99','200','220']" data-width="none"
-                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on"
-                data-frames='[{"delay":850,"speed":2000,"frame":"0","from":"sX:1.1;sY:1.1;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 10;">
-                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/images/galaxy_bg-1.png" alt="" data-ww="['509px','509px','509px','407px']"
-                        data-hh="['250px','250px','250px','200px']" width="407" height="200" data-no-retina> </div>
-            </div> -->
-
-                <!-- data-y="['bottom','bottom','bottom','bottom']" data-voffset="['299','260','380','350']" -->
             <!-- LAYER NR. 7 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-32-layer-2"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
@@ -129,8 +114,8 @@
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 11;">
                 <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="9px" data-origin="50% 50%">
-                    <img src="img/mascotte.png" alt="" data-ww="['510px','450px','450px','325px']"
-                        data-hh="['510px','450px','450px','325px']" width="500" height="500" data-no-retina> </div>
+                    <img src="img/mascotte.png" alt="" data-ww="['460px','410px','450px','325px']"
+                        data-hh="['460px','410px','450px','325px']" width="500" height="500" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 8 -->
@@ -296,6 +281,8 @@
 </div><!-- END REVOLUTION SLIDER -->
 
 </div> <!-- END WRAPPER -->
+</div>
+
 
 <script type="text/javascript">
     var tpj = jQuery;

@@ -31,7 +31,7 @@
 
   <!--carte-->
 
-  <div class="row my-4 justify-content-center align-items-center w-100">
+  <div class="row my-4 justify-content-center align-items-center w-100 persp">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
         <img class="img-fluid" src="img/event_2019/1.jfif">
@@ -113,6 +113,8 @@
   <?php include("include/parallax.php"); ?>
 
   <div class="mb-5"></div>
+
+  <center><h2 class="policetitres">2019</h2></center>
 
 <!-- Tabs pour galerie photos -->
   <div class="container-fluid">
@@ -236,14 +238,6 @@
         <!-- /Tab bal -->
       </div>
     </div>
-  </div>
-
-  <div class="row m-5 d-flex justify-content-center">
-
-    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2019.png" class="mt-1"></a></div>
-
-    <div class="col-xs-12 col-md-12 col-lg-2 mx-auto my-auto"><a href="event.php"><img src="img/2020.png" class="mt-1"></a></div>
-
   </div>
 
   <!-- footer -->

@@ -26,7 +26,7 @@ $(function(){
         }else{
             $("header").removeClass("nav-opaque");
         }
-
+        navCloud = false; //TEMP JJJ DEBUG
         if(navCloud){
           if(st<$("#top_slider_container").height()) {
             $("#header-top").addClass("nav-cloud");
@@ -74,9 +74,10 @@ $(function(){
 
 <header id="header-top" class="container-fluid navbar-container fixed-top d-flex align-items-start justify-content-between">
   <!-- <div id="header-top" class=" "> -->
-  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between pt-0">
-      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between pt-0 pt-lg-1">
+      <button class="navbar-toggler order-1 mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img class="" src="img/logocmz.svg" width="75px" height="75px">
       </button>
   
       <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center" id="navbarToggler">
@@ -108,7 +109,7 @@ $(function(){
         </ul>
       </div>
 
-      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center"><img class="logocmz-nav img-fluid" src="img/logocmz.svg"></div>
+      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav img-fluid" src="img/logocmz.svg"></div>
   
       <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center" id="navbarToggler">
         <ul class="navbar-nav">

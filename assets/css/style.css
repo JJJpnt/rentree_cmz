@@ -146,6 +146,14 @@ html {
     font-weight: 100;
 } */
 
+.nohoverbtn {
+    backdrop-filter: blur(8px);
+}
+
+.blurbal {
+    backdrop-filter: blur(8px);
+}
+
 .policetitres-proginc {
     font-family: 'Bangers', cursive;
     color: var(--color-yellow-middle);
@@ -165,15 +173,15 @@ html {
     padding-left: 20px;
 }
 
+.rounded-circle {
+    backdrop-filter: blur(2px);
+}
+
 .tabgalerietxt {
     font-family: 'Bangers', cursive;
     font-size: 1em;
     transform: rotateZ(-2deg);
     color: var(--color-blue-middle);
-}
-
-.dropindex-a {
-    backdrop-filter: blur(0px) !important;
 }
 
 .rdeimg {
@@ -397,12 +405,14 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 
 .polaroid:hover {
     /* transform: rotateZ(2.5deg) scale(1.15); */
+    box-shadow: 0px 5px 16px rgba(0,0,0,0.25);
     transform: rotateZ(2.5deg) translateZ(5px);
     z-index: 100;
 }
 .card-polaroid:hover {
     /* transform: rotateZ(2.5deg) scale(1.15); */
-    transform: rotateZ(-1.5deg) translateZ(2px);
+    box-shadow: 0px 5px 16px rgba(0,0,0,0.25);
+    transform: rotateZ(-1.5deg) translateZ(3px);
     z-index: 100;
 }
 @media screen and (max-width: 992px){
@@ -842,4 +852,26 @@ header .input-group {
     width: auto;
     height: auto;
     max-height: 100px;
+  }
+
+
+
+
+
+
+  /* nav collapsed button */
+  .navbar-toggler {
+      border: none;
+      transition: all 0.4s ease;
+      outline: none;
+  }
+
+  .navbar-toggler:active, .navbar-toggler:focus {
+      border: none !important;
+      outline: none !important;
+  }
+
+  .navbar-toggler:hover {
+      border: none;
+      transform: rotateZ(-7deg) scale(1.20);
   }
