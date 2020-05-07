@@ -84,7 +84,7 @@
 
   <div class="container-fluid">
     <div class="row motifimg">
-      <img src="img/gacolor.jpeg" style="width: 100%;">
+    <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);"></div>
       <div class="col-8 motiftest">
         <div class="row">
           <div class="col-md-3 col-5 mx-auto ">
