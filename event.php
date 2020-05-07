@@ -114,7 +114,9 @@
 
   <div class="mb-5"></div>
 
-  <center><h2 class="policetitres">2019</h2></center>
+  <div class="container-fluid">
+    <h2 class="policetitres text-center">2019</h2>
+  </div>
 
 <!-- Tabs pour galerie photos -->
   <div class="container-fluid">
