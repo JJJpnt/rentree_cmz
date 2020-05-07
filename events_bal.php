@@ -92,8 +92,9 @@
                 </div>
             </div>
             <div class="txt_faq col-xl-6 col-mb-10 order-2 p-0 m-auto">
-            <div class="d-flex flex-column justify-content-around align-items-center">
-                <a href="event_register_bal.php" type="button" class="btn btn-light mx-auto my-auto">S'inscrire</a>
+            <div class="d-flex align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-6"><img src="img/mascotte_montre.png" style="width:100%;"></div>
+                <a href="event_register_bal.php"><button class="btn btn-secondary"><h2 class="policetitres" style="color: var(--color-yellow-middle); margin-bottom: 0!important;">S'inscrire</h2></button></a>
             </div>
             </div>
         </div>
