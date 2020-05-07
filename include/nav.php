@@ -26,7 +26,7 @@ $(function(){
         }else{
             $("header").removeClass("nav-opaque");
         }
-        navCloud = false; //TEMP JJJ DEBUG
+        
         if(navCloud){
           if(st<$("#top_slider_container").height()) {
             $("#header-top").addClass("nav-cloud");
