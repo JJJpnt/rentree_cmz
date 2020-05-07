@@ -177,6 +177,13 @@ html {
     backdrop-filter: blur(2px);
 }
 
+.btn-inscription {
+    background-color: var(--color-blue-middle) !important;
+    color: var(--color-yellow-middle) !important;
+    width: 2rem !important;
+    height: 1rem !important;
+}
+
 .tabgalerietxt {
     font-family: 'Bangers', cursive;
     font-size: 1em;
@@ -317,11 +324,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     width: 20%;
     margin-bottom: 1em;
 }
-.btn-light{
-    width: 50%;
-    height: 2em;
-    font-size: 1em;
-}
+
 .showeventinscription {
     display: flex;
     justify-content: center;
