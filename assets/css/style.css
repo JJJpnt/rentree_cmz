@@ -405,11 +405,18 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     transform: rotateZ(-1.5deg) translateZ(2px);
     z-index: 100;
 }
-
+@media screen and (max-width: 992px){
+    .carou_img{
+       display: none;
+    }
+}
 @media screen and (max-width: 858px){
     .header_text {
         margin-bottom: 1.5em;
         font-size: 2.2em;
+    }
+    .carou_img{
+        display: none;
     }
 }
 
