@@ -146,6 +146,10 @@ html {
     font-weight: 100;
 } */
 
+.nohoverbtn {
+    backdrop-filter: blur(8px);
+}
+
 .policetitres-proginc {
     font-family: 'Bangers', cursive;
     color: var(--color-yellow-middle);
@@ -170,10 +174,6 @@ html {
     font-size: 1em;
     transform: rotateZ(-2deg);
     color: var(--color-blue-middle);
-}
-
-.dropindex-a {
-    backdrop-filter: blur(0px) !important;
 }
 
 .rdeimg {

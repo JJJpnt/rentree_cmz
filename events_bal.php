@@ -45,62 +45,91 @@
       </div>
     </div>
 
-    <?php include('include/parallax.php')?>
+    <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);"></div>
 
-    <div class="showeventinfo m-3">
-        <div class="container-fluid">
-            <div class="row w-100 text-center">
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                    <div class="card mx-auto my-auto " style="width: 18rem;">
+    
+    <div class="container-fluid my-5">
+        <div class="row w-100 mb-5 mb-xl-0">
+        <div class="col-xl-6 my-auto col-mb-10 order-1 p-0 m-0">
+            <h2 class="text-center policetitres">Règles</h2>
+            <div class="w-75 mx-auto">
+            <p class="policep">A l'initiative de la Ville de Charleville-Mézières et en partenariat avec les associations étudiantes, cette manifestation vise à souhaiter la bienvenue à tous les étudiants du territoire. </p>
 
-                        <div class="card-body">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+            <p class="policep">Jusque-là organisée sur une journée unique, l’édition 2020 aura lieu durant 4 jours intégrant notamment des manifestations qui auraient dû se tenir durant le Printemps des étudiants !</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                    <div class="card mx-auto my-auto " style="width: 18rem;">
+            <p class="policep">Ainsi, nous vous proposons cette année un format XXL de la Rentrée des étudiants avec les incontournables Carolo Express et Carolo Warrior mais également le Tournoi de basket inter-établissements, un Escape Game, le Bal de rentrée, la fameuse et attendue GACOLOR et bien d’autres manifestations !</p>
 
-                        <div class="card-body">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+            <p class="policep">La Rentrée des étudiants est une manifestation ouverte à tous les étudiants du territoire mais également à ceux qui veulent fêter les étudiants en participant notamment à la Gacolor, événement coloré et grand public.</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
-                    <div class="card mx-auto my-auto " style="width: 18rem;">
-
-                        <div class="card-body">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
-                    <div class="card mx-auto my-auto " style="width: 18rem;">
-
-                        <div class="card-body">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-
-                        </div>
-                    </div>
-                </div>
+            <p class="policep mb-5 mb-xl-0">La Rentrée des étudiants est une occasion festive, ludique, sportive et culturelle de découvrir la ville, de rencontrer d'autres étudiants issus des différents établissements du territoire et d’affirmer notre ambition étudiante.</p>
             </div>
         </div>
+        <div class="col-xl-6 col-mb-10 order-2 p-0 m-auto">
+            <img class="evenementimg evenementimg-2 img-fluid d-block" src="img/event_2019/1.jfif">
+        </div>
+        </div>
+    <?php include('include/parallax.php')?>
+
+    <div class="row my-4 justify-content-center align-items-center w-100">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/1.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Express</p>
+        <hr class="style-five">
+        <div class="dropdown">
+        <center><a href="event_register_caroloexpress.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+        </div>
+      </div>
     </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/13.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Bal de Rentrée</p>
+        <hr class="style-five">
+        <center><a href="event_register_bal.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/3.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours De Cuisine</p>
+        <hr class="style-five">
+        <center><a href="event_register_concourscuisine.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/12.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Pique-Nique</p>
+        <hr class="style-five">
+        <center><a href="event_register_piquenique.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/14.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Tournoi de Basket</p>
+        <hr class="style-five">
+        <center><a href="event_register_basket.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/gacolor.jpeg">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Gacolor</p>
+        <hr class="style-five">
+        <center><a href="event_register_gacolor.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
+      <div class="card-polaroid mx-auto">
+        <img class="img-fluid" src="img/event_2019/9.jfif">
+        <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Escape Game</p>
+        <hr class="style-five">
+        <center><a href="event_register_escape.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+      </div>
+    </div>
+  </div>
 
     <div class="showeventcarac">
         <h2 class="text-center">Caractéristiques</h2>
