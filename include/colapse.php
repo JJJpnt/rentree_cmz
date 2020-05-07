@@ -26,13 +26,16 @@
               <div id="headingOne" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne"
-                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2 text-center">FAQ 1</a></h6>
+                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2 text-center">Questions générales</a></h6>
               </div>
               <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
                 <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                    pariatur fugit necessitatibus voluptatem, eos architecto, sunt aliquam, quae reiciendis qui
-                    accusantium corporis. Iure sequi soluta ullam fuga adipisci eos tempora!</p>
+                  <p class="font-weight-light m-0"><strong>Si je suis habitant du territoire et toujours en étude dans un établissement qui ne se trouve pas sur la commune de Charleville-Mézières ou au sein du périmètre Ardenne Métropole, puis-je malgré tout participer à la Rentrée des étudiants ?</strong></p>
+                  <br><p class="font-weight-light m-0">-> Non, désolé, cette manifestation est dédiée aux étudiants qui poursuivent une formation post bac sur le territoire de Charleville-Mézières et/ou sur le périmètre de Ardenne Métropole.</p>
+                  <br><p class="font-weight-light m-0">-> Par contre, de nombreuses manifestations sont ouvertes au grand public comme la Gacolor, l’Escape Game… N’hésitez pas à vous renseigner via la programme. </p>
+
+                  <br><p class="font-weight-light m-0"><strong>Est-ce que les activités sont payantes ?</strong></p>
+                  <br><p class="font-weight-light m-0">-> La grande majorité des activités proposée n’est pas payante comme le Carolo Express, Carolo Warrior, Concours de cuisine, le tournoi de basket… En revanche, les repas pique-nique nécessitent une participation de 3€ pour les 200 premières inscriptions puis 5€. La Gacolor et autres manifestations grands publics, organisées par nos partenaires, nécessitent une participation financière.</p>
                 </div>
               </div>
             </div>
@@ -42,14 +45,12 @@
               <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo"
-                    class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2 text-center">FAQ 2</a>
+                    class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2 text-center">Puis-je m’inscrire à moins de 5 personnes ou plus de 7 personnes au Tournoi de basket ?</a>
                 </h6>
               </div>
               <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
                 <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    adipisci, aspernatur ducimus esse eaque officiis necessitatibus debitis odio ipsam praesentium
-                    labore magnam amet inventore tenetur dicta corporis. Reiciendis, veniam odio?</p>
+                  <p class="font-weight-light m-0">-> Pour la bonne organisation du tournoi, l’inscription à 5 personnes minimum ou 7 personnes maximum est obligatoire.</p>
                 </div>
               </div>
             </div>
@@ -59,14 +60,12 @@
               <div id="headingThree" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree"
-                    class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2 text-center">FAQ 3</a>
+                    class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2 text-center">Peut-on venir de différents établissements pour composer une équipe ?</a>
                 </h6>
               </div>
               <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
                 <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
-                    assumenda asperiores, dignissimos expedita necessitatibus vitae nesciunt aut neque, iusto autem,
-                    fugit dolorem officiis repellat eligendi ad facilis soluta omnis at.</p>
+                  <p class="font-weight-light m-0">-> Oui, il est possible que les membres d’une même équipe proviennent d’établissements différents.</p>
                 </div>
               </div>
             </div>
