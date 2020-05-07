@@ -45,14 +45,131 @@
     <!-- Formumaire -->
 
     <section class="get-in-touch container-lg">
-        <h1 class="title">Inscription Gacolor</h1><br>
-        <p class="policep text-center">Pour opérer votre inscription, merci de cliquer sur le boutton ci-dessous & de
-            vous laisser guider :<br><br>
+    <h1 class="title">Inscription Concours de cuisine</h1><br>
+    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
+et participer au Concours de cuisine qui se déroulera Place Ducale et peut-être
+devenir la meilleure équipe de cuisine de 2020 de la ville. Pour constituer une équipe,
+vous devez être 2 participants. Opérez votre inscription ensemble.</p><br>
+    <h2 class="title2 mt-3">Etablissement</h2>
+    <form class="contact-form row w-100 justify-content-center">
+      <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
+        <center><select class="custom-select" name="etablissement" id="etablissement">
+            <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
+            <option value="EiSINe">Ecole d’Ingénieurs en Sciences Industrielles et Numérique (EiSINe)</option>
+            <option value="INSPE">Institut national Supérieur du Professorat et de l’Education (INSPÉ)</option>
+            <option value="EGC">Ecole de gestion et de commerce (EGC)</option>
+            <option value="SIMPLON">Ecole Simplon</option>
+            <option value="ISCEE">Institut supérieur de comptabilité et d’économie des entreprises (ISCEE)</option>
+            <option value="ESNAM">Ecole supérieure nationale des Arts de la marionnettes (ESNAM)</option>
+            <option value="IFSI">Institut de formation en soins infirmiers (IFSI)</option>
+            <option value="CFAI">Centre de formation des apprentis de l’industrie (CFAI)</option>
+            <option value="LABDA">Lycée agricole Balcon des Ardennes</option>
+            <option value="LDMDB">Lycée des métiers de Bazeilles</option>
+            <option value="LMDS">Lycée Sévigné</option>
+            <option value="LDMB">Lycée des métiers Bazin</option>
+            <option value="LM">Lycée Monge</option>
+            <option value="LJBC">Lycée JB Clément</option>
+            <option value="LPB">Lycée Pierre Bayle</option>
+            <option value="LSV">Lycée Simone Veil</option>
+            <option value="SCBS">SCBS – Y Schools</option>
+          </select></center>
+      </div>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-12 form-field">
+          <h2 class="title2">Nom de l'équipe (à votre choix)</h2>
+        </div>
+      </div>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input id="name" class="input-text js-input" name="teamname" type="text" required>
+          <label class="label" for="name">Nom d'équipe</label>
+        </div>
+      </div>
 
-            <a href="https://www.helloasso.com/associations/gacolor/evenements/gacolor-2020" type="button" class="btn btn-primary mx-auto my-auto">S'inscrire</a>
+      <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+          <ul class="nav nav-tabs" id="register" role="tablist">
+            <li class="nav-item mr-2">
+              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 1</p></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 2</p></a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-           
-    </section>
+      <div class="mb-5"></div>
+        <div class="row justify-content-center">
+          <div class="tab-content" id="myTabContent">
+            <!-- Tabs participants -->
+            <div class="tab-pane fade show active" id="register1" role="tabpanel" aria-labelledby="register1-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 1</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart1" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart1" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="register2" role="tabpanel" aria-labelledby="register2-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 2</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="name" name="namepart2" class="input-text js-input" type="text" required>
+                      <label class="label" for="name">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Prenom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="telpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
+                      <label class="label" for="email">Retapez l'email</label>
+                    </div>
+                  </div>
+                  <div class="form-field col-12">
+                    <center><input class="submit-btn" type="submit" value="Valider"></center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
 
     <!-- Parrallaxe -->
     <?php include('include/parallax.php')?>

@@ -48,9 +48,7 @@
         <h1 class="title">Inscription Gacolor</h1><br>
         <p class="policep text-center">Pour opérer votre inscription, merci de cliquer sur le boutton ci-dessous & de
             vous laisser guider :<br><br>
-
-            <a href="https://www.helloasso.com/associations/gacolor/evenements/gacolor-2020" type="button" class="btn btn-primary mx-auto my-auto">S'inscrire</a>
-
+        <center><a href="https://www.helloasso.com/associations/gacolor/evenements/gacolor-2020" class="btn btn-secondary mb-2">S'inscrire</a></center>
            
     </section>
 
@@ -116,7 +114,7 @@
         <img class="img-fluid" src="img/event_2019/3.jfif">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours De Cuisine</p>
         <hr class="style-five">
-        <center><a href="event_register_concourscuisine.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
+        <center><a href="events_express.php" class="btn btn-secondary mb-2">S'inscrire</a></center>
       </div>
     </div>
   </div>
