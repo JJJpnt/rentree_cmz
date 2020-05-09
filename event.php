@@ -34,7 +34,7 @@
   <div class="row my-4 justify-content-center align-items-center w-100 persp">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/1.jfif">
+        <img class="img-fluid" src="img/event_2019/1.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Express</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Le Carolo Express permet aux étudiants de découvrir la ville autrement.</p>
@@ -45,7 +45,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/6.jfif">
+        <img class="img-fluid" src="img/event_2019/6.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Warrior</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Carolo Warrior est un relai sportif composé de nombreuses activités sportives et/ou ludiques.</p>
@@ -54,7 +54,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/3.jfif">
+        <img class="img-fluid" src="img/event_2019/3.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours De Cuisine</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Concours de cuisine sur la Place Ducale en partenariat avec l’association INTERCampus.</p>
@@ -63,7 +63,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/12.jfif">
+        <img class="img-fluid" src="img/event_2019/12.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Pique-Nique</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Vous avez la possibilité de venir avec votre déjeuner, des chaises et des tables seront à disposition.</p>
@@ -72,7 +72,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/14.jfif">
+        <img class="img-fluid" src="img/event_2019/14.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Tournoi de Basket</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Tournoi de basket, 5 à 7 participants.</p>
@@ -90,7 +90,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/2.jfif">
+        <img class="img-fluid" src="img/event_2019/2.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Bal de Rentrée</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Le Bal de Rentrée est ouvert à tous les étudiants.</p>
@@ -99,7 +99,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/9.jfif">
+        <img class="img-fluid" src="img/event_2019/9.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Escape Game</p>
         <hr class="style-five">
         <p class="card-text policecards text-center">Venez tester votre logique à notre nouvel Escape Game</p>
@@ -155,14 +155,14 @@
         <div class="tab-pane fade show active" id="caroloexpresscontent" role="tabpanel" aria-labelledby="caroloexpress-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/1.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/1.jfif" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/2.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/2.jfif" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/3.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/3.jfif" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/4.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/4.jfif" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/9.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jfif" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/10.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jfif" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/11.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jfif" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/12.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/1.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/1.jpg" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/2.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/2.jpg" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/3.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/3.jpg" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/4.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/4.jpg" class="img-fluid mt-1"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/9.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jpg" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/10.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jpg" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/11.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jpg" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/12.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jpg" class="img-fluid mt-1 "></a></div>
             </div>
           </div>
         </div>
@@ -172,8 +172,8 @@
         <div class="tab-pane fade" id="carolowarriorcontent" role="tabpanel" aria-labelledby="carolowarrior-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/5.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jfif" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/6.jfif" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jfif" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/5.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jpg" class="img-fluid mt-1 "></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/6.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jpg" class="img-fluid mt-1 "></a></div>
             </div>
           </div>
         </div>

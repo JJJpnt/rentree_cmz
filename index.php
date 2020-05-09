@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="col-xl-6 col-mb-10 order-2 p-0 m-auto">
-        <img class="evenementimg evenementimg-2 img-fluid d-block" src="img/event_2019/1.jfif">
+        <img class="evenementimg evenementimg-2 img-fluid d-block" src="img/event_2019/1.jpg">
       </div>
     </div>
   
@@ -58,7 +58,7 @@
   
     <div class="row w-100 mb-5  mt-5 mt-xl-0">
       <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
-        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jpg">
       </div>
       <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
         <h2 class="text-center policetitres">Qui ? Quand ? Où ?</h2>
@@ -170,35 +170,35 @@
     <h2 class="text-center policetitres mt-3 mb-3">EDITION 2019</h2>
     <div class="row">
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/1.jpg"></a>
         <p class="policep text-center">Carolo Warrior</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/2.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/2.jpg"></a>
         <p class="policep text-center">Carolo Express</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/3.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/3.jpg"></a>
         <p class="policep text-center">Concours de Cuisine</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/4.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/4.jpg"></a>
         <p class="policep text-center">Pique-Nique</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/7.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/7.jpg"></a>
         <p class="policep text-center">Tournoi de Basket</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/8.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/8.jpg"></a>
         <p class="policep text-center">Gacolor</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/9.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/9.jpg"></a>
         <p class="policep text-center">Escape Game</p>
       </div></div>
       <div class="col-12 col-sm-6 col-lg-3 p-2"><div class="polaroid mx-auto">
-        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/10.jfif"></a>
+        <a class="" href="event.php#galerie"><img class="img-fluid" src="img/event_2019/10.jpg"></a>
         <p class="policep text-center">Bal de Rentrée</p>
       </div></div>
     </div>

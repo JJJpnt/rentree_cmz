@@ -25,7 +25,7 @@
 
     <div class="row w-100 text-center">
       <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
-        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jpg">
       </div>
       <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
         <h2 class="text-center policetitres mt-5">Carolo Warrior</h2>
@@ -117,7 +117,7 @@
     <div class="row my-4 justify-content-center align-items-center w-100">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/1.jfif">
+        <img class="img-fluid" src="img/event_2019/1.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Escape Game</p>
         <hr class="style-five">
         <div class="dropdown">
@@ -127,7 +127,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/12.jfif">
+        <img class="img-fluid" src="img/event_2019/12.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Pique-Nique</p>
         <hr class="style-five">
         <center><a href="events_pique-nique.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -135,7 +135,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/3.jfif">
+        <img class="img-fluid" src="img/event_2019/3.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Tournoi de Basket</p>
         <hr class="style-five">
         <center><a href="events_basket.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -143,7 +143,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/15.jfif">
+        <img class="img-fluid" src="img/event_2019/15.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Express</p>
         <hr class="style-five">
         <center><a href="events_express.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -151,7 +151,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/11.jfif">
+        <img class="img-fluid" src="img/event_2019/11.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Bal</p>
         <hr class="style-five">
         <center><a href="events_bal.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -167,7 +167,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/9.jfif">
+        <img class="img-fluid" src="img/event_2019/9.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours de Cuisine</p>
         <hr class="style-five">
         <center><a href="events_cuisine.php" class="btn btn-secondary mb-2">Détails</a></center>

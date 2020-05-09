@@ -26,7 +26,7 @@
 
     <div class="row w-100 text-center">
       <div class="col-xl-6 col-mb-10 order-xl-3 order-4 p-0 m-auto">
-        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jfif">
+        <img class="evenementimg evenementimg-1 img-fluid d-block" src="img/event_2019/1.jpg">
       </div>
       <div class="col-xl-6 col-mb-10 order-xl-4 order-3 my-auto p-0 m-0">
         <h2 class="text-center policetitres mt-5">Bal de la Rentrée</h2>
@@ -94,7 +94,7 @@
             <div class="txt_faq col-xl-6 col-mb-10 order-2 p-0 m-auto">
             <div class="d-flex align-items-center">
             <div class="col-xl-6 col-lg-6 col-md-6"><img src="img/mascotte_montre.png" style="width:100%;"></div>
-                <a class="btn-sinscrire" href="event_register_bal.php"><button class="btn btn-secondary"><h2 class="policetitres" style="color: var(--color-yellow-middle); margin-bottom: 0!important;">S'inscrire</h2></button></a>
+                <a href="event_register_bal.php"><button class="btn btn-secondary"><h2 class="policetitres" style="color: var(--color-yellow-middle); margin-bottom: 0!important;">S'inscrire</h2></button></a>
             </div>
             </div>
         </div>
@@ -104,7 +104,7 @@
     <div class="row my-4 justify-content-center align-items-center w-100">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/1.jfif">
+        <img class="img-fluid" src="img/event_2019/1.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Express</p>
         <hr class="style-five">
         <div class="dropdown">
@@ -114,7 +114,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/6.jfif">
+        <img class="img-fluid" src="img/event_2019/6.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Carolo Warrior</p>
         <hr class="style-five">
         <center><a href="events_warrior.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -122,7 +122,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/3.jfif">
+        <img class="img-fluid" src="img/event_2019/3.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Concours De Cuisine</p>
         <hr class="style-five">
         <center><a href="events_cuisine.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -130,7 +130,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/12.jfif">
+        <img class="img-fluid" src="img/event_2019/12.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Pique-Nique</p>
         <hr class="style-five">
         <center><a href="events_pique-nique.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -138,7 +138,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/14.jfif">
+        <img class="img-fluid" src="img/event_2019/14.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Tournoi de Basket</p>
         <hr class="style-five">
         <center><a href="events_basket.php" class="btn btn-secondary mb-2">Détails</a></center>
@@ -154,7 +154,7 @@
     </div>
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
-        <img class="img-fluid" src="img/event_2019/9.jfif">
+        <img class="img-fluid" src="img/event_2019/9.jpg">
         <p class="policetitres-proginc text-center" style="color: var(--color-blue-middle);">Escape Game</p>
         <hr class="style-five">
         <center><a href="events_escape.php" class="btn btn-secondary mb-2">Détails</a></center>
