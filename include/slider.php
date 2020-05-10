@@ -43,7 +43,7 @@
                 data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 5;"><img src="assets/img/aqua_back_02.png" alt=""
+                style="z-index: 5;"><img src="assets/img/aqua_back_02.jpg" alt=""
                     data-ww="['auto','auto','auto','auto']"
                     data-hh="['auto','auto','auto','auto']"
                     style="width:100vw; height:100vh;" data-no-retina> </div>
