@@ -119,7 +119,7 @@
             </div>
 
             <!-- LAYER NR. 8 -->
-            <a class="tp-caption   tp-resizeme" href="#evenements"
+            <a class="tp-caption slidhover  tp-resizeme" href="#evenements"
                 id="slide-32-layer-16" data-x="['center','center','center','center']"
                 data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['230','210','310','250']" data-fontsize="['25','25','25','25']"
@@ -131,12 +131,12 @@
                 data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 666; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'experience
-                commence maintenant<br>programme et inscriptions </a>
+                commence ici !</a>
 
             <!-- LAYER NR. 9 -->
             <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"
                 data-x="['center','center','center','center']" data-hoffset="['-4','-4','-4','-4']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['221','201','301','300']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['170','201','301','300']"
                 data-width="['390','390','390','180']" data-height="2" data-whitespace="nowrap" data-type="shape"
                 data-responsive_offset="on"
                 data-frames='[{"delay":"bytrigger","speed":500,"frame":"0","from":"sX:0;opacity:1;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"bytrigger","speed":300,"frame":"999","to":"sX:0;opacity:1;","ease":"Power3.easeInOut"}]'
@@ -235,8 +235,8 @@
             </div>
 
             <!-- LAYER NR. 16 -->
-            <a class="tp-caption   tp-resizeme" href="faq.php"
-                target="_blank" id="slide-32-layer-18" data-x="['center','center','center','center']"
+            <a class="tp-caption   slidhover tp-resizeme" href="#evenements"
+                id="slide-32-layer-18" data-x="['center','center','center','center']"
                 data-hoffset="['-270','-270','-230','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['100','100','200','140']" data-fontsize="['30','30','25','25']"
                 data-lineheight="['28','28','23','23']" data-width="270" data-height="none" data-whitespace="nowrap"
@@ -247,8 +247,8 @@
                 style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Une édition 2020<br>survitaminée</a>
 
             <!-- LAYER NR. 17 -->
-            <a class="tp-caption   tp-resizeme"
-                href="https://rentree-etudiants-cmz.fr/" target="_blank"
+            <a class="tp-caption   slidhover tp-resizeme"
+                href="event.php"
                 id="slide-32-layer-19" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','200','85']"
                 data-fontsize="['30','30','25','25']" data-lineheight="['28','28','23','23']" data-width="270"
@@ -256,11 +256,11 @@
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
-                2019</a>
+                style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
+                toutes les<br />activités de la Rentrée</a>
 
             <!-- LAYER NR. 18 -->
-            <a class="tp-caption   tp-resizeme" href="event.php" target="_blank"
+            <a class="tp-caption  slidhover  tp-resizeme" href="#videoaccueil"
                 id="slide-32-layer-20" data-x="['center','center','center','center']"
                 data-hoffset="['270','270','230','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['100','100','200','30']" data-fontsize="['30','30','25','25']"
@@ -269,8 +269,8 @@
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
-                toutes les<br />activités de la rentrée</a>
+                style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
+                2019</a>
 
             <!-- LAYER NR. 19 -->
 

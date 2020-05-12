@@ -21,6 +21,17 @@
 </head>
 
 <body>
+<!-- Preloader -->
+<div class="spinner-wrapper">
+  <div class="sk-chase">
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+  </div>
+</div>
 
   <script>
     var navCloud = true;
@@ -76,7 +87,7 @@
     </div>
   </div>
 
-
+<div id="videoaccueil"></div>
   <?php include ('include/video.php'); ?>
 
 
@@ -120,7 +131,7 @@
   </div>
 
   <!-- Carousel Testimonials -->
-  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel"
+  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel" data-interval="3500"
     style="background-image: url(img/motif2.gif);">
     <div class="carousel-inner">
       <div class="carousel-item active mt-4 mb-4">
@@ -300,6 +311,18 @@
 
     });
   </script>
+
+<script>
+  $(document).ready(function() {
+  //Preloader
+  preloaderFadeOutTime = 500;
+  function hidePreloader() {
+  var preloader = $('.spinner-wrapper');
+  preloader.fadeOut(preloaderFadeOutTime);
+  }
+  hidePreloader();
+  });
+</script>
 
 </body>
 

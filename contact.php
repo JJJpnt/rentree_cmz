@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                     <input class="input-text js-input" type="text" name="tel" tabindex="5" required>
-                    <label class="label">Telephone</label>
+                    <label class="label">Téléphone</label>
                 </div>
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                     <input class="input-text js-input" type="text" name="objet" tabindex="6" required>
@@ -103,34 +103,6 @@
             </div>
         </div>
     </div>
-
-
-
-    <div class="container-fluid">
-        <h2 class="policetitres text-center">Nos partenaires</h2>
-        <div class="grid">
-            <div class="grid-item"><img src="img/ardennemetropole.png"></div>
-            <div class="grid-item grid-item--width2"><img src="img/campussupardennes.jpg"></div>
-            <div class="grid-item"><img src="img/crous.png"></div>
-            <div class="grid-item"><img src="img/cv.png"></div>
-            <div class="grid-item grid-item--width2"><img src="img/decathlon.jpg"></div>
-            <div class="grid-item"><img src="img/flap.png"></div>
-            <div class="grid-item"><img src="img/grandest.png"></div>
-            <div class="grid-item grid-item--width2"><img src="img/intercampus.jpg"></div>
-            <div class="grid-item"><img src="img/jeanteur.png"></div>
-            <div class="grid-item"><img src="img/leroymerlin.png"></div>
-            <div class="grid-item grid-item--width2"><img src="img/mcdo.jpg"></div>
-            <div class="grid-item"><img src="img/orange.png"></div>
-            <div class="grid-item"><img src="img/prefecture.jpg"></div>
-            <div class="grid-item grid-item--width2"><img src="img/tacos.png"></div>
-            <div class="grid-item"><img src="img/terraltitude.jpg"></div>
-            <div class="grid-item"><img src="img/vitrines.png"></div>
-            <div class="grid-item grid-item--width2"><img src="img/yvesrocher.png"></div>
-        </div>
-    </div>
-
-
-
 
     <!-- Page d'acceuil content end -->
 
