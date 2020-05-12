@@ -21,6 +21,17 @@
 </head>
 
 <body>
+<!-- Preloader -->
+<div class="spinner-wrapper">
+  <div class="sk-chase">
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+  </div>
+</div>
 
   <script>
     var navCloud = true;
@@ -300,6 +311,18 @@
 
     });
   </script>
+
+<script>
+  $(document).ready(function() {
+  //Preloader
+  preloaderFadeOutTime = 500;
+  function hidePreloader() {
+  var preloader = $('.spinner-wrapper');
+  preloader.fadeOut(preloaderFadeOutTime);
+  }
+  hidePreloader();
+  });
+</script>
 
 </body>
 
