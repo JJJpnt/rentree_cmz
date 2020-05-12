@@ -131,7 +131,7 @@
   </div>
 
   <!-- Carousel Testimonials -->
-  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel"
+  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel" data-interval="3500"
     style="background-image: url(img/motif2.gif);">
     <div class="carousel-inner">
       <div class="carousel-item active mt-4 mb-4">
