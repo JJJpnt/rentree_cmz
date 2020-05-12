@@ -131,15 +131,15 @@
   </div>
 
   <!-- Carousel Testimonials -->
-  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel" data-interval="3500"
-    style="background-image: url(img/motif2.gif);">
+  <div id="carouseltestimonials" class="carousel slide" data-ride="carousel"  data-interval="3500"
+    style="background-image: url(img/motif2.gif);background-repeat: no-repeat; background-size: cover; font-size:1.8em;">
     <div class="carousel-inner">
       <div class="carousel-item active mt-4 mb-4">
         <!-- Ici chaque item -->
         <div class="row d-flex">
           <div class="col-2"></div>
           <div class="col-2 carou_img">
-            <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <img src="img/logoetudiantcarolo_bleu.png" class="d-block w-100" alt="Logo étudiant carolo">
           </div>
           <div class="col-1"></div>
           <div class="col-md-12 col-lg-5 align-self-center m-2">
@@ -154,7 +154,7 @@
         <div class="row d-flex">
           <div class="col-2"></div>
           <div class="col-2 carou_img">
-            <img src="img/logoetudiantcarolo.png" class="d-block w-100" alt="Logo étudiant carolo">
+            <img src="img/logoetudiantcarolo_bleu.png" class="d-block w-100" alt="Logo étudiant carolo">
           </div>
           <div class="col-1"></div>
           <div class="col-md-12 col-lg-5 align-self-center m-2">

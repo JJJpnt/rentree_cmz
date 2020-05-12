@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="parallax/css/styles.css">
 </head>
 <body>
-    <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/img_parallax.jpg);"></div>
+    <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/placeducal.jpg);"></div>
     <script src="parallax/js/jquery.min.js"></script>
     <script src="parallax/js/bs-init.js"></script>
 </body>
