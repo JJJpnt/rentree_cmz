@@ -37,7 +37,7 @@
   <?php include("include/parallax.php"); ?>
 
   <!-- img text-->
-  <div class="row text-center">
+  <div class="row w-100 text-center">
     <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/charleville.jpg" class="w-100 h-100 display-block"></div>
     <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center"><br>
       <h2>S'Inscrire</h2>

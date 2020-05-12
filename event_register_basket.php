@@ -135,7 +135,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prenom</label>
+                      <label class="label" for="email">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="telpart1" class="input-text js-input" type="email" required>
@@ -166,7 +166,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prenom</label>
+                      <label class="label" for="email">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="telpart2" class="input-text js-input" type="email" required>
@@ -197,7 +197,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="firstnamepart3" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prenom</label>
+                      <label class="label" for="email">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="telpart3" class="input-text js-input" type="email" required>
@@ -229,7 +229,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="firstnamepart4" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prenom</label>
+                      <label class="label" for="email">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="telpart4" class="input-text js-input" type="email" required>
@@ -259,7 +259,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="firstnamepart5" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prenom</label>
+                      <label class="label" for="email">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                       <input id="email" name="telpart5" class="input-text js-input" type="email" required>
