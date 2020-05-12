@@ -392,6 +392,10 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-color: var(--color-blue-middle);
     z-index: 999999;
     }
+
+    /* .slidhover:hover {
+        color: var(--color-yellow-middle) !important;
+    } */
 /* anthony */
 
 .event_img {

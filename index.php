@@ -87,7 +87,7 @@
     </div>
   </div>
 
-
+<div id="videoaccueil"></div>
   <?php include ('include/video.php'); ?>
 
 

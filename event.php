@@ -26,7 +26,7 @@
   <!-- img event -->
 
   <div class="header_img">
-    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Les évènements de la Rentrée</strong></h2></div>
+    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Le Programme de la Rentrée</strong></h2></div>
   </div>
 
   <!--carte-->
