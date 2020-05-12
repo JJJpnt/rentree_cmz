@@ -91,7 +91,7 @@ $(function(){
   
       <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link policetitres-nav" href="index.php">Accueil<span class="sr-only">(current)</span></a>
           </li>
         </ul>
