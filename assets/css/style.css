@@ -639,10 +639,12 @@ footer {
 .nav-cloud {
     background: url("../img/clouds/cloud_nav.png");
     /* background: url("../img/navback.svg"); */
+    height: 80px;
 }
 .nav-svg {
     /* background: url("../img/clouds/cloud_nav.png"); */
     background: url("../img/navback.svg");
+    height: 60px;
 }
 
 .navbar-container {
@@ -656,7 +658,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 5000px 80px;
     /* backdrop-filter: blur(8px); */
-    height: 80px;
     transition: all 1s ease;
 }
 
@@ -669,9 +670,17 @@ footer {
 
 .logocmz-nav {
     position: relative;
-    top: 30px;
-    min-width:  100px;
-    min-height: 100px;
+    top: 5px;
+    min-width:  150px;
+    min-height: 200px;
+}
+
+.logocmz-nav-clouds {
+    background-color: transparent;
+}
+
+.logocmz-nav-svg {
+    background-color: transparent;
 }
 
 .dropdown-menu {

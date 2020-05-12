@@ -12,32 +12,41 @@ $(function(){
 
         st = $(this).scrollTop();
         // console.log(st);
-        if((st <= 40)||(st < lastScrollTop)){
-            // console.log("<40 or up");
-            // $("body").removeClass("sticky-header");
-            $("header").css("marginTop", 0 );
-        }else{
-            // console.log(">40 or down");
-            $("header").css( "marginTop", ($("#header-top").height()*-0.666) );
-            // $("body").addClass("sticky-header");
-        }
-        if(st >= 250){
-            $("header").addClass("nav-opaque");
-        }else{
-            $("header").removeClass("nav-opaque");
-        }
+        // if((st <= 40)||(st < lastScrollTop)){
+        //     // console.log("<40 or up");
+        //     // $("body").removeClass("sticky-header");
+        //     $("header").css("marginTop", 0 );
+        // }else{
+        //     // console.log(">40 or down");
+        //     $("header").css( "marginTop", ($("#header-top").height()*-0.666) );
+        //     // $("body").addClass("sticky-header");
+        // }
+        // if(st >= 250){
+        //     $("header").addClass("nav-opaque");
+        // }else{
+        //     $("header").removeClass("nav-opaque");
+        // }
         
         if(navCloud){
           if(st<$("#top_slider_container").height()) {
             $("#header-top").addClass("nav-cloud");
             $("#header-top").removeClass("nav-svg");
+            $(".logocmz-nav").addClass("logocmz-nav-cloud");
+            $(".logocmz-nav").removeClass("logocmz-nav-svg");
+            $(".logocmz-nav").attr("src","assets/img/Logo_CH_color.svg");
           } else {
             $("#header-top").removeClass("nav-cloud");
             $("#header-top").addClass("nav-svg");
+            $(".logocmz-nav").removeClass("logocmz-nav-cloud");
+            $(".logocmz-nav").addClass("logocmz-nav-svg");
+            $(".logocmz-nav").attr("src","assets/img/Logo_CH_color_white.svg");
           }
         } else {
-            $("#header-top").removeClass("nav-cloud");
-            $("#header-top").addClass("nav-svg");
+          $("#header-top").removeClass("nav-cloud");
+          $("#header-top").addClass("nav-svg");
+          $(".logocmz-nav").removeClass("logocmz-nav-cloud");
+          $(".logocmz-nav").addClass("logocmz-nav-svg");
+          $(".logocmz-nav").attr("src","assets/img/Logo_CH_color_white.svg");
         }
 
 
@@ -77,10 +86,10 @@ $(function(){
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-between pt-0 pt-lg-1">
       <button class="navbar-toggler order-1 mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <!-- <span class="navbar-toggler-icon"></span> -->
-        <img class="" src="img/logocmz.svg" width="75px" height="75px">
+        <img class="" src="img/Logo_CH_color.svg" height="75px">
       </button>
   
-      <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center" id="navbarToggler">
+      <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link policetitres-nav" href="index.php">Accueil<span class="sr-only">(current)</span></a>
@@ -88,11 +97,11 @@ $(function(){
         </ul>
       </div>
   
-      <div class="collapse navbar-collapse order-5 order-lg-2 justify-content-center" id="navbarToggler">
+      <div class="collapse navbar-collapse order-5 order-lg-2 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Editions
+              Programme
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="event.php">Tous les évènements</a>
@@ -109,13 +118,13 @@ $(function(){
         </ul>
       </div>
 
-      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav img-fluid" src="img/logocmz.svg"></div>
+      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav" src="assets/img/Logo_CH_color.svg"></div>
   
-      <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center" id="navbarToggler">
+      <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Inscription
+              Inscriptions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="event_register_caroloexpress.php">Carolo Express</a>
@@ -131,7 +140,7 @@ $(function(){
         </ul>
       </div>
     
-      <div class="collapse navbar-collapse order-7 order-lg-5 justify-content-center" id="navbarToggler">
+      <div class="collapse navbar-collapse order-7 order-lg-5 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item dropdown policetitres-nav">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
