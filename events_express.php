@@ -38,31 +38,31 @@
     </div>
 
     <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);">
-    <div class="showeventcarac">
-        <h2 class=" policetitres text-center mt-5" style="color: white;">Caractéristiques</h2>
+    <div class="showeventcarac" id="compteur">
+        <h2 class=" policetitres text-center mt-5 text-shadow" style="color: white;">Caractéristiques</h2>
         <div class="row w-100 mt-5">
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle mx-auto my-auto">
-                    <p class="text-center policetitres-proginc" style="color: white;">Participants</p>
-                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong>352</strong></p>
+                    <p class="text-center policetitres-proginc color-yellow-light">Participants</p>
+                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong id="compteur1">352</strong></p>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle mx-auto my-auto">
-                    <p class="text-center policetitres-proginc" style="color: white;">Horaires</p>
-                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong>14h / 20h</strong></p>
+                    <p class="text-center policetitres-proginc color-yellow-light">Horaires</p>
+                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong><span id="compteur2">14</span>h / <span id="compteur3">20</span>h</strong></p>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3 mb-1">
                 <div class="rounded-circle mx-auto my-auto">
-                    <p class="text-center policetitres-proginc" style="color: white;">Lieu</p>
+                    <p class="text-center policetitres-proginc color-yellow-light">Lieu</p>
                     <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong>Charleville-Mézières</strong></p>
                 </div>
             </div>
             <div class="col-xs-6 col-md-6 col-lg-6 col-xl-3">
                 <div class="rounded-circle mx-auto my-auto">
-                    <p class="text-center policetitres-proginc" style="color: white;">Date</p>
-                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong>27/09/2020</strong></p>
+                    <p class="text-center policetitres-proginc color-yellow-light">Date</p>
+                    <p class="text-center policep" style="color: white; font-size: 1.5rem;"><strong><span id="compteur4">27</span>/<span id="compteur5">09</span>/20<span id="compteur6">20</span></strong></p>
                 </div>
             </div>
         </div>
@@ -152,6 +152,44 @@
   </div>
 
     <?php include('include/footer.php')?>
+
+    <script src="./assets/js/noframework.waypoints.min.js"></script>
+    <script type="text/javascript">
+
+function gocompteur(startcount, endcount, duration, idTarget) {
+
+    var b = endcount; // Nombre final du compteur
+    var ctb = startcount; // Initialisation du compteur
+    var bravo = Math.ceil((duration * 1000) / b); // On calcule l'intervalle de temps entre chaque rafraîchissement du compteur (durée mise en milliseconde)
+    var nodes = document.getElementById(
+        idTarget); // On récupère notre noeud où sera rafraîchi la valeur du compteur
+
+    function countdown2() {
+        nodes.innerHTML = ++ctb;
+        if (ctb < b) { // Si on est pas arrivé à la valeur finale, on relance notre compteur une nouvelle fois
+            setTimeout(countdown2, bravo);
+        }
+    }
+
+    setTimeout(countdown2, bravo);
+
+}
+
+var waypoint = new Waypoint({
+  element: document.getElementById('compteur'),
+  handler: function(direction) {
+        // alert('blah');
+        gocompteur(0,352,1,"compteur1");
+        gocompteur(0,14,0.7,"compteur2");
+        gocompteur(0,20,1,"compteur3");
+        gocompteur(0,27,1.4,"compteur4");
+        gocompteur(0,09,0.9,"compteur5");
+        gocompteur(0,20,1,"compteur6");
+  },
+  offset: 'bottom-in-view' 
+})
+
+</script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
