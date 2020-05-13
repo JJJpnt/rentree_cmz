@@ -145,8 +145,19 @@
                 style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 200; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
                 <div style="transform: rotateZ(-3deg);">Début des<br>inscriptions dans<br>8j 9h 04m 25s</div></div>
 
+                <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-32-layer-countdown"
+                data-x="['center','center','center','center']" data-hoffset="['0','50','25','0']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['30','0','120','0']"
+                data-fontsize="['40','30','25','18']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,200]" data-paddingleft="[0,0,0,0]"
+                style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 200; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
+                <div style="transform: rotateZ(-3deg);">Du jeudi 24 au dimanche 27 septembre</div></div>
+
             <!-- LAYER NR. 8 -->
-            <a class="tp-caption slidhover  tp-resizeme" href="#evenements"
+            <!-- <a class="tp-caption slidhover  tp-resizeme" href="#evenements"
                 id="slide-32-layer-16" data-x="['center','center','center','center']"
                 data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
                 data-voffset="['230','210','310','250']" data-fontsize="['25','25','25','22']"
@@ -158,7 +169,7 @@
                 data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-50]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 666; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'experience
-                commence ici !</a>
+                commence ici !</a> -->
 
             <!-- LAYER NR. 9 -->
             <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"

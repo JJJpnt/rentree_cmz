@@ -42,7 +42,7 @@
   <?php include('include/nav.php') ?>
 
   <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
-  <?php include('include/slider.php'); ?>
+  <?php include('include/slider2.php'); ?>
 
 
   <!-- Texte RDE / Evenements -->
