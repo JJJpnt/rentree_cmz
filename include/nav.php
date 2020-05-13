@@ -31,10 +31,14 @@ $(function(){
           if(st<$("#top_slider_container").height()) {
             $("#header-top").addClass("nav-cloud");
             $("#header-top").removeClass("nav-svg");
+            $(".navbar-toggler").addClass("navbar-toggler-cloud");
+            $(".navbar-toggler").removeClass("navbar-toggler-svg");
             $(".logocmz-nav").addClass("logocmz-nav-cloud");
             $(".logocmz-nav").removeClass("logocmz-nav-svg");
             $(".logocmz-nav").attr("src","assets/img/Logo_CH_color.svg");
           } else {
+            $(".navbar-toggler").removeClass("navbar-toggler-cloud");
+            $(".navbar-toggler").addClass("navbar-toggler-svg");
             $("#header-top").removeClass("nav-cloud");
             $("#header-top").addClass("nav-svg");
             $(".logocmz-nav").removeClass("logocmz-nav-cloud");
@@ -42,6 +46,8 @@ $(function(){
             $(".logocmz-nav").attr("src","assets/img/Logo_CH_color_white.svg");
           }
         } else {
+          $(".navbar-toggler").removeClass("navbar-toggler-cloud");
+          $(".navbar-toggler").addClass("navbar-toggler-svg");
           $("#header-top").removeClass("nav-cloud");
           $("#header-top").addClass("nav-svg");
           $(".logocmz-nav").removeClass("logocmz-nav-cloud");
@@ -85,8 +91,9 @@ $(function(){
   <!-- <div id="header-top" class=" "> -->
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-between pt-0 pt-lg-1">
       <button class="navbar-toggler order-1 mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
         <!-- <span class="navbar-toggler-icon"></span> -->
-        <img class="" src="img/Logo_CH_color.svg" height="75px">
+        <!-- <img class="" src="img/Logo_CH_color.svg" height="75px"> -->
       </button>
   
       <div class="collapse navbar-collapse order-4 order-lg-1 justify-content-center mt-3" id="navbarToggler">
@@ -118,7 +125,8 @@ $(function(){
         </ul>
       </div>
 
-      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav" src="assets/img/Logo_CH_color.svg"></div>
+      <!-- <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav" src="assets/img/Logo_CH_color.svg"></div> -->
+      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center align-items-start d-flex"><img class="logocmz-nav d-block" src="assets/img/Logo_CH_color.svg"></div>
   
       <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">

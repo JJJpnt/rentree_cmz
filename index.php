@@ -15,6 +15,9 @@
 <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
 
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
 <link rel="stylesheet" href="assets/css/style.css">
 
 <title>Rentrée des étudiants - CMZ</title>

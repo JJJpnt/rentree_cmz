@@ -741,9 +741,9 @@ footer {
 
 .logocmz-nav {
     position: relative;
-    top: 5px;
+    /* top: 5px; */
     min-width:  150px;
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 
 .logocmz-nav-clouds {
@@ -971,18 +971,34 @@ header .input-group {
 
 
   /* nav collapsed button */
+  .navbar-toggler-cloud {
+    color: var(--color-yellow-middle) !important;
+  }
+  .navbar-toggler-svg {
+    color: rgba(255,255,255,0.75) !important;
+  }
   .navbar-toggler {
-      border: none;
+      /* border: none; */
       transition: all 0.4s ease;
       outline: none;
-  }
+      background-color: transparent;
+      font-size: 50px;
+      padding: 0px !important; 
+      margin: 0px !important;
+      /* color: rgba(255,255,255,0.75) !important; */
+      /* width: 50px; */
+      /* height: 50px; */
+    }
 
-  .navbar-toggler:active, .navbar-toggler:focus {
-      border: none !important;
-      outline: none !important;
-  }
-
-  .navbar-toggler:hover {
-      border: none;
-      transform: rotateZ(-7deg) scale(1.20);
+    .navbar-toggler:active, .navbar-toggler:focus {
+        /* border: none !important; */
+        outline: none !important;
+    }
+    
+    .navbar-toggler:hover, .navbar-toggler:hover span i {
+        /* border: none; */
+        transform: scale(1.20);
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+        /* background-color: rgba(255,255,255,0.25); */
+        color: rgba(255,255,255,0.95) !important;
   }
