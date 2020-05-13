@@ -51,11 +51,11 @@
             <!-- LAYER NR. 2 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['top','top','top','top']" data-voffset="['113','113','53','53']"
+                data-y="['top','top','top','top']" data-voffset="['113','93','53','53']"
                 data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 6; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(255,0,255,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
@@ -65,11 +65,11 @@
             <!-- LAYER NR. 3 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
                 data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
-                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
                 data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 7; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(255,255,0,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
@@ -80,11 +80,11 @@
             <!-- LAYER NR. 4 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
                 data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
-                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
                 data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 8; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(0,255,255,1);font-family:Bangers;letter-spacing:+5px;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
@@ -94,11 +94,11 @@
             <!-- LAYER NR. 5 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['top','top','top','top']" data-voffset="['110','110','50','50']"
+                data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
                 data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 700; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
                 <div style="transform: rotateZ(-3deg);">Rentrée<br />Des Etudiants 2020</div></div>
@@ -114,29 +114,56 @@
                 data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 11;">
                 <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="9px" data-origin="50% 50%">
-                    <img src="img/mascotte.png" alt="" data-ww="['460px','410px','450px','325px']"
-                        data-hh="['460px','410px','450px','325px']" width="500" height="500" data-no-retina> </div>
+                    <img src="img/mascotte.png" alt="" data-ww="['460px','410px','350px','280']"
+                        data-hh="['460px','410px','350px','280px']" width="500" height="500" data-no-retina> </div>
             </div>
+
+            <!-- LAYER logo -->
+            <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-32-layer-logo"
+                data-x="['left','left','left','left']" data-hoffset="['0','50','25','0']"
+                data-y="['center','center','center','center']" data-voffset="['-25','-25','-50','-90']"
+                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
+                data-responsive_offset="on"
+                data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:100px;rZ:15deg;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
+                style="z-index: 11;">
+                <div class="rs-looped rs-wave" data-speed="10" data-angle="0" data-radius="9px" data-origin="50% 50%">
+                    <img src="img/logoetudiantcarolo_bleu.png" alt="" data-ww="['250px','220px','200px','120px']"
+                        data-hh="['250px','220px','200px','120px']" width="250" height="250" data-no-retina> </div>
+            </div>
+
+            <!-- LAYER countdown -->
+            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-32-layer-countdown"
+                data-x="['right','right','right','right']" data-hoffset="['0','50','25','0']"
+                data-y="['center','center','center','center']" data-voffset="['60','80','50','50']"
+                data-fontsize="['60','40','35','18']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+                data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,200]" data-paddingleft="[0,0,0,0]"
+                style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 200; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
+                <div style="transform: rotateZ(-3deg);">Début des<br>Inscriptions dans:<br>8j 9h 04m 25s</div></div>
 
             <!-- LAYER NR. 8 -->
             <a class="tp-caption slidhover  tp-resizeme" href="#evenements"
                 id="slide-32-layer-16" data-x="['center','center','center','center']"
                 data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['230','210','310','250']" data-fontsize="['25','25','25','25']"
+                data-voffset="['230','210','310','250']" data-fontsize="['25','25','25','22']"
                 data-lineheight="['25','25','25','20']" data-width="['none','none','none','380']" data-height="none"
                 data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text"
                 data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-32-layer-17","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-32-layer-17","delay":""}]'
                 data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-100]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-100,-100,-100,-50]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 666; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">L'experience
                 commence ici !</a>
 
             <!-- LAYER NR. 9 -->
             <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-32-layer-17"
                 data-x="['center','center','center','center']" data-hoffset="['-4','-4','-4','-4']"
-                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['170','201','301','300']"
+                data-y="['bottom','bottom','bottom','bottom']" data-voffset="['170','150','255','250']"
                 data-width="['390','390','390','180']" data-height="2" data-whitespace="nowrap" data-type="shape"
                 data-responsive_offset="on"
                 data-frames='[{"delay":"bytrigger","speed":500,"frame":"0","from":"sX:0;opacity:1;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"bytrigger","speed":300,"frame":"999","to":"sX:0;opacity:1;","ease":"Power3.easeInOut"}]'
@@ -155,8 +182,8 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 14;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['655px','655px','655px','655px']"
-                        data-hh="['340px','340px','340px','340px']" width="29" height="21" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['655px','655px','655px','200px']"
+                        data-hh="['340px','340px','340px','105px']" width="29" height="21" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 11 -->
@@ -170,8 +197,8 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 15;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','900px']"
-                        data-hh="['420px','420px','420px','420px']" width="28" height="27" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','300px']"
+                        data-hh="['420px','420px','420px','140px']" width="28" height="27" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 12 -->
@@ -185,8 +212,8 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 16;">
                 <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['645px','645px','645px','645px']"
-                        data-hh="['415px','415px','415px','415px']" width="26" height="24" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['645px','645px','645px','320px']"
+                        data-hh="['415px','415px','415px','210px']" width="26" height="24" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 13 -->
@@ -200,13 +227,13 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 17;">
                 <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['1000px','1000px','1000px','1000px']"
-                        data-hh="['210px','210px','210px','210px']" width="27" height="26" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['1000px','1000px','1000px','350px']"
+                        data-hh="['210px','210px','210px','80px']" width="27" height="26" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 14 -->
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-32-layer-13"
-                data-x="['center','center','center','center']" data-hoffset="['50','50','50','50']"
+                data-x="['center','center','center','center']" data-hoffset="['50','50','50','-250']"
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['250','250','250','300']"
                 data-width="none" data-height="none" data-whitespace="nowrap" data-type="image"
                 data-responsive_offset="on"
@@ -215,7 +242,7 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 18;">
                 <div class="rs-looped rs-wave" data-speed="6" data-angle="0" data-radius="3px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="305px"
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['900px','900px','900px','300px']" data-hh="['305px', '305px', '305px', '100px']"
                         width="25" height="24" data-no-retina> </div>
             </div>
 
@@ -230,20 +257,20 @@
                 data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 19;">
                 <div class="rs-looped rs-wave" data-speed="7" data-angle="0" data-radius="6px" data-origin="50% 50%">
-                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['630px','630px','630px','630px']"
-                        data-hh="['400px','400px','400px','400px']" width="27" height="26" data-no-retina> </div>
+                    <img src="assets/img/clouds/cloud_01.png" alt="" data-ww="['630px','630px','630px','200px']"
+                        data-hh="['400px','400px','400px','160px']" width="27" height="26" data-no-retina> </div>
             </div>
 
             <!-- LAYER NR. 16 -->
             <a class="tp-caption   slidhover tp-resizeme" href="#evenements"
                 id="slide-32-layer-18" data-x="['center','center','center','center']"
                 data-hoffset="['-270','-270','-230','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['100','100','200','140']" data-fontsize="['30','30','25','25']"
+                data-voffset="['100','100','200','140']" data-fontsize="['30','30','26','22']"
                 data-lineheight="['28','28','23','23']" data-width="270" data-height="none" data-whitespace="nowrap"
                 data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-10]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 20; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Une édition 2020<br>survitaminée</a>
 
             <!-- LAYER NR. 17 -->
@@ -251,11 +278,11 @@
                 href="event.php"
                 id="slide-32-layer-19" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','100','200','85']"
-                data-fontsize="['30','30','25','25']" data-lineheight="['28','28','23','23']" data-width="270"
+                data-fontsize="['30','30','26','22']" data-lineheight="['28','28','23','23']" data-width="270"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-10]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 21; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Decouvrez
                 toutes les<br />activités de la Rentrée</a>
 
@@ -263,12 +290,12 @@
             <a class="tp-caption  slidhover  tp-resizeme" href="#videoaccueil"
                 id="slide-32-layer-20" data-x="['center','center','center','center']"
                 data-hoffset="['270','270','230','0']" data-y="['bottom','bottom','bottom','bottom']"
-                data-voffset="['100','100','200','30']" data-fontsize="['30','30','25','25']"
+                data-voffset="['100','100','200','30']" data-fontsize="['30','30','26','22']"
                 data-lineheight="['28','28','23','23']" data-width="270" data-height="none" data-whitespace="nowrap"
                 data-type="text" data-actions='' data-responsive_offset="on"
                 data-frames='[{"delay":1400,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255,255,255,1);"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-60]" data-paddingleft="[0,0,0,0]"
+                data-paddingright="[0,0,0,0]" data-marginbottom="[-80,-80,-80,-10]" data-paddingleft="[0,0,0,0]"
                 style="z-index: 22; min-width: 270px; max-width: 270px; white-space: nowrap; font-size: 30px; line-height: 28px; font-weight: 300; color: rgba(39,49,127,1);font-family:Oswald;cursor:pointer;text-decoration: none;">Revivez<br />l'edition
                 2019</a>
 
