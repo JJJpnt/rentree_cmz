@@ -81,26 +81,25 @@
     <div class="contactfontawesome container-fluid">
         <h2 class="text-center policetitres mt-2">Ou alors</h2>
         <div class="row">
-            <div class="col-4 mx-auto text-center">
-                <i class="fas fa-envelope fa-2x  contact-fa" style="color: var(--color-blue-middle"></i>
-            </div>
-            <div class="col-4 mx-auto text-center">
-                <i class="fas fa-map-marked-alt fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
-            </div>
-            <div class="col-4 mx-auto text-center">
-                <i class="fas fa-phone fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
+
+        <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
+        <i class="fas fa-envelope fa-2x  contact-fa" style="color: var(--color-blue-middle"></i>
+            <div class="contenuSpoiler">
+            <p><br><br>etudiants@mairie-charlevillemezieres.fr</p>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-        <div class="col-4 mx-auto text-center">
-                <p class="policep text-center text-contact-fa">etudiants@mairie-charlevillemezieres.fr</p>
+        <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
+        <i class="fas fa-map-marked-alt fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
+            <div class="contenuSpoiler">
+            <p><br><br>Place du Théâtre CS 40490 08109 Charleville-Mézières Cedex</p>
             </div>
-            <div class="col-4 mx-auto text-center">
-                <p class="policep text-center text-contact-fa">Place du Théâtre CS 40490 08109 Charleville-Mézières Cedex</p>
+        </div>
+        <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
+        <i class="fas fa-phone fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
+            <div class="contenuSpoiler">
+            <p><br><br>Tel: 03 24 32 44 91</p>
             </div>
-            <div class="col-4 mx-auto text-center">
-                <p class="policep text-center text-contact-fa">03 24 32 44 91</p>
-            </div>
+        </div>
         </div>
     </div>
 
@@ -121,6 +120,15 @@
         });
 
     });
+
+    function ouvrirFermerSpoiler(div) {
+        var divContenu = div.getElementsByTagName('div')[0];
+        if(divContenu.style.display == 'none') {
+            divContenu.style.display = 'block';
+        } else {
+            divContenu.style.display = 'none';
+        }
+    }
     </script>
 
     <!-- Optional JavaScript -->

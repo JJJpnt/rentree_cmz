@@ -38,7 +38,7 @@
 
   <!-- img text-->
   <div class="row w-100 text-center">
-    <div class="col-xl-6 col-lg-12 col-md-12"><img src="img/charleville.jpg" class="w-100 h-100 display-block"></div>
+    <div class="col-xl-6 col-lg-12 col-md-12 h-auto mx-auto my-auto"><img src="img/event_2019/19.jpg" class="img-fluid" alt="Responsive image"></div>
     <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center"><br>
       <h2>S'Inscrire</h2>
       <div class="w-75 mt-5">

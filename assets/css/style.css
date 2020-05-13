@@ -442,6 +442,16 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     font-size: 1.5em;
 }
 
+div.spoiler {
+    padding: 10px;
+
+    cursor: pointer;
+}
+ 
+div.spoiler div.contenuSpoiler {
+    display: none;
+}
+
 @media screen and (min-width: 1200px){
     .card_event .card-body{
         display: flex;
