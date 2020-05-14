@@ -142,9 +142,40 @@
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
                 data-paddingright="[0,0,0,0]" data-marginbottom="[100,100,100,200]" data-paddingleft="[0,0,0,0]"
-                style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 200; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+5px;">
-                <div style="transform: rotateZ(-3deg);">Début des<br>Inscriptions dans:<br>8j 9h 04m 25s</div></div>
+                style="z-index: 9; white-space: nowrap;  line-height: 90px; font-weight: 200; color: rgba(39,49,127,1);font-family:Bangers;letter-spacing:+0px;">
+                <div style="transform: rotateZ(-3deg);"><span id="countd_inscriptions"></span></div></div>
 
+        <script>
+            var now = new Date();
+            var dates = [new Date("2020-08-15T13:40:00Z"), new Date("2020-09-15T13:50:10Z"), new Date("2020-09-24T19:40:20Z"), new Date("2021-05-14T12:00:00Z")];
+            var txts = ["Début des<br>inscriptions dans:<br>", "Fin des<br>inscriptions dans:<br>", "Début des<br>événements dans:<br>", "See you next year...<br>"];
+            var idx = 0;
+
+            for(const testtime of dates) {
+                if(now.getTime() < testtime.getTime()) {
+                    // break;
+                } else {
+                    idx++;
+                }
+            }
+            
+            function parse_date_countdown(date) {
+                var year = date.getFullYear();
+                var month = date.getMonth() + 1;
+                var day = date.getDate();
+                var hrs = date.getHours();
+                var min = date.getMinutes();
+                var sec = date.getSeconds();
+                var result =  year+"/"+month+"/"+day+" "+hrs+":"+min+":"+sec;
+                return result;
+            }
+
+            var daDate = parse_date_countdown(dates[idx]);
+
+            $("#countd_inscriptions").countdown(daDate, function(event) {
+                $(this).html( txts[idx] + event.strftime('%Dj %Hh %Mm %Ss') );
+            });
+        </script>
             <!-- LAYER NR. 8 -->
             <a class="tp-caption slidhover  tp-resizeme" href="#evenements"
                 id="slide-32-layer-16" data-x="['center','center','center','center']"
@@ -315,6 +346,7 @@
     var tpj = jQuery;
     var revapi14;
     tpj(document).ready(function () {
+
         if (tpj("#rev_slider_14_1").revolution == undefined) {
             revslider_showDoubleJqueryError("#rev_slider_14_1");
         } else {

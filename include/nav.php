@@ -126,7 +126,7 @@ $(function(){
       </div>
 
       <!-- <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center d-none d-lg-block"><img class="logocmz-nav" src="assets/img/Logo_CH_color.svg"></div> -->
-      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center align-items-start d-flex"><img class="logocmz-nav d-block" src="assets/img/Logo_CH_color.svg"></div>
+      <div class="navbar-brand mx-auto order-2 order-lg-3 justify-content-center align-items-start d-flex pt-2 pt-lg-4"><img class="logocmz-nav d-block" src="assets/img/Logo_CH_color.svg"></div>
   
       <div class="collapse navbar-collapse order-6 order-lg-4 justify-content-center mt-3" id="navbarToggler">
         <ul class="navbar-nav">

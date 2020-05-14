@@ -20,6 +20,8 @@
 
 <link rel="stylesheet" href="assets/css/style.css">
 
+<script src="assets/js/jquery.countdown.min.js"></script>
+
 <title>Rentrée des étudiants - CMZ</title>
 </head>
 
