@@ -8,7 +8,7 @@
 <body>
 
 <Footer>
-<p>Partenaires :</p>
+<p>Partenaires :</p><br>
     <div class="blabla container_footer">
         
             <div>
