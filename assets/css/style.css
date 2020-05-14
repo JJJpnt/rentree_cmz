@@ -39,6 +39,16 @@ html {
     margin-bottom: 0;
 }
 
+.faqpolicep {
+    /* font-family: 'Days One', sans-serif; */
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
 .indentp {
     text-indent: 3rem;
 }

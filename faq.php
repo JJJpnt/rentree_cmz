@@ -40,17 +40,18 @@
   <div class="row w-100 text-center">
     <div class="col-xl-6 col-lg-12 col-md-12 h-auto mx-auto my-auto"><img src="img/event_2019/19.jpg" class="img-fluid" alt="Responsive image"></div>
     <div class="txt_faq col-xl-6 col-lg-12 col-md-12 d-flex flex-column align-items-center"><br>
-      <h2>S'Inscrire</h2>
-      <div class="w-75 mt-5">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
+      <h2 class="policetitres-proginc" style="color: var(--color-blue-middle);">S'Inscrire</h2>
+      <div class="w-75 mt-3">
+      <p class="faqpolicep mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.<br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quae nihil quibusdam nobis quo sunt eligendi
         rem, nulla fugit odio dolorem non explicabo a mollitia obcaecati, accusamus quam recusandae consequatur.</p>
 </div>
-      <a href="event.php" type="button" class="btn btn-warning mt-5">S'Inscrire</a>
+      <a href="event.php"><button class="btn btn-secondary"><h2 class="policetitres-proginc" style="color: var(--color-yellow-middle); margin-bottom: 0!important;">S'inscrire</h2></button></a>
     </div>
   </div>
   <!-- footer -->
+  <div class="mb-2"></div>
 
   <?php include("include/footer.php"); ?>
 
