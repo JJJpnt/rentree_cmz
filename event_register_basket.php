@@ -32,7 +32,7 @@
   <div id="evenements" class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6 my-auto">
-        <h2 class="text-center policetitres">Le Tournoi de basket</h2>
+        <h2 class="text-center policetitres">Tournoi de basket</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe <br>
 et participer au Tournoi de basket qui pourra vous permettre <br>
 de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 à 7 participants.<br>
@@ -49,11 +49,6 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
 
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Tournoi de basket</h1><br>
-    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe <br>
-et participer au Tournoi de basket qui pourra vous permettre <br>
-de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 à 7 participants.<br>
-Opérez votre inscription ensemble.<br>
-Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’Arena de Charleville-Mézières.</p><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">

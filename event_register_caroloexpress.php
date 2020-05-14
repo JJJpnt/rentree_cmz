@@ -34,9 +34,9 @@
     <div class="row">
       <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Le Carolo Express</h2>
-        <p class="policep">Merci de remplir les champs ci-dessous pour inscrire votre équipe
+        <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
           et participer au Carolo express (course d’orientation) qui pourra vous permettre
-          de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
+          de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.<br>
           Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
           le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
           Opérez votre inscription ensemble.</p>
@@ -51,12 +51,6 @@
 
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Carolo Express</h1><br>
-    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-      et participer au Carolo express (course d’orientation) qui pourra vous permettre
-      de gagner de nombreux lots. Pour constituer une équipe, vous devez être 5 participants.
-      Un mot de passe à choisir vous sera demandé pour l’équipe. Ce dernier vous sera utile
-      le jour de la manifestation. Merci de bien retenir le mot de passe que vous allez choisir !
-      Opérez votre inscription ensemble.</p><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">

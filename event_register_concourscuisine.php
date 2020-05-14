@@ -32,10 +32,11 @@
     <div class="row">
       <div class="col-6 my-auto">
         <h2 class="text-center policetitres">Concours de Cuisine</h2>
-        <p class="policep">Merci de remplir les champs ci-dessous pour inscrire votre équipe
+        <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe 
 et participer au Concours de cuisine qui se déroulera Place Ducale et peut-être
-devenir la meilleure équipe de cuisine de 2020 de la ville. Pour constituer une équipe,
-vous devez être 2 participants. Opérez votre inscription ensemble.</p>
+devenir la meilleure équipe de cuisine de la ville.<br> Pour constituer une équipe,
+vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votre inscription ensemble & surtout ne tardez pas.
+<br><br>Info + : au regard du nombre limité d’équipes, le service de la vie étudiante se réserve le droit de sélectionner les équipes afin de favoriser la participation d’un maximum d’établissements.</p>
       </div>
       <div class="col-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
@@ -47,10 +48,6 @@ vous devez être 2 participants. Opérez votre inscription ensemble.</p>
 
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Concours de cuisine</h1><br>
-    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-et participer au Concours de cuisine qui se déroulera Place Ducale et peut-être
-devenir la meilleure équipe de cuisine de 2020 de la ville. Pour constituer une équipe,
-vous devez être 2 participants. Opérez votre inscription ensemble.</p><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">

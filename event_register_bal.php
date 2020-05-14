@@ -32,7 +32,7 @@
     <div id="evenements" class="container-fluid">
         <div class="row">
             <div class="col-6 my-auto">
-                <h2 class="text-center policetitres">Bal de rentée </h2>
+                <h2 class="text-center policetitres">Bal de la rentrée </h2>
                 <p class="policep text-center"><br>La Gacolor est l’événement phare de la vie étudiante à
                     Charleville-Mézières. Cette manifestation, grand public, est ouverte à tous. <br>
                     La Gacolor aura lieu le dimanche 27 septembre 2020 entre 14h et 20h.</p>
@@ -47,9 +47,6 @@
 
     <section class="get-in-touch container-lg">
     <h1 class="title">Inscription bal de la rentrée</h1><br>
-    <p class="policep text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam iure
-     dignissimos veniam nulla distinctio ea minus optio quia,
-     repudiandae illum dolorum debitis aspernatur accusamus earum magnam nihil nam ut.</p><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
