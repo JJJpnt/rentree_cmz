@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);">
+    <div data-bs-parallax-bg="true" class="backgroundimages" style="height:auto; padding-bottom: 30px; background-image: url(img/gacolor.jpeg);">
     <div class="showeventcarac" id="compteur">
         <h2 class=" policetitres text-center mt-5 text-shadow" style="color: white;">Caractéristiques</h2>
         <div class="row w-100 mt-5">
