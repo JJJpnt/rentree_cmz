@@ -8,8 +8,8 @@
 <body>
 
 <Footer>
-<p>Partenaires :</p>
-    <div class="blabla container_footer">
+<p class="footertitle">Partenaires</p>
+    <div class="mx-auto container_footer">
         
             <div>
                 <a href="" target="_blank"><img src="img/campussupardennes.jpg" style="height:50px" class="hvr-pulse" alt="logo du campus sup ardennes" height="30px"></a>

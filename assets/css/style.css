@@ -178,6 +178,12 @@ html {
     transform: rotateZ(-2deg);
 }
 
+.footertitle {
+    font-family: 'Bangers', cursive;
+    color: var(--color-yellow-middle);
+    font-size: 2em;
+}
+
 .policetitres-proginc-a {
     font-family: 'Bangers', cursive;
     font-size: 1em;
@@ -1024,11 +1030,6 @@ header .input-group {
   }
 
   /* footer */
-
-  .blabla{
-    margin-left: auto;
-    margin-right: auto;
-}
 .container_footer  {
     margin-top: 10px;
     width:50%;
