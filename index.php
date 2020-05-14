@@ -218,54 +218,6 @@
     </div>
   </div>
 
-  <!-- Partenaires -->
-  <div class="container-fluid">
-    <div class="row flexpartenaires" style="background-image: url(img/motif2.gif);">
-      <h2 class="policetitres mt-3 mb-3">Nos partenaires</h2>
-      <!-- <div class="row col-sm-12 col-md-10 col-lg-9 col-xl-8" style="padding-right: 0px; padding-left: 0px;"> -->
-      <div class="row" style="padding-right: 0px; padding-left: 0px;">
-        <div class="container">
-          <div class="slicktest mb-5">
-            <div><img src="img/ardennemetropole.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/campussupardennes.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/crous.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/cv.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/decathlon.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/flap.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/grandest.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/intercampus.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/jeanteur.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/leroymerlin.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/mcdo.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/orange.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/prefecture.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/tacos.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/terraltitude.jpg" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/vitrines.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-            <div><img src="img/yvesrocher.png" class="d-block" alt="Logo étudiant carolo">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Page d'acceuil content end -->
 
   <?php include('include/footer.php')?>
