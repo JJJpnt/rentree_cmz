@@ -1020,6 +1020,7 @@ header .input-group {
     margin-right: auto;
 }
 .container_footer  {
+    margin-top: 10px;
     width:50%;
     display:flex;
     flex-wrap: wrap;
