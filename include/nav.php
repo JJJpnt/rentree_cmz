@@ -4,8 +4,11 @@ $(function(){
     if (typeof navCloud === 'undefined') { 
               navCloud = false; 
               $("#header-top").addClass("nav-svg");
+              $(".navbar-toggler").addClass("navbar-toggler-svg");
+              
             } else {
               $("#header-top").addClass("nav-cloud");
+              $(".navbar-toggler").addClass("navbar-toggler-cloud");
           }
     $(window).scroll(function(){
 
