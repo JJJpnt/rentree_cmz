@@ -44,7 +44,7 @@
   <?php include('include/nav.php') ?>
 
   <!-- <div class="animindex bg-azur-light height-big text-center">Animation Slider</div> -->
-  <?php include('include/slider.php'); ?>
+  <?php include('include/slider2.php'); ?>
 
 
   <!-- Texte RDE / Evenements -->
@@ -101,7 +101,7 @@
   <div class="container-fluid">
     <div class="row motifimg">
     <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);"></div>
-      <div class="col-8 motiftest">
+      <div class="col-12 col-lg-8 col-md-10 col-sm-12 motiftest">
         <div class="row">
           <div class="col-md-3 col-5 mx-auto">
             <div class="dropdown">

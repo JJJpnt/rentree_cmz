@@ -45,11 +45,7 @@
     <!-- Formumaire -->
 
     <section class="get-in-touch container-lg">
-    <h1 class="title">Inscription Concours de cuisine</h1><br>
-    <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
-et participer au Concours de cuisine qui se déroulera Place Ducale et peut-être
-devenir la meilleure équipe de cuisine de 2020 de la ville. Pour constituer une équipe,
-vous devez être 2 participants. Opérez votre inscription ensemble.</p><br>
+    <h1 class="title">Inscription Escape Game</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
     <form class="contact-form row w-100 justify-content-center">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">

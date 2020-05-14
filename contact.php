@@ -83,21 +83,24 @@
         <div class="row">
 
         <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
-        <i class="fas fa-envelope fa-2x  contact-fa" style="color: var(--color-blue-middle"></i>
+        <i class="fas fa-envelope fa-2x contact-fa" style="color: var(--color-blue-middle"></i><br>
+        <i class="fas fa-angle-down fa-2x" style="color: var(--color-blue-middle"></i>
             <div class="contenuSpoiler">
-            <p><br><br>etudiants@mairie-charlevillemezieres.fr</p>
+            <p class="policep"><br><br>etudiants@mairie-charlevillemezieres.fr</p>
             </div>
         </div>
         <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
-        <i class="fas fa-map-marked-alt fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
+        <i class="fas fa-map-marked-alt fa-2x contact-fa" style="color: var(--color-blue-middle"></i><br>
+        <i class="fas fa-angle-down fa-2x" style="color: var(--color-blue-middle"></i>
             <div class="contenuSpoiler">
-            <p><br><br>Place du Théâtre CS 40490 08109 Charleville-Mézières Cedex</p>
+            <p class="policep"><br><br>Place du Théâtre CS 40490 08109 Charleville-Mézières Cedex</p>
             </div>
         </div>
         <div class="spoiler col-sm-4 mx-auto text-center m-2" onclick="ouvrirFermerSpoiler(this);">
-        <i class="fas fa-phone fa-2x contact-fa" style="color: var(--color-blue-middle"></i>
+        <i class="fas fa-phone fa-2x contact-fa" style="color: var(--color-blue-middle"></i><br>
+        <i class="fas fa-angle-down fa-2x" style="color: var(--color-blue-middle"></i>
             <div class="contenuSpoiler">
-            <p><br><br>Tel: 03 24 32 44 91</p>
+            <p class="policep"><br><br>Tel: 03 24 32 44 91</p>
             </div>
         </div>
         </div>
