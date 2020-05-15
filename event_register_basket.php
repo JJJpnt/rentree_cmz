@@ -100,19 +100,19 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
         <div class="row justify-content-center">
           <ul class="nav nav-tabs" id="register" role="tablist">
             <li class="nav-item mr-2">
-              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 1</p></a>
+              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 1</p><p class="tabgalerietxt inscripmobile">1</p></a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 2</p></a>
+              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 2</p><p class="tabgalerietxt inscripmobile">2</p></a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" id="part3" data-toggle="tab" href="#register3" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 3</p></a>
+              <a class="nav-link" id="part3" data-toggle="tab" href="#register3" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 3</p><p class="tabgalerietxt inscripmobile">3</p></a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" id="part4" data-toggle="tab" href="#register4" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 4</p></a>
+              <a class="nav-link" id="part4" data-toggle="tab" href="#register4" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 4</p><p class="tabgalerietxt inscripmobile">4</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="part5" data-toggle="tab" href="#register5" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 5</p></a>
+              <a class="nav-link" id="part5" data-toggle="tab" href="#register5" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 5</p><p class="tabgalerietxt inscripmobile">5</p></a>
             </li>
           </ul>
         </div>

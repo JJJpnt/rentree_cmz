@@ -592,7 +592,18 @@ div.spoiler div.contenuSpoiler {
     .tabeventpadding {
         padding: 4px;
     }
-    
+
+    .inscripdesktop {
+        display: none;
+    }
+
+    .inscripmobile {
+        display: block !important;
+    }
+}
+
+.inscripmobile {
+    display: none;
 }
 
 .tabeventmr {

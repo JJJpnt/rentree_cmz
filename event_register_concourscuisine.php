@@ -27,7 +27,7 @@
   <!-- img event -->
 
   <div class="header_img">
-    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Concour de Cuisine</strong></h2></div>
+    <div class="d-flex align-items-end justify-content-center" style="height:250px;"><h2 class="header_text display-2 text-white"><strong>Concours de Cuisine</strong></h2></div>
   </div>
 
   <!-- Second Row -->
@@ -91,10 +91,10 @@ vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votr
         <div class="row justify-content-center">
           <ul class="nav nav-tabs" id="register" role="tablist">
             <li class="nav-item mr-2">
-              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 1</p></a>
+              <a class="nav-link active" id="part1" data-toggle="tab" href="#register1" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 1</p><p class="tabgalerietxt inscripmobile">1</p></a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Participant 2</p></a>
+            <li class="nav-item">
+              <a class="nav-link" id="part2" data-toggle="tab" href="#register2" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 2</p><p class="tabgalerietxt inscripmobile">2</p></a>
             </li>
           </ul>
         </div>
