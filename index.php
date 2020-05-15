@@ -103,9 +103,9 @@
     <div data-bs-parallax-bg="true" class="backgroundimages" style="background-image: url(img/gacolor.jpeg);"></div>
       <div class="col-12 col-lg-8 col-md-10 col-sm-12 motiftest">
         <div class="row">
-          <div class="col-md-3 col-5 mx-auto">
+          <div class="col-7 col-sm-3 mx-auto mb-5">
             <div class="dropdown">
-              <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonProgramme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-dark dropdown-toggle nohoverbtn w-100" type="button" id="dropdownMenuButtonProgramme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <h2 class="policetitres-proginc text-center mt-3">Programme</h2>
               </button>
               <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonProgramme">
@@ -113,9 +113,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-5 mx-auto">
+          <div class="col-7 col-sm-3 mx-auto">
             <div class="dropdown">
-              <button class="btn btn-dark dropdown-toggle nohoverbtn" type="button" id="dropdownMenuButtonInscriptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-dark dropdown-toggle nohoverbtn w-100" type="button" id="dropdownMenuButtonInscriptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <h2 class="policetitres-proginc text-center mt-3">Inscriptions</h2>
               </button>
               <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonInscriptions">

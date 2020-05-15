@@ -34,7 +34,7 @@
 
   <!--carte-->
 
-  <div class="row my-4 justify-content-center align-items-center w-100 persp">
+  <div class="row my-4 justify-content-center align-items-center w-100 mx-auto persp">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
         <img class="img-fluid" src="img/event_2019/1.jpg">

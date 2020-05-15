@@ -289,7 +289,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
   <?php include('include/parallax.php')?>
 
   <!-- Event Cards -->
-  <div class="row my-4 justify-content-center align-items-center w-100">
+  <div class="row my-4 justify-content-center align-items-center w-100 mx-auto">
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mb-4">
       <div class="card-polaroid mx-auto">
         <img class="img-fluid" src="img/event_2019/1.jpg">
