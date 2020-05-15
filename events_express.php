@@ -178,15 +178,49 @@ function gocompteur(startcount, endcount, duration, idTarget) {
 
 }
 
-var waypoint = new Waypoint({
-  element: document.getElementById('compteur'),
+var waypoint1 = new Waypoint({
+  element: document.getElementById('compteur1'),
   handler: function(direction) {
-        // alert('blah');
         gocompteur(0,352,1,"compteur1");
+  },
+  offset: 'bottom-in-view' 
+})
+
+var waypoint2 = new Waypoint({
+  element: document.getElementById('compteur2'),
+  handler: function(direction) {
         gocompteur(0,14,0.7,"compteur2");
+  },
+  offset: 'bottom-in-view' 
+})
+
+var waypoint3 = new Waypoint({
+  element: document.getElementById('compteur3'),
+  handler: function(direction) {
         gocompteur(0,20,1,"compteur3");
+  },
+  offset: 'bottom-in-view' 
+})
+
+var waypoint3 = new Waypoint({
+  element: document.getElementById('compteur4'),
+  handler: function(direction) {
         gocompteur(0,27,1.4,"compteur4");
-        gocompteur(0,09,0.9,"compteur5");
+  },
+  offset: 'bottom-in-view' 
+})
+
+var waypoint3 = new Waypoint({
+  element: document.getElementById('compteur5'),
+  handler: function(direction) {
+        gocompteur(0,9,0.9,"compteur5");
+  },
+  offset: 'bottom-in-view' 
+})
+
+var waypoint3 = new Waypoint({
+  element: document.getElementById('compteur6'),
+  handler: function(direction) {
         gocompteur(0,20,1,"compteur6");
   },
   offset: 'bottom-in-view' 
