@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="assets/css/style.css">    
 
     <title>Rentrée des étudiants - CMZ</title>
-  </head>
+  <!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+</head>
   <body>
 
     <?php include('include/nav.php')?>

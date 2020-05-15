@@ -1,12 +1,3 @@
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Footer</title>
-</head>
-<body>
-
 <Footer>
 <p class="footertitle">Partenaires</p>
     <div class="mx-auto container_footer">
@@ -80,6 +71,3 @@
         <div class="col-12 col-blue-dark my-auto text-center">Footer 2</div>
     </div>
 </div> -->
-
-</body>
-</html>

@@ -12,6 +12,9 @@
 
   <title>Inscription Concours de Cuisine</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
 </head>
 
 <body>

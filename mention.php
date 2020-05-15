@@ -15,6 +15,9 @@
 <link rel="stylesheet" href="assets/css/style.css">
     <title>Mention légales</title>
  
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
 </head>
 <body>
 

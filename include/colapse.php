@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="colapse/css/Accordion.css">
   <link rel="stylesheet" href="colapse/css/menu-collapse-ultimate.css">
   <link rel="stylesheet" href="colapse/css/styles.css">
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
 </head>
 
 <body>
