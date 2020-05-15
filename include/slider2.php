@@ -52,7 +52,7 @@
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-8"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['top','top','top','top']" data-voffset="['113','93','53','53']"
-                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-fontsize="['80','80','90','45']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
@@ -66,7 +66,7 @@
             <div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-7"
                 data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']"
                 data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
-                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-fontsize="['80','80','90','45']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
@@ -81,7 +81,7 @@
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-5"
                 data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']"
                 data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
-                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-fontsize="['80','80','90','45']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"
@@ -95,7 +95,7 @@
             <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-32-layer-3"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                 data-y="['top','top','top','top']" data-voffset="['110','90','50','50']"
-                data-fontsize="['80','80','90','60']" data-lineheight="['60','60','70','46']" data-width="none"
+                data-fontsize="['80','80','90','45']" data-lineheight="['60','60','70','46']" data-width="none"
                 data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                 data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                 data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,70,40]"

@@ -408,10 +408,6 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-color: var(--color-blue-middle);
     z-index: 999999;
     }
-
-    /* .slidhover:hover {
-        color: var(--color-yellow-middle) !important;
-    } */
 /* anthony */
 
 .event_img {
@@ -565,6 +561,42 @@ div.spoiler div.contenuSpoiler {
     .collapsetxt {
         font-size: 14px;
     }
+
+    #etablissement-font-1 {
+        font-size: 15px;
+    }
+    #etablissement-font-2 {
+        font-size: 15px;
+    }
+    #etablissement-font-3 {
+        font-size: 15px;
+    }
+    #etablissement-font-4 {
+        font-size: 15px;
+    }
+    #etablissement-font-5 {
+        font-size: 15px;
+    }
+    #etablissement-font-6 {
+        font-size: 15px;
+    }
+    #etablissement-font-7 {
+        font-size: 15px;
+    }
+
+    .tabgalerietxt {
+        font-size: .7em;
+        padding-right: -10px !important;
+    }
+
+    .tabeventpadding {
+        padding: 4px;
+    }
+    
+}
+
+.tabeventmr {
+    margin-right: 10px;
 }
 
 /* Footer Yohann Styles */
