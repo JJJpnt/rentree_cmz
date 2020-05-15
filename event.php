@@ -125,29 +125,17 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <ul class="nav nav-tabs" id="galerie" role="tablist">
-        <li class="nav-item mr-2">
-          <a class="nav-link active" id="tabcaroloexpress" data-toggle="tab" href="#caroloexpresscontent" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Carolo Express</p></a>
+        <li class="nav-item tabeventmr">
+          <a class="nav-link active tabeventpadding" id="tabcaroloexpress" data-toggle="tab" href="#caroloexpresscontent" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt">Carolo Express</p></a>
         </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabcarolowarrior" data-toggle="tab" href="#carolowarriorcontent" role="tab" aria-controls="profile" aria-selected="false"><p class="tabgalerietxt">Carolo Warrior</p></a>
+        <li class="nav-item tabeventmr">
+          <a class="nav-link tabeventpadding" id="tabcarolowarrior" data-toggle="tab" href="#carolowarriorcontent" role="tab" aria-controls="profile" aria-selected="false"><p class="tabgalerietxt">Carolo Warrior</p></a>
         </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabcuisine" data-toggle="tab" href="#concourscuisinecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Concours de Cuisine</p></a>
-        </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabpiquenique" data-toggle="tab" href="#piqueniquecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Pique-Nique</p></a>
-        </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabbasket" data-toggle="tab" href="#basketcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Tournoi de Basket</p></a>
-        </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabgacolor" data-toggle="tab" href="#gacolorcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Gacolor</p></a>
-        </li>
-        <li class="nav-item mr-2">
-          <a class="nav-link" id="tabescape" data-toggle="tab" href="#escapecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Escape Game</p></a>
+        <li class="nav-item tabeventmr">
+          <a class="nav-link tabeventpadding" id="tabcuisine" data-toggle="tab" href="#concourscuisinecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Concours de Cuisine</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="tabbal" data-toggle="tab" href="#balcontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Bal de Rentrée</p></a>
+          <a class="nav-link tabeventpadding" id="tabpiquenique" data-toggle="tab" href="#piqueniquecontent" role="tab" aria-controls="contact" aria-selected="false"><p class="tabgalerietxt">Pique-Nique</p></a>
         </li>
       </ul>
     </div>
@@ -201,46 +189,6 @@
           </div>
         </div>
         <!-- /Tab pique-nique -->
-
-        <!-- Tab basket -->
-        <div class="tab-pane fade" id="basketcontent" role="tabpanel" aria-labelledby="basket-tab">
-          <div class="container-fluid pl-5 pr-5">
-            <div class="row mb-5">
-              <!-- Photos -->
-            </div>
-          </div>
-        </div>
-        <!-- /Tab basket -->
-
-        <!-- Tab gacolor -->
-        <div class="tab-pane fade" id="gacolorcontent" role="tabpanel" aria-labelledby="gacolor-tab">
-          <div class="container-fluid pl-5 pr-5">
-            <div class="row mb-5">
-              <!-- Photos -->
-            </div>
-          </div>
-        </div>
-        <!-- /Tab gacolor -->
-
-        <!-- Tab escape game -->
-        <div class="tab-pane fade" id="escapecontent" role="tabpanel" aria-labelledby="escape-tab">
-          <div class="container-fluid pl-5 pr-5">
-            <div class="row mb-5">
-              <!-- Photos -->
-            </div>
-          </div>
-        </div>
-        <!-- /Tab escape game -->
-
-        <!-- Tab bal -->
-        <div class="tab-pane fade" id="balcontent" role="tabpanel" aria-labelledby="bal-tab">
-          <div class="container-fluid pl-5 pr-5">
-            <div class="row mb-5">
-              <!-- Photos -->
-            </div>
-          </div>
-        </div>
-        <!-- /Tab bal -->
       </div>
     </div>
   </div>
