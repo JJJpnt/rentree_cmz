@@ -5,10 +5,11 @@ $(function(){
               navCloud = false; 
               $("#header-top").addClass("nav-svg");
               $(".navbar-toggler").addClass("navbar-toggler-svg");
-              
+              $(".logocmz-nav").attr("src","assets/img/Logo_CH_color_white.svg");
             } else {
               $("#header-top").addClass("nav-cloud");
               $(".navbar-toggler").addClass("navbar-toggler-cloud");
+              $(".logocmz-nav").attr("src","assets/img/Logo_CH_color.svg");              
           }
     $(window).scroll(function(){
 
