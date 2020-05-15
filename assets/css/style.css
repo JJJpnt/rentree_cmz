@@ -469,6 +469,7 @@ div.spoiler div.contenuSpoiler {
 }
 
 @media screen and (min-width: 1200px){
+
     .card_event .card-body{
         display: flex;
         flex-direction: column;
@@ -555,6 +556,14 @@ div.spoiler div.contenuSpoiler {
     }
     .carou_img{
         display: none;
+    }
+
+    .collapsetitle {
+        font-size: 18px;
+    }
+
+    .collapsetxt {
+        font-size: 14px;
     }
 }
 
