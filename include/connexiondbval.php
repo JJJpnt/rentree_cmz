@@ -1,4 +1,4 @@
- <?php
+<?php
 
 $servername = "db5000303630.hosting-data.io";
 $username = "dbu526536";

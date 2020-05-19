@@ -19,12 +19,22 @@ include('../include/connexiondbval.php');
     <center><a href="../index.php" class="text-black-50 mb-5">Revenir à l'accueil</a></center>
     <div class="container mt-2">
         <?php if(isset($_GET['success'])){
-                if($_GET['success'] == '5') {?>
+                if($_GET['success'] == 'testimonialadd') {?>
                     <div class="alert alert-secondary" role="alert">
-                    L'article a bien été ajouté.
+                    Vous venez d'ajouter un commentaire.
+                    </div>
+        <?php } elseif($_GET['success'] == 'testimonialdeleted') { ?>
+                    <div class="alert alert-secondary" role="alert">
+                    Commentaire supprimé.
+                    </div>
+        <?php } elseif($_GET['success'] == 'testimonialupdated') { ?>
+                    <div class="alert alert-secondary" role="alert">
+                    Commentaire modifié.
                     </div>
         <?php }} ?>
     <h3 class="font-weight-light text-black-50 mt-4 mb-5"><center>Témoignages</center></h3>
+
+    <center><a href="admincrud/insert/testimonials.php" class="text-black-50">Ajouter un témoignage <i class="fas fa-plus-circle mb-4"></i></a></center>
 
     <div class="container mt-2">
   <?php 
@@ -67,7 +77,7 @@ include('../include/connexiondbval.php');
           <td><?= $donnees['age']; ?></td>
           <td><?= $donnees['establishment']; ?></td>
           <td><?= substr($donnees['text'], 0, 60); ?>...</td>
-          <td><?= $donnees['image']; ?></td>
+          <td><?= substr($donnees['image'], 0, 25); ?>...</td>
           <td><?= $donnees['alt']; ?></td>
 
           <td><a href="admincrud/update/testimonials.php?id=<?= $donnees['id_testimonial'];?>" class="text-muted"><i
@@ -82,6 +92,8 @@ $readtestimonials->closecursor();
       </tbody>
     </table>
   </div>
+
+  <h3 class="font-weight-light text-black-50 mt-4 mb-5"><center>Films</center></h3>
 
 </body>
 </html>
