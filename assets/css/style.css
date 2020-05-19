@@ -1101,3 +1101,12 @@ header .input-group {
       margin: 0 auto;
       padding: 0 auto;
   }
+
+  @media screen and (max-width: 992px){
+        .nav-link {
+            background-color: hsla(251, 88%, 60%,0.75) !important;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: .25rem;
+        }
+    }
