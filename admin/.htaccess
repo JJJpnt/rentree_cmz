@@ -1,4 +1,4 @@
-AuthName "Page d'administration protégée"
+AuthName "Cet page n'est accesible que a l'administrateur"
 AuthType Basic
-AuthUserFile "rentree_cmz/admin/.htpasswd"
+AuthUserFile "/homepages/46/d745000242/htdocs/ftp-apprenant-3/BEENEN/rentree_cmz/admin/.htpasswd"
 Require valid-user
