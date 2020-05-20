@@ -109,7 +109,7 @@
               <button class="btn btn-dark dropdown-toggle nohoverbtn w-100" type="button" id="dropdownMenuButtonProgramme" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <h2 class="policetitres-proginc text-center mt-3">Programme</h2>
               </button>
-              <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonProgramme">
+              <div class="dropdown-menu dropindex-a w-100" aria-labelledby="dropdownMenuButtonProgramme">
                 <a class="dropdown-item policetitres-proginc-a" href="#">Attente de contenu</a>
               </div>
             </div>
@@ -119,7 +119,7 @@
               <button class="btn btn-dark dropdown-toggle nohoverbtn w-100" type="button" id="dropdownMenuButtonInscriptions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <h2 class="policetitres-proginc text-center mt-3">Inscriptions</h2>
               </button>
-              <div class="dropdown-menu dropindex-a" aria-labelledby="dropdownMenuButtonInscriptions">
+              <div class="dropdown-menu dropindex-a w-100" aria-labelledby="dropdownMenuButtonInscriptions">
                 <a class="dropdown-item policetitres-proginc-a" href="event_register_caroloexpress.php">Carolo Express</a>
                 <a class="dropdown-item policetitres-proginc-a" href="event_register_carolowarrior.php">Carolo Warrior</a>
                 <a class="dropdown-item policetitres-proginc-a" href="event_register_concourscuisine.php">Concours de Cuisine</a>
