@@ -1,3 +1,4 @@
+<?php require_once('include/connexiondbval.php'); ?>
 <!doctype html>
 <html lang="fr">
 
@@ -146,14 +147,16 @@
         <div class="tab-pane fade show active" id="caroloexpresscontent" role="tabpanel" aria-labelledby="caroloexpress-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/1.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/1.jpg" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/2.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/2.jpg" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/3.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/3.jpg" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/4.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/4.jpg" class="img-fluid mt-1"></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/9.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/9.jpg" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/10.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/10.jpg" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/11.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/11.jpg" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/12.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/12.jpg" class="img-fluid mt-1 "></a></div>
+            <?php 
+            
+            $req = $bdd->prepare("SELECT * FROM RDEGallery WHERE category = 'Carolo Express' ");
+            $req->execute();
+
+            while( $img = $req->fetch() ) {
+            
+            ?>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <?php } ?>
             </div>
           </div>
         </div>
@@ -163,8 +166,16 @@
         <div class="tab-pane fade" id="carolowarriorcontent" role="tabpanel" aria-labelledby="carolowarrior-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/5.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/5.jpg" class="img-fluid mt-1 "></a></div>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/event_2019/6.jpg" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/event_2019/6.jpg" class="img-fluid mt-1 "></a></div>
+            <?php 
+            
+            $req = $bdd->prepare("SELECT * FROM RDEGallery WHERE category = 'Carolo Warrior' ");
+            $req->execute();
+
+            while( $img = $req->fetch() ) {
+            
+            ?>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <?php } ?>
             </div>
           </div>
         </div>
@@ -174,7 +185,17 @@
         <div class="tab-pane fade" id="concourscuisinecontent" role="tabpanel" aria-labelledby="concourscuisine-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <!-- Photos -->
+            <?php 
+            
+            $req = $bdd->prepare("SELECT * FROM RDEGallery WHERE category = 'Concours de Cuisine' ");
+            $req->execute();
+
+            while( $img = $req->fetch() ) {
+            
+            ?>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+
+              <?php } ?>
             </div>
           </div>
         </div>
@@ -184,7 +205,17 @@
         <div class="tab-pane fade" id="piqueniquecontent" role="tabpanel" aria-labelledby="piquenique-tab">
           <div class="container-fluid pl-5 pr-5">
             <div class="row mb-5">
-              <!-- Photos -->
+            <?php 
+            
+            $req = $bdd->prepare("SELECT * FROM RDEGallery WHERE category = 'Pique-Nique' ");
+            $req->execute();
+
+            while( $img = $req->fetch() ) {
+            
+            ?>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+
+              <?php } ?>
             </div>
           </div>
         </div>
