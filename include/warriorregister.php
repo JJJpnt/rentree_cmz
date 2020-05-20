@@ -57,7 +57,7 @@ $mail8 = !empty($_POST['mail8']) ? $_POST['mail8'] : NULL;
 $verifmail8 = !empty($_POST['verifmail8']) ? $_POST['verifmail8'] : NULL;
 
 if($password == $verifpassword) {
-    if($mail1 == $verifmail1 && $mail2 == $verifmail2 && $mail3 == $verifmail3 && $mail4 == $verifmail4 && $mail5 == $verifmail5) {
+    if($mail1 == $verifmail1 && $mail2 == $verifmail2 && $mail3 == $verifmail3 && $mail4 == $verifmail4 && $mail5 == $verifmail5 && $mail6 == $verifmail6 && $mail7 == $verifmail7) {
 
         $teamnameexist = $bdd->prepare("SELECT team_name FROM RDEBasketregister WHERE team_name = '$teamname'");
         $teamnameexist->execute();
