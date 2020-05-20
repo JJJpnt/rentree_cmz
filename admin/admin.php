@@ -49,11 +49,11 @@ include('../include/connexiondbval.php');
                     </div>
         <?php } elseif($_GET['success'] == 'gallerydeleted') { ?>
                     <div class="alert alert-secondary" role="alert">
-                    Photo de la galerie photo supprimée.
+                    Photo supprimée de la galerie photo.
                     </div>
         <?php } elseif($_GET['success'] == 'galleryupdated') { ?>
                     <div class="alert alert-secondary" role="alert">
-                    Photo de la galerie photo modifiée.
+                    Photo modifiée dans la galerie photo.
                     </div>
         <?php }} ?>
     <h3 class="font-weight-light text-black-50 mt-4 mb-5"><center>Témoignages</center></h3>
