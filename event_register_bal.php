@@ -51,7 +51,7 @@
     <section class="get-in-touch container-lg">
     <h1 class="title">Inscription bal de la rentrée</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form class="contact-form row w-100 justify-content-center">
+    <form class="contact-form row w-100 justify-content-center" action="include/balregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-1">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -85,24 +85,24 @@
                   <h2 class="title2 mt-3">Participant</h2>
                   <div class="contact-form row w-100 justify-content-center">
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart2" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                      <input name="name" class="input-text js-input" type="text" tabindex="1" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname" class="input-text js-input" type="text" tabindex="2" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel" class="input-text js-input" type="text" tabindex="3" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail" class="input-text js-input" type="email" tabindex="4" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail" class="input-text js-input" type="email" tabindex="5" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
                   </div>
                   <div class="form-field col-12">

@@ -153,7 +153,7 @@ while( $testimonial = $req->fetch() ) {
         <div class="row d-flex">
           <div class="col-2"></div>
           <div class="col-2 carou_img">
-            <img src="<?= $testimonial['image'] ?>" class="d-block w-100" alt="<?= $testimonial['alt'] ?>">
+            <img src="<?php if($testimonial['image'] != NULL) { echo $testimonial['image']; } else { ?>img/logoetudiantcarolo_bleu.png<?php } ?>" class="d-block w-100" alt="<?= $testimonial['alt'] ?>">
           </div>
           <div class="col-1"></div>
           <div class="col-md-12 col-lg-5 align-self-center m-2">

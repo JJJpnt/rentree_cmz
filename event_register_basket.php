@@ -53,7 +53,7 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Tournoi de basket</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form class="contact-form row w-100 justify-content-center">
+    <form class="contact-form row w-100 justify-content-center" action="include/basketregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-2">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -83,16 +83,20 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
       </div>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" class="input-text js-input" name="teamname" type="text" required>
-          <label class="label" for="name">Nom d'équipe</label>
+          <input class="input-text js-input" name="teamname" type="text" required>
+          <label class="label">Nom d'équipe</label>
         </div>
       </div>
 
       <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="password" class="input-text js-input" type="password" required>
-          <label class="label" for="name">Mot de passe</label>
+          <input name="password" class="input-text js-input" type="password" required>
+          <label class="label">Mot de passe</label>
+        </div>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input name="verifpassword" class="input-text js-input" type="password" required>
+          <label class="label">Confirmer le mot de passe</label>
         </div>
       </div>
 
@@ -111,8 +115,14 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
             <li class="nav-item mr-2">
               <a class="nav-link" id="part4" data-toggle="tab" href="#register4" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 4</p><p class="tabgalerietxt inscripmobile">4</p></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a class="nav-link" id="part5" data-toggle="tab" href="#register5" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 5</p><p class="tabgalerietxt inscripmobile">5</p></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" id="part6" data-toggle="tab" href="#register6" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 6</p><p class="tabgalerietxt inscripmobile">4</p></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="part7" data-toggle="tab" href="#register7" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 7</p><p class="tabgalerietxt inscripmobile">5</p></a>
             </li>
           </ul>
         </div>
@@ -128,24 +138,24 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                   <h2 class="title2 mt-3">Participant 1</h2>
                   <div class="contact-form row w-100 justify-content-center">
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart1" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                      <input name="name1" class="input-text js-input" type="text" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart1" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname1" class="input-text js-input" type="text" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart1" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel1" class="input-text js-input" type="text" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart1" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail1" class="input-text js-input" type="email" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart1" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail1" class="input-text js-input" type="email" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
                   </div>
                 </div>
@@ -159,24 +169,24 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                   <h2 class="title2 mt-3 text-center">Participant 2</h2>
                   <div class="contact-form row w-100 justify-content-center">
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart2" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                      <input name="name2" class="input-text js-input" type="text" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname2" class="input-text js-input" type="text" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel2" class="input-text js-input" type="text" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail2" class="input-text js-input" type="email" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart2" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail2" class="input-text js-input" type="email" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
                   </div>
                 </div>
@@ -190,24 +200,24 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                   <h2 class="title2 mt-3">Participant 3</h2>
                   <div class="contact-form row w-100 justify-content-center">
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart3" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                      <input name="name3" class="input-text js-input" type="text" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart3" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname3" class="input-text js-input" type="text" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart3" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel3" class="input-text js-input" type="text" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart3" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail3" class="input-text js-input" type="email" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart3" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail3" class="input-text js-input" type="email" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
                   </div>
                 </div>
@@ -222,24 +232,24 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                   <h2 class="title2 mt-3">Participant 4</h2>
                   <div class="contact-form row w-100 justify-content-center">
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart4" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                      <input name="name4" class="input-text js-input" type="text" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart4" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname4" class="input-text js-input" type="text" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart4" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel4" class="input-text js-input" type="text" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart4" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail4" class="input-text js-input" type="email" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart4" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail4" class="input-text js-input" type="email" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
                   </div>
                 </div>
@@ -251,33 +261,93 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
                 <div class="row justify-content-center mt-5 mb-5">
                   <h2 class="title2 mt-3">Participant 5</h2>
                   <div class="contact-form row w-100 justify-content-center">
-                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="name" name="namepart5" class="input-text js-input" type="text" required>
-                      <label class="label" for="name">Nom</label>
+                  <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="name5" class="input-text js-input" type="text" required>
+                      <label class="label">Nom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="firstnamepart5" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Prénom</label>
+                      <input name="firstname5" class="input-text js-input" type="text" required>
+                      <label class="label">Prénom</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="telpart5" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Mobile</label>
+                      <input name="tel5" class="input-text js-input" type="text" required>
+                      <label class="label">Mobile</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="mailpart5" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Email</label>
+                      <input name="mail5" class="input-text js-input" type="email" required>
+                      <label class="label">Email</label>
                     </div>
                     <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-                      <input id="email" name="verifmailpart5" class="input-text js-input" type="email" required>
-                      <label class="label" for="email">Retapez l'email</label>
+                      <input name="verifmail5" class="input-text js-input" type="email" required>
+                      <label class="label">Veuillez resaisir votre email</label>
                     </div>
-                  </div>
-
-                  <div class="form-field col-12">
-                    <center><input class="submit-btn" type="submit" value="Valider"></center>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div class="tab-pane fade show" id="register6" role="tabpanel" aria-labelledby="register6-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 6</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="name6" class="input-text js-input" type="text">
+                      <label class="label">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="firstname6" class="input-text js-input" type="text">
+                      <label class="label">Prénom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="tel6" class="input-text js-input" type="text">
+                      <label class="label">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="mail6" class="input-text js-input" type="email">
+                      <label class="label">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="verifmail6" class="input-text js-input" type="email">
+                      <label class="label">Veuillez resaisir votre email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade show" id="register7" role="tabpanel" aria-labelledby="register7-tab">
+              <div class="container-fluid pl-5 pr-5">
+                <div class="row justify-content-center mt-5 mb-5">
+                  <h2 class="title2 mt-3">Participant 7</h2>
+                  <div class="contact-form row w-100 justify-content-center">
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="name7" class="input-text js-input" type="text">
+                      <label class="label">Nom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="firstname7" class="input-text js-input" type="text">
+                      <label class="label">Prénom</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="tel7" class="input-text js-input" type="text">
+                      <label class="label">Mobile</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="mail7" class="input-text js-input" type="email">
+                      <label class="label">Email</label>
+                    </div>
+                    <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+                      <input name="verifmail7" class="input-text js-input" type="email">
+                      <label class="label">Veuillez resaisir votre email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-field col-12">
+              <center><input class="submit-btn" type="submit" value="Valider"></center>
             </div>
           </div>
         </div>
