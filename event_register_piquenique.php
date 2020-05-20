@@ -49,7 +49,7 @@ pour les 200 premières réservations.</p>
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription au pique-nique</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form class="contact-form row w-100 justify-content-center">
+    <form class="contact-form row w-100 justify-content-center" action="include/piqueniqueregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-7">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -74,24 +74,24 @@ pour les 200 premières réservations.</p>
       </div>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" name="name" class="input-text js-input" type="text" required>
-          <label class="label" for="name">Nom</label>
+          <input name="name" class="input-text js-input" type="text" required>
+          <label class="label">Nom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="firstname" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Prénom</label>
+          <input name="firstname" class="input-text js-input" type="email" required>
+          <label class="label">Prénom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="tel" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Mobile</label>
+          <input name="tel" class="input-text js-input" type="email" required>
+          <label class="label">Mobile</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="mail" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Email</label>
+          <input name="mail" class="input-text js-input" type="email" required>
+          <label class="label">Email</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="email" name="verifmail" class="input-text js-input" type="email" required>
-          <label class="label" for="email">Retapez l'email</label>
+          <input name="verifmail" class="input-text js-input" type="email" required>
+          <label class="label">Veuillez resaisir votre email</label>
         </div>
       </div>
       <h2 class="title2 mt-3">Vite, il ne reste que XXX places pour les repas à 3€!</h2>
