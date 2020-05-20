@@ -33,13 +33,13 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Pique-Nique</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour reserver votre repas
 à la plaine du Mont Olympe pour le prix de 3€ au lieu de 5€
 pour les 200 premières réservations.</p>
       </div>
-      <div class="col-6 mt-5">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
       </div>
     </div>

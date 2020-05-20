@@ -33,14 +33,14 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Le Carolo Warrior</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
 et participer au Carolo warrior (relai sportif et ludique). De nombreux
 lots sont à gagner. Pour constituer une équipe, vous devez être 8 participants.
 Opérez votre inscription ensemble</p>
       </div>
-      <div class="col-6 mt-5">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
       </div>
     </div>
