@@ -53,13 +53,12 @@ $verifmail2 = !empty($_POST['verifmail2']) ? $_POST['verifmail2'] : NULL;
             $idpart2 = $bdd->lastInsertId();
 
 
-            $escaperegistration = $bdd->prepare("INSERT INTO RDEEscaperegister (team_name, establishment, password_manif)
-                                                VALUES ( :team_name, :establishment, :password_manif)");
+            $escaperegistration = $bdd->prepare("INSERT INTO RDEEscaperegister (team_name, establishment)
+                                                VALUES ( :team_name, :establishment)");
 
             $escaperegistration->execute(array(
             ':team_name' => $teamname,
-            ':establishment' => $establishment,
-            ':password_manif' => $password
+            ':establishment' => $establishment
             ));
             $escaperegistration->closeCursor();
 
