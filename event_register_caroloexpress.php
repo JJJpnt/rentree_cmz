@@ -85,16 +85,20 @@
       </div>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input id="name" class="input-text js-input" name="teamname" type="text" required>
-          <label class="label" for="name">Nom d'équipe</label>
+          <input class="input-text js-input" name="teamname" type="text" required>
+          <label class="label">Nom d'équipe</label>
         </div>
       </div>
 
       <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
       <div class="contact-form row w-100 justify-content-center">
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field mb-5">
-          <input id="name" name="password" class="input-text js-input" type="password" required>
-          <label class="label" for="name">Mot de passe</label>
+          <input name="password" class="input-text js-input" type="password" required>
+          <label class="label">Mot de passe</label>
+        </div>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input name="verifpassword" class="input-text js-input" type="password" required>
+          <label class="label">Confirmer le mot de passe</label>
         </div>
       </div>
 
