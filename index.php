@@ -157,7 +157,7 @@ while( $testimonial = $req->fetch() ) {
           </div>
           <div class="col-1"></div>
           <div class="col-md-12 col-lg-5 align-self-center m-2">
-            <p class="policep"><center><?= $testimonial['first_name'] ?>, <?= $testimonial['age'] ?> ans (<?= $testimonial['establishment'] ?>) :<br><br><?= $testimonial['text'] ?></center></p>
+            <center><p class="testiresponsif"><strong><?= $testimonial['first_name'] ?>, <?= $testimonial['age'] ?> ans (<?= $testimonial['establishment'] ?></strong>) :</p><p class="testiresponsifmini"><?= $testimonial['text'] ?></p></center>
           </div>
         </div>
       </div>

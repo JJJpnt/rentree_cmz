@@ -39,6 +39,22 @@ html {
     margin-bottom: 0;
 }
 
+.testiresponsif {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.testiresponsifmini {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: .8em;
+    line-height: 1.2em;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
 .faqpolicep {
     /* font-family: 'Days One', sans-serif; */
     font-family: 'Titillium Web', sans-serif;
@@ -599,6 +615,16 @@ div.spoiler div.contenuSpoiler {
 
     .inscripmobile {
         display: block !important;
+    }
+
+    .testiresponsif {
+        font-size: .75em;
+    }
+
+    .testiresponsifmini {
+        font-size: .5em;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 

@@ -17,6 +17,7 @@ include('../include/connexiondbval.php');
     
 <h1 class="text-center font-weight-light font-italic text-black-50 mt-4 mb-5">Bienvenue dans votre interface Administrateur</h1>
     <center><a href="../index.php" class="text-black-50 mb-5">Revenir à l'accueil</a></center>
+    <center><a href="inscriptions.php" class="text-black-50 mt-5 mb-5">Accès aux inscriptions</a></center>
     <div class="container mt-2">
         <?php if(isset($_GET['success'])){
                 if($_GET['success'] == 'testimonialadd') {?>

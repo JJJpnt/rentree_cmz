@@ -119,10 +119,10 @@ Le tournoi de basket aura lieu le vendredi 25 septembre à partir de 17h à l’
               <a class="nav-link" id="part5" data-toggle="tab" href="#register5" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 5</p><p class="tabgalerietxt inscripmobile">5</p></a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" id="part6" data-toggle="tab" href="#register6" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 6</p><p class="tabgalerietxt inscripmobile">4</p></a>
+              <a class="nav-link" id="part6" data-toggle="tab" href="#register6" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 6</p><p class="tabgalerietxt inscripmobile">6</p></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="part7" data-toggle="tab" href="#register7" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 7</p><p class="tabgalerietxt inscripmobile">5</p></a>
+              <a class="nav-link" id="part7" data-toggle="tab" href="#register7" role="tab" aria-controls="home" aria-selected="true"><p class="tabgalerietxt inscripdesktop">Participant 7</p><p class="tabgalerietxt inscripmobile">7</p></a>
             </li>
           </ul>
         </div>

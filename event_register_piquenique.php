@@ -1,3 +1,4 @@
+<?php include('include/connexiondbval.php'); ?>
 <!doctype html>
 <html lang="fr">
 
@@ -94,7 +95,16 @@ pour les 200 premières réservations.</p>
           <label class="label">Veuillez resaisir votre email</label>
         </div>
       </div>
-      <h2 class="title2 mt-3">Vite, il ne reste que XXX places pour les repas à 3€!</h2>
+
+      <?php
+        $req = $bdd->prepare("SELECT * FROM RDEPiqueniquetregister");
+        $req->execute();
+        $placescount = $req->rowCount();
+        $placesrestantes = 200 - $placescount;
+
+      ?>
+
+      <h2 class="title2 mt-3">Vite, il ne reste que <?= $placesrestantes ?> places pour les repas à 3€!</h2>
       <div class="form-field col-12">
         <center><input class="submit-btn" type="submit" value="Valider"></center>
       </div>
