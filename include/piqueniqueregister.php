@@ -23,8 +23,6 @@ if($mail == $verifmail) {
     ':establishment' => $establishment
     ));
     $balregistration->closeCursor();
-
-    echo "ok ca marche!";
 }
 
 else {

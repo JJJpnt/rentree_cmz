@@ -5,6 +5,8 @@ include('connexiondbval.php');
 $establishment = !empty($_POST['etablissement']) ? $_POST['etablissement'] : NULL;
 
 $teamname = !empty($_POST['teamname']) ? $_POST['teamname'] : NULL;
+$password = !empty($_POST['password']) ? $_POST['password'] : NULL;
+$verifpassword = !empty($_POST['verifpassword']) ? $_POST['verifpassword'] : NULL;
 
 $name1 = !empty($_POST['name1']) ? $_POST['name1'] : NULL;
 $firstname1 = !empty($_POST['firstname1']) ? $_POST['firstname1'] : NULL;
@@ -18,6 +20,7 @@ $tel2 = !empty($_POST['tel2']) ? $_POST['tel2'] : NULL;
 $mail2 = !empty($_POST['mail2']) ? $_POST['mail2'] : NULL;
 $verifmail2 = !empty($_POST['verifmail2']) ? $_POST['verifmail2'] : NULL;
 
+if($password == $verifpassword) {
     if($mail1 == $verifmail1 && $mail2 == $verifmail2) {
 
         $teamnameexist = $bdd->prepare("SELECT team_name FROM RDEEscaperegister WHERE team_name = '$teamname'");
@@ -53,12 +56,13 @@ $verifmail2 = !empty($_POST['verifmail2']) ? $_POST['verifmail2'] : NULL;
             $idpart2 = $bdd->lastInsertId();
 
 
-            $escaperegistration = $bdd->prepare("INSERT INTO RDEEscaperegister (team_name, establishment)
-                                                VALUES ( :team_name, :establishment)");
+            $escaperegistration = $bdd->prepare("INSERT INTO RDEEscaperegister (team_name, establishment, password_manif)
+                                                VALUES ( :team_name, :establishment, :password_manif)");
 
             $escaperegistration->execute(array(
             ':team_name' => $teamname,
-            ':establishment' => $establishment
+            ':establishment' => $establishment,
+            ':password_manif' => $password
             ));
             $escaperegistration->closeCursor();
 
@@ -83,5 +87,7 @@ $verifmail2 = !empty($_POST['verifmail2']) ? $_POST['verifmail2'] : NULL;
         }
     } else {
         echo "Sur la page : Au moins un des mails n'a pas été entré ou confirmé correctement.";
+}} else {
+    echo "Sur la page : Les deux mots de passe ne correspondent pas";
 }
 ?>

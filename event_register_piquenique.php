@@ -78,11 +78,11 @@ pour les 200 premières réservations.</p>
           <label class="label">Nom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input name="firstname" class="input-text js-input" type="email" required>
+          <input name="firstname" class="input-text js-input" type="text" required>
           <label class="label">Prénom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input name="tel" class="input-text js-input" type="email" required>
+          <input name="tel" class="input-text js-input" type="text" required>
           <label class="label">Mobile</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">

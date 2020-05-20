@@ -57,9 +57,9 @@ $mail8 = !empty($_POST['mail8']) ? $_POST['mail8'] : NULL;
 $verifmail8 = !empty($_POST['verifmail8']) ? $_POST['verifmail8'] : NULL;
 
 if($password == $verifpassword) {
-    if($mail1 == $verifmail1 && $mail2 == $verifmail2 && $mail3 == $verifmail3 && $mail4 == $verifmail4 && $mail5 == $verifmail5) {
+    if($mail1 == $verifmail1 && $mail2 == $verifmail2 && $mail3 == $verifmail3 && $mail4 == $verifmail4 && $mail5 == $verifmail5 && $mail6 == $verifmail6 && $mail7 == $verifmail7 && $mail8 == $verifmail8) {
 
-        $teamnameexist = $bdd->prepare("SELECT team_name FROM RDEBasketregister WHERE team_name = '$teamname'");
+        $teamnameexist = $bdd->prepare("SELECT team_name FROM RDEWarriorregister WHERE team_name = '$teamname'");
         $teamnameexist->execute();
 
         $count = $teamnameexist->rowCount();
@@ -151,8 +151,20 @@ if($password == $verifpassword) {
             $part7->closeCursor();
             $idpart7 = $bdd->lastInsertId();
 
+            $part8 = $bdd->prepare("INSERT INTO RDEParticipants (name, first_name, phone, mail)
+                                    VALUES ( :name, :first_name, :phone, :mail)");
 
-            $basketregistration = $bdd->prepare("INSERT INTO RDEBasketregister (team_name, establishment, password_manif)
+            $part8->execute(array(
+                ':name' => $name8,
+                ':first_name' => $firstname8,
+                ':phone' => $tel8,
+                ':mail' => $mail8
+            ));
+            $part8->closeCursor();
+            $idpart8 = $bdd->lastInsertId();
+
+
+            $basketregistration = $bdd->prepare("INSERT INTO RDEWarriorregister (team_name, establishment, password_manif)
                                                 VALUES ( :team_name, :establishment, :password_manif)");
 
             $basketregistration->execute(array(
@@ -162,7 +174,7 @@ if($password == $verifpassword) {
             ));
             $basketregistration->closeCursor();
 
-            $basketrelation1 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation1 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation1->execute(array(
@@ -171,7 +183,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation1->closeCursor();
 
-            $basketrelation2 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation2 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation2->execute(array(
@@ -180,7 +192,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation2->closeCursor();
 
-            $basketrelation3 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation3 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation3->execute(array(
@@ -189,7 +201,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation3->closeCursor();
 
-            $basketrelation4 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation4 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation4->execute(array(
@@ -198,7 +210,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation4->closeCursor();
 
-            $basketrelation5 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation5 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation5->execute(array(
@@ -207,7 +219,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation5->closeCursor();
 
-            $basketrelation6 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation6 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation6->execute(array(
@@ -216,11 +228,20 @@ if($password == $verifpassword) {
             ));
             $basketrelation6->closeCursor();
 
-            $basketrelation7 = $bdd->prepare("INSERT INTO RDEBasketrelation (participant_id, name_team)
+            $basketrelation7 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation7->execute(array(
             ':participant_id' => $idpart7,
+            ':name_team' => $teamname
+            ));
+            $basketrelation7->closeCursor();
+
+            $basketrelation8 = $bdd->prepare("INSERT INTO RDEWarriorrelation (participant_id, name_team)
+                                                VALUES ( :participant_id, :name_team)");
+
+            $basketrelation8->execute(array(
+            ':participant_id' => $idpart8,
             ':name_team' => $teamname
             ));
             $basketrelation7->closeCursor();
