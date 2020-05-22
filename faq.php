@@ -53,7 +53,7 @@
   <!-- footer -->
   <div class="mb-2"></div>
 
-  <?php //include("include/footer.php"); ?>
+  <?php include("include/footer.php"); ?>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
