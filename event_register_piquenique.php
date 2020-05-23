@@ -1,3 +1,4 @@
+<?php include('include/connexiondbval.php'); ?>
 <!doctype html>
 <html lang="fr">
 
@@ -32,13 +33,13 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Pique-Nique</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour reserver votre repas
 à la plaine du Mont Olympe pour le prix de 3€ au lieu de 5€
 pour les 200 premières réservations.</p>
       </div>
-      <div class="col-6 mt-5">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
       </div>
     </div>
@@ -78,11 +79,11 @@ pour les 200 premières réservations.</p>
           <label class="label">Nom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input name="firstname" class="input-text js-input" type="email" required>
+          <input name="firstname" class="input-text js-input" type="text" required>
           <label class="label">Prénom</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
-          <input name="tel" class="input-text js-input" type="email" required>
+          <input name="tel" class="input-text js-input" type="text" required>
           <label class="label">Mobile</label>
         </div>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
@@ -94,7 +95,16 @@ pour les 200 premières réservations.</p>
           <label class="label">Veuillez resaisir votre email</label>
         </div>
       </div>
-      <h2 class="title2 mt-3">Vite, il ne reste que XXX places pour les repas à 3€!</h2>
+
+      <?php
+        $req = $bdd->prepare("SELECT * FROM RDEPiqueniquetregister");
+        $req->execute();
+        $placescount = $req->rowCount();
+        $placesrestantes = 200 - $placescount;
+
+      ?>
+
+      <h2 class="title2 mt-3">Vite, il ne reste que <?= $placesrestantes ?> places pour les repas à 3€!</h2>
       <div class="form-field col-12">
         <center><input class="submit-btn" type="submit" value="Valider"></center>
       </div>

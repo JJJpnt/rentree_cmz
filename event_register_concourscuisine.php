@@ -33,7 +33,7 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Concours de Cuisine</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe 
 et participer au Concours de cuisine qui se déroulera Place Ducale et peut-être
@@ -41,7 +41,7 @@ devenir la meilleure équipe de cuisine de la ville.<br> Pour constituer une éq
 vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votre inscription ensemble & surtout ne tardez pas.
 <br><br>Info + : au regard du nombre limité d’équipes, le service de la vie étudiante se réserve le droit de sélectionner les équipes afin de favoriser la participation d’un maximum d’établissements.</p>
       </div>
-      <div class="col-6 mt-5">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
       </div>
     </div>
@@ -84,6 +84,18 @@ vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votr
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
           <input id="name" class="input-text js-input" name="teamname" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
+        </div>
+      </div>
+
+      <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field mb-5">
+          <input name="password" class="input-text js-input" type="password" required>
+          <label class="label">Mot de passe</label>
+        </div>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input name="verifpassword" class="input-text js-input" type="password" required>
+          <label class="label">Confirmer le mot de passe</label>
         </div>
       </div>
 

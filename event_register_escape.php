@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Inscription escape game</title>
+    <title>Inscription Escape game</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- FontAwesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -33,13 +33,13 @@
     <!-- Second Row -->
     <div id="evenements" class="container-fluid">
         <div class="row">
-            <div class="col-6 my-auto">
+            <div class="col-12 col-md-6 my-auto">
                 <h2 class="text-center policetitres">Escape game</h2>
                 <p class="policep text-center"><br>La Gacolor est l’événement phare de la vie étudiante à
                     Charleville-Mézières. Cette manifestation, grand public, est ouverte à tous. <br>
                     La Gacolor aura lieu le dimanche 27 septembre 2020 entre 14h et 20h.</p>
             </div>
-            <div class="col-6 mt-5">
+            <div class="col-12 col-md-6 mt-5">
                 <img class="rdeimg" src="img/event_2019/1.jpg">
             </div>
         </div>
@@ -82,6 +82,18 @@
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
           <input id="name" class="input-text js-input" name="teamname" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
+        </div>
+      </div>
+
+      <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field mb-5">
+          <input name="password" class="input-text js-input" type="password" required>
+          <label class="label">Mot de passe</label>
+        </div>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input name="verifpassword" class="input-text js-input" type="password" required>
+          <label class="label">Confirmer le mot de passe</label>
         </div>
       </div>
 

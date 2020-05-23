@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <form action="testimonialstraitement.php" method="post">
+                <form action="testimonialstraitement.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Prénom</label>
                         <input type="text" class="form-control" name="first_name" tabindex="1" required>
@@ -39,8 +39,9 @@
                         <input type="text" class="form-control" name="text" tabindex="4" required>
                     </div>
                     <div class="form-group">
-                        <label>URL de la photo</label>
-                        <input type="text" class="form-control" name="image" tabindex="5" required>
+                        <label>Choisissez une photo</label>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="3000000"><br>
+                        <input type="file" name="avatar" required>
                     </div>
                     <div class="form-group">
                         <label>Entrez une brève description de la photo</label>

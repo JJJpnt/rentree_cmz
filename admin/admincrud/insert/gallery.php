@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-6">
-                <form action="gallerytraitement.php" method="post">
+                <form action="gallerytraitement.php" method="post" enctype="multipart/form-data">
                     <label for="exampleFormControlSelect1">Catégorie</label>
                     <select class="form-control mb-3" name="category" required>
                         <option>Carolo Warrior</option>
@@ -30,8 +30,9 @@
                         <option>Concours de Cuisine</option>
                     </select>
                     <div class="form-group">
-                        <label>URL de la photo</label>
-                        <input type="text" class="form-control" name="image_link" required>
+                        <label>Choisissez une photo</label>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="3000000"><br>
+                        <input type="file" name="avatar" required>
                     </div>
                     <div class="form-group">
                         <label>Brève description de la photo</label>

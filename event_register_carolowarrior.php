@@ -33,14 +33,14 @@
   <!-- Second Row -->
   <div id="evenements" class="container-fluid">
     <div class="row">
-      <div class="col-6 my-auto">
+      <div class="col-12 col-md-6 my-auto">
         <h2 class="text-center policetitres">Le Carolo Warrior</h2>
         <p class="policep text-center">Merci de remplir les champs ci-dessous pour inscrire votre équipe
 et participer au Carolo warrior (relai sportif et ludique). De nombreux
 lots sont à gagner. Pour constituer une équipe, vous devez être 8 participants.
 Opérez votre inscription ensemble</p>
       </div>
-      <div class="col-6 mt-5">
+      <div class="col-12 col-md-6 mt-5">
         <img class="rdeimg" src="img/event_2019/1.jpg">
       </div>
     </div>
@@ -83,6 +83,18 @@ Opérez votre inscription ensemble</p>
         <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
           <input id="name" class="input-text js-input" name="teamname" type="text" required>
           <label class="label" for="name">Nom d'équipe</label>
+        </div>
+      </div>
+
+      <h2 class="title2 mt-3">Merci de bien vouloir inscrire un mot de passe de votre choix qui vous sera nécessaire le jour de la manifestation</h2>
+      <div class="contact-form row w-100 justify-content-center">
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field mb-5">
+          <input name="password" class="input-text js-input" type="password" required>
+          <label class="label">Mot de passe</label>
+        </div>
+        <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
+          <input name="verifpassword" class="input-text js-input" type="password" required>
+          <label class="label">Confirmer le mot de passe</label>
         </div>
       </div>
 
@@ -245,7 +257,7 @@ Opérez votre inscription ensemble</p>
               </div>
             </div>
 
-            <div class="tab-pane fade show" id="register4" role="tabpanel" aria-labelledby="register4-tab">
+            <div class="tab-pane fade show" id="register5" role="tabpanel" aria-labelledby="register4-tab">
               <div class="container-fluid pl-5 pr-5">
                 <div class="row justify-content-center mt-5 mb-5">
                   <h2 class="title2 mt-3">Participant 5</h2>
@@ -275,7 +287,7 @@ Opérez votre inscription ensemble</p>
               </div>
             </div>
 
-            <div class="tab-pane fade show" id="register4" role="tabpanel" aria-labelledby="register4-tab">
+            <div class="tab-pane fade show" id="register6" role="tabpanel" aria-labelledby="register4-tab">
               <div class="container-fluid pl-5 pr-5">
                 <div class="row justify-content-center mt-5 mb-5">
                   <h2 class="title2 mt-3">Participant 6</h2>
@@ -305,7 +317,7 @@ Opérez votre inscription ensemble</p>
               </div>
             </div>
 
-            <div class="tab-pane fade show" id="register4" role="tabpanel" aria-labelledby="register4-tab">
+            <div class="tab-pane fade show" id="register7" role="tabpanel" aria-labelledby="register4-tab">
               <div class="container-fluid pl-5 pr-5">
                 <div class="row justify-content-center mt-5 mb-5">
                   <h2 class="title2 mt-3">Participant 7</h2>
@@ -335,7 +347,7 @@ Opérez votre inscription ensemble</p>
               </div>
             </div>
 
-            <div class="tab-pane fade show" id="register4" role="tabpanel" aria-labelledby="register4-tab">
+            <div class="tab-pane fade show" id="register8" role="tabpanel" aria-labelledby="register4-tab">
               <div class="container-fluid pl-5 pr-5">
                 <div class="row justify-content-center mt-5 mb-5">
                   <h2 class="title2 mt-3">Participant 8</h2>

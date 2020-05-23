@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Evenement</title>
+  <title>Programme</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- FontAwesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -155,7 +155,7 @@
             while( $img = $req->fetch() ) {
             
             ?>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 photogallerytabs mx-auto my-auto mb-3 hovergallery"><a href="img/<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
               <?php } ?>
             </div>
           </div>
@@ -174,7 +174,7 @@
             while( $img = $req->fetch() ) {
             
             ?>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 photogallerytabs mx-auto my-auto mb-3 hovergallery"><a href="img/<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
               <?php } ?>
             </div>
           </div>
@@ -193,7 +193,7 @@
             while( $img = $req->fetch() ) {
             
             ?>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 photogallerytabs mx-auto my-auto mb-3 hovergallery"><a href="img/<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
 
               <?php } ?>
             </div>
@@ -213,7 +213,7 @@
             while( $img = $req->fetch() ) {
             
             ?>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 photogallerytabs mx-auto my-auto mb-3 hovergallery"><a href="img/<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
 
               <?php } ?>
             </div>

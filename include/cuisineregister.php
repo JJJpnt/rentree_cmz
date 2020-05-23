@@ -83,7 +83,7 @@ if($password == $verifpassword) {
             ':name_team' => $teamname
             ));
             $basketrelation2->closeCursor();
-
+        }
     } else {
         echo "Sur la page : Au moins un des mails n'a pas été entré ou confirmé correctement.";
     }

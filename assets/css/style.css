@@ -39,6 +39,22 @@ html {
     margin-bottom: 0;
 }
 
+.testiresponsif {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.testiresponsifmini {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: .8em;
+    line-height: 1.2em;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
 .faqpolicep {
     /* font-family: 'Days One', sans-serif; */
     font-family: 'Titillium Web', sans-serif;
@@ -259,6 +275,15 @@ html {
     margin-left: auto;
     margin-right: auto;
     transition: all 0.4s ease;
+}
+
+.photogallerytabs {
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    padding: 2px 5px 5px 5px;
+    border-radius: 2px;
+    border: 1px solid #999;
+    background-color: white;
+    /*transition: all 0.4s ease;*/
 }
 
 .evenementimg-1 {
@@ -600,6 +625,16 @@ div.spoiler div.contenuSpoiler {
     .inscripmobile {
         display: block !important;
     }
+
+    .testiresponsif {
+        font-size: .75em;
+    }
+
+    .testiresponsifmini {
+        font-size: .5em;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
 
 .inscripmobile {
@@ -744,6 +779,7 @@ footer {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
+    color: #5543ca;
   }
   .contact-form .input-text:focus {
     outline: none;

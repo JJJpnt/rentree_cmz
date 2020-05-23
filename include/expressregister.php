@@ -147,7 +147,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation3->closeCursor();
 
-            $basketrelation4 = $bdd->prepare("INSERT INTO RDEExpressetrelation (participant_id, name_team)
+            $basketrelation4 = $bdd->prepare("INSERT INTO RDEExpressrelation (participant_id, name_team)
                                                 VALUES ( :participant_id, :name_team)");
 
             $basketrelation4->execute(array(
@@ -165,7 +165,7 @@ if($password == $verifpassword) {
             ));
             $basketrelation5->closeCursor();
 
-    } else {
+        }} else {
         echo "Sur la page : Au moins un des mails n'a pas été entré ou confirmé correctement.";
     }
 }
