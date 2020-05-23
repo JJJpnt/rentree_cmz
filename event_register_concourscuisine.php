@@ -52,7 +52,7 @@ vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votr
   <section class="get-in-touch container-lg">
     <h1 class="title">Inscription Concours de cuisine</h1><br>
     <h2 class="title2 mt-3">Etablissement</h2>
-    <form class="contact-form row w-100 justify-content-center" action="include/cuisineregister.php" method="post">
+    <form id="inscription" class="contact-form row w-100 justify-content-center" action="include/cuisineregister.php" method="post">
       <div class="form-field col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7">
         <center><select class="custom-select" name="etablissement" id="etablissement-font-5">
             <option value="IUTRCC">Institut Universitaire de Technologie (IUT RCC)</option>
@@ -263,6 +263,28 @@ vous devez être 2 participants. Nombre d’équipes limité à 12. Opérez votr
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+  <!-- Ajax -->
+  <script>
+    $("#inscription").submit(function(e) {
+
+e.preventDefault(); // avoid to execute the actual submit of the form.
+
+var form = $(this);
+    // Envoie un mail
+    $.ajax({        // On check en ajax en appelant check_submit.php, en lui passant les champs en POST
+        type: "POST",
+        url: "include/cuisineregister.php",
+        data: form.serialize(), // sérialises les éléments du formulaire
+        success: function(data)
+        {
+            alert("Votre inscription a bien été prise en compte.");
+        }
+    });
+
+$('#inscription')[0].reset();
+
+});
+  </script>
 </body>
 
 </html>
