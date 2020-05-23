@@ -54,9 +54,14 @@ $req->execute();
                         <input type="text" class="form-control" name="text" tabindex="4" required value="<?= $donnees['text'];?>">
                     </div>
                     <div class="form-group">
-                        <label>URL de la photo</label>
-                        <input type="text" class="form-control" name="image" tabindex="5" required value="<?= $donnees['image'];?>">
+                        <label>Choisissez une photo</label>
+                        <input type="hidden" name="MAX_FILE_SIZE" value="3000000"><br>
+                        <input type="file" name="image" required value="<?= $donnees['image'];?>">
                     </div>
+                    <!-- <div class="form-group">
+                        <label>URL de la photo</label>
+                        <input type="text" class="form-control" name="image" tabindex="5" required value=" $donnees['image'];">
+                    </div> -->
                     <div class="form-group">
                         <label>Entrez une brève description de la photo</label>
                         <input type="text" class="form-control" name="alt" tabindex="6" required value="<?= $donnees['alt'];?>">
