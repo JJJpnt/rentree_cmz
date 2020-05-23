@@ -171,7 +171,7 @@ $readtestimonials->closecursor();
         { ?>
         <tr>
           <th scope="row"><?= $donnees['category']; ?></th>
-          <td><?= substr($donnees['image_link'], 0, 25); ?>...</td>
+          <td><img src="../img/<?= $donnees['image_link']; ?>" style="width:15em; height:auto;"></td>
           <td><?= $donnees['alt']; ?></td>
           <td><a href="admincrud/update/gallery.php?id=<?= $donnees['id_image'];?>" class="text-muted"><i
                 class="fas fa-user-edit"></i></a></td>
