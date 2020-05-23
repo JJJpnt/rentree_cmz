@@ -174,7 +174,7 @@
             while( $img = $req->fetch() ) {
             
             ?>
-              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
+              <div class="col-lg-3 col-md-6 col-sm-6 img-thumbnail mx-auto my-auto mb-3 hovergallery"><a href="img/<?= $img['image_link'] ?>" rel="prettyPhoto[Gallery]" data-lightbox="mygallery"><img src="img/<?= $img['image_link'] ?>" class="img-fluid mt-1" alt="<?= $img['alt'] ?>"></a></div>
               <?php } ?>
             </div>
           </div>
