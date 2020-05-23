@@ -69,9 +69,9 @@ include('../include/connexiondbval.php');
           <th scope="col">Age</th>
           <th scope="col">Etablissement</th>
           <th scope="col">Texte</th>
-          <th scope="col">URL de la photo</th>
-          <th scope="col">Description de la photo</th>
-          <th scope="col">Modifier</th>
+          <th scope="col">Photo</th>
+          <th scope="col">Brève description de la photo</th>
+          <!-- <th scope="col">Modifier</th> -->
           <th scope="col">Supprimer</th>
         </tr>
       </thead>
@@ -89,11 +89,11 @@ include('../include/connexiondbval.php');
           <td><?= $donnees['age']; ?></td>
           <td><?= $donnees['establishment']; ?></td>
           <td><?= substr($donnees['text'], 0, 60); ?>...</td>
-          <td><?= substr($donnees['image'], 0, 25); ?>...</td>
+          <td><img src="../img/<?= $donnees['image']; ?>" style="width:5em; height:auto;"></td>
           <td><?= $donnees['alt']; ?></td>
 
-          <td><a href="admincrud/update/testimonials.php?id=<?= $donnees['id_testimonial'];?>" class="text-muted"><i
-                class="fas fa-user-edit"></i></a></td>
+          <!-- <td><a href="admincrud/update/testimonials.php?id= $donnees['id_testimonial'];" class="text-muted"><i
+                class="fas fa-user-edit"></i></a></td> -->
           <td><a href="admincrud/delete/testimonials.php?id=<?= $donnees['id_testimonial'];?>" class="text-muted"><i
                 class="fas fa-trash-alt"></i></a></td>
         </tr>
@@ -114,9 +114,9 @@ $readtestimonials->closecursor();
       <thead class="thead-light">
         <tr>
           <th scope="col">Photo</th>
-          <th scope="col">Description de la photo</th>
+          <th scope="col">Brève description de la photo</th>
           <th scope="col">Lien du site</th>
-          <th scope="col">Modifier</th>
+          <!-- <th scope="col">Modifier</th> -->
           <th scope="col">Supprimer</th>
         </tr>
       </thead>
@@ -130,11 +130,11 @@ $readtestimonials->closecursor();
             while ($donnees = $readpartners->fetch())
         { ?>
         <tr>
-          <th scope="row"><?= substr($donnees['image'], 0, 25); ?>...</th>
+        <td><img src="../img/<?= $donnees['image']; ?>" style="width:5em; height:auto;"></td>
           <td><?= $donnees['alt']; ?></td>
           <td><?= $donnees['website_link']; ?></td>
-          <td><a href="admincrud/update/partners.php?id=<?= $donnees['id_partner'];?>" class="text-muted"><i
-                class="fas fa-user-edit"></i></a></td>
+          <!-- <td><a href="admincrud/update/partners.php?id= $donnees['id_partner'];" class="text-muted"><i
+                class="fas fa-user-edit"></i></a></td> -->
           <td><a href="admincrud/delete/partners.php?id=<?= $donnees['id_partner'];?>" class="text-muted"><i
                 class="fas fa-trash-alt"></i></a></td>
         </tr>
@@ -155,9 +155,9 @@ $readtestimonials->closecursor();
       <thead class="thead-light">
         <tr>
           <th scope="col">Catégorie</th>
-          <th scope="col">URL de la photo</th>
+          <th scope="col">Photo</th>
           <th scope="col">Brève description de la photo</th>
-          <th scope="col">Modifier</th>
+          <!-- <th scope="col">Modifier</th> -->
           <th scope="col">Supprimer</th>
         </tr>
       </thead>
@@ -172,10 +172,10 @@ $readtestimonials->closecursor();
         { ?>
         <tr>
           <th scope="row"><?= $donnees['category']; ?></th>
-          <td><?= substr($donnees['image_link'], 0, 25); ?>...</td>
+          <td><img src="../img/<?= $donnees['image_link']; ?>" style="width:5em; height:auto;"></td>
           <td><?= $donnees['alt']; ?></td>
-          <td><a href="admincrud/update/gallery.php?id=<?= $donnees['id_image'];?>" class="text-muted"><i
-                class="fas fa-user-edit"></i></a></td>
+          <!-- <td><a href="admincrud/update/gallery.php?id= //$donnees['id_image'];" class="text-muted"><i
+                class="fas fa-user-edit"></i></a></td> -->
           <td><a href="admincrud/delete/gallery.php?id=<?= $donnees['id_image'];?>" class="text-muted"><i
                 class="fas fa-trash-alt"></i></a></td>
         </tr>
