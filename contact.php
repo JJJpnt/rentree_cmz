@@ -46,7 +46,7 @@
 
             ?>
             <h1 class="title">Contactez-nous</h1>
-            <form class="contact-form row justify-content-center" action="include/traitementcontact.php" method="post">
+            <form id="formcontact" class="contact-form row justify-content-center" action="include/traitementcontact.php" method="post">
                 <div class="col-11 col-sm-11 col-md-10 col-lg-8 col-xl-7 form-field">
                     <input class="input-text js-input" type="text" name="name" autofocus tabindex="1" required>
                     <label class="label">Nom</label>
@@ -136,6 +136,29 @@
         }
     }
     </script>
+
+      <!-- Ajax -->
+ <script>
+    $("#formcontact").submit(function(e) {
+
+e.preventDefault(); // avoid to execute the actual submit of the form.
+
+var form = $(this);
+    // Envoie un mail
+    $.ajax({        // On check en ajax en appelant check_submit.php, en lui passant les champs en POST
+        type: "POST",
+        url: "include/traitementcontact.php",
+        data: form.serialize(), // sérialises les éléments du formulaire
+        success: function(data)
+        {
+            alert("Nous avons reçu votre mail, nous vous répondrons au plus vite.");
+        }
+    });
+
+$('#formcontact')[0].reset();
+
+});
+  </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
