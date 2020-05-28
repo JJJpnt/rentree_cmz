@@ -1146,3 +1146,55 @@ header .input-group {
             border-radius: .25rem;
         }
     }
+
+
+#carouseltestimonials {
+    height: 400px;
+}
+
+.testi-img {
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 90%;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    border: 1px solid #999;
+    background-color: white;
+    transition: all 0.4s ease;
+    transform: rotateZ(-2.5deg);
+    z-index:10;
+    width: 150px;
+    height: 150px;
+}
+
+.testi-img div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.testi-img div img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.testi-img:hover {
+    /* transform: rotateZ(2.5deg) scale(1.15); */
+    box-shadow: 0px 5px 16px rgba(0,0,0,0.25);
+    transform: rotateZ(2.5deg) translateZ(5px);
+    z-index: 100;
+}
+
+.testi-text {
+    box-shadow: 0px 5px 6px rgba(0,0,0,0.5);
+    padding: 5px 5px 5px 40px !important;
+    border-radius: 2px;
+    border: 1px solid #999;
+    background-color: white;
+    transition: all 0.4s ease;
+    /* transform: rotateZ(-1.5deg); */
+    z-index:10;
+    /* margin-left: -100vw; */
+    color: black;
+}

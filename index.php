@@ -139,7 +139,7 @@
   <!-- Carousel Testimonials -->
   <div id="carouseltestimonials" class="carousel slide" data-ride="carousel"  data-interval="3500"
     style="background-image: url(img/motif2.gif);background-repeat: no-repeat; background-size: cover; font-size:1.8em;">
-    <div class="carousel-inner">
+    <div class="carousel-inner h-100">
 
 <?php $req = $bdd->prepare("SELECT * FROM RDETestimonials");
 $req->execute();
@@ -148,17 +148,19 @@ while( $testimonial = $req->fetch() ) {
   
   ?>
 
-      <div class="carousel-item mt-4 mb-4">
+      <div class="carousel-item mt-4 mb-4 h-100">
         <!-- Ici chaque item -->
-        <div class="row d-flex">
-          <div class="col-2"></div>
-          <div class="col-2 carou_img">
-            <img src="<?php if($testimonial['image'] != NULL) { ?>img/<?= $testimonial['image']; } else { ?>img/logoetudiantcarolo_bleu.png<?php } ?>" class="d-block w-100" alt="<?= $testimonial['alt'] ?>">
-          </div>
-          <div class="col-1"></div>
-          <div class="col-md-12 col-lg-5 align-self-center m-2">
-            <center><p class="testiresponsif"><strong><?= $testimonial['first_name'] ?>, <?= $testimonial['age'] ?> ans (<?= $testimonial['establishment'] ?></strong>) :</p><p class="testiresponsifmini"><?= $testimonial['text'] ?></p></center>
-          </div>
+        <div class="row h-100">
+            <div class="testi-text col-md-12 col-lg-5 align-self-center mx-auto p-3 d-flex align-items-center justify-items-center">
+              <div class="testi-img"><div><img
+              src="<?php if($testimonial['image'] != NULL) { ?>img/<?= $testimonial['image']; } else { ?>img/logoetudiantcarolo_bleu.png<?php } ?>"
+              class="d-block" alt="<?= $testimonial['alt'] ?>"></div></div>
+              <center>
+                <p class="testiresponsif pl-5"><strong><?= $testimonial['first_name'] ?>, <?= $testimonial['age'] ?> ans
+                (<?= $testimonial['establishment'] ?></strong>) :</p>
+                <p class="testiresponsifmini pl-5 pb-3"><?= $testimonial['text'] ?></p>
+              </center>
+            </div>
         </div>
       </div>
 
