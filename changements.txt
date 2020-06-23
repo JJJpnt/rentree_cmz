@@ -1,0 +1,8 @@
+Connexion db, à ne pas prendre en compte car Romain a déjà celle reliée à la db du site
+index.php
+faq.php
+contact.php
+style.css
+include/slider2.php
+include/nav.php
+include/colapse.php
